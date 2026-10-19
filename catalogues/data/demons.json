@@ -23,7 +23,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 450,
-      "height": 497
+      "height": 497,
+      "kind": "portrait"
     },
     "rank": "Король",
     "legions": 66,
@@ -116,7 +117,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 444,
-      "height": 500
+      "height": 500,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 31,
@@ -202,7 +204,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/03-vassago-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-03.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27",
+      "caption": "Початок запису № 3 · електронне перевидання тексту Goetia (1904), PDF-сторінка 27",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 198
+    },
     "rank": "Князь",
     "legions": 26,
     "facts": [
@@ -267,6 +277,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27"
       }
     ]
   },
@@ -287,7 +301,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/04-samigina-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-04.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27",
+      "caption": "Початок запису № 4 · електронне перевидання тексту Goetia (1904), PDF-сторінка 27",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 268
+    },
     "rank": "Маркіз",
     "legions": 30,
     "facts": [
@@ -352,6 +374,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27"
       }
     ]
   },
@@ -372,7 +398,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/05-marbas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-05.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28",
+      "caption": "Початок запису № 5 · електронне перевидання тексту Goetia (1904), PDF-сторінка 28",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 291
+    },
     "rank": "Президент",
     "legions": 36,
     "facts": [
@@ -437,6 +471,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28"
       }
     ]
   },
@@ -457,7 +495,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/06-valefor-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-06.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28",
+      "caption": "Початок запису № 6 · електронне перевидання тексту Goetia (1904), PDF-сторінка 28",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 199
+    },
     "rank": "Герцог",
     "legions": 10,
     "facts": [
@@ -522,6 +568,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28"
       }
     ]
   },
@@ -549,7 +599,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 460,
-      "height": 500
+      "height": 500,
+      "kind": "portrait"
     },
     "rank": "Маркіз",
     "legions": 40,
@@ -642,7 +693,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 942
+      "height": 942,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 30,
@@ -735,7 +787,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 967
+      "height": 967,
+      "kind": "portrait"
     },
     "rank": "Король",
     "legions": 200,
@@ -828,7 +881,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 989
+      "height": 989,
+      "kind": "portrait"
     },
     "rank": "Президент",
     "legions": 50,
@@ -914,7 +968,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/11-gusion-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-11.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
+      "caption": "Початок запису № 11 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 257
+    },
     "rank": "Герцог",
     "legions": 40,
     "facts": [
@@ -979,6 +1041,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30"
       }
     ]
   },
@@ -999,7 +1065,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/12-sitri-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-12.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
+      "caption": "Початок запису № 12 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 291
+    },
     "rank": "Князь",
     "legions": 60,
     "facts": [
@@ -1064,6 +1138,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30"
       }
     ]
   },
@@ -1084,7 +1162,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/13-beleth-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-13.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
+      "caption": "Початок запису № 13 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 693
+    },
     "rank": "Король",
     "legions": 85,
     "facts": [
@@ -1149,6 +1235,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30"
       }
     ]
   },
@@ -1169,7 +1259,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/14-leraje-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-14.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
+      "caption": "Початок запису № 14 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 426
+    },
     "rank": "Маркіз",
     "legions": 30,
     "facts": [
@@ -1234,6 +1332,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31"
       }
     ]
   },
@@ -1261,7 +1363,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "У Dictionnaire infernal зображення підписано Abigor — альтернативне ім’я Елігоса.",
       "width": 466,
-      "height": 500
+      "height": 500,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 60,
@@ -1347,7 +1450,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/16-zepar-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-16.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
+      "caption": "Початок запису № 16 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 222
+    },
     "rank": "Герцог",
     "legions": 26,
     "facts": [
@@ -1412,6 +1523,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31"
       }
     ]
   },
@@ -1433,7 +1548,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/17-botis-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-17.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
+      "caption": "Початок запису № 17 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 219
+    },
     "rank": "Президент / Граф",
     "legions": 60,
     "facts": [
@@ -1499,6 +1622,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31"
       }
     ]
   },
@@ -1519,7 +1646,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/18-bathin-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-18.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32",
+      "caption": "Початок запису № 18 · електронне перевидання тексту Goetia (1904), PDF-сторінка 32",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 425
+    },
     "rank": "Герцог",
     "legions": 30,
     "facts": [
@@ -1584,6 +1719,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32"
       }
     ]
   },
@@ -1611,7 +1750,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "У Dictionnaire infernal зображення має назву Zaebos; наведено як історичний образ, зіставлюваний із Саллосом / Saleos.",
       "width": 850,
-      "height": 988
+      "height": 988,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 30,
@@ -1697,7 +1837,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/20-purson-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-20.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32",
+      "caption": "Початок запису № 20 · електронне перевидання тексту Goetia (1904), PDF-сторінка 32",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 593
+    },
     "rank": "Король",
     "legions": 22,
     "facts": [
@@ -1762,6 +1910,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32"
       }
     ]
   },
@@ -1783,7 +1935,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/21-marax-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-21.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=33",
+      "caption": "Початок запису № 21 · електронне перевидання тексту Goetia (1904), PDF-сторінка 33",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 312
+    },
     "rank": "Граф / Президент",
     "legions": 30,
     "facts": [
@@ -1849,6 +2009,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=33"
       }
     ]
   },
@@ -1877,7 +2041,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 981
+      "height": 981,
+      "kind": "portrait"
     },
     "rank": "Граф / Князь",
     "legions": 36,
@@ -1971,7 +2136,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "Гравюра Haborym / Аім із Dictionnaire infernal.",
       "width": 850,
-      "height": 961
+      "height": 961,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 26,
@@ -2064,7 +2230,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "Cerbère з Dictionnaire infernal: споріднений образ, який у традиції зіставляють із Наберіусом. У Goetia 1904 року Наберіуса описано чорним журавлем, а не триголовим собакою.",
       "width": 847,
-      "height": 1000
+      "height": 1000,
+      "kind": "portrait"
     },
     "rank": "Маркіз",
     "legions": 19,
@@ -2158,7 +2325,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 981
+      "height": 981,
+      "kind": "portrait"
     },
     "rank": "Президент / Граф",
     "legions": 36,
@@ -2245,7 +2413,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/26-bune-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-26.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=34",
+      "caption": "Початок запису № 26 · електронне перевидання тексту Goetia (1904), PDF-сторінка 34",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 437
+    },
     "rank": "Герцог",
     "legions": 30,
     "facts": [
@@ -2310,6 +2486,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=34"
       }
     ]
   },
@@ -2338,7 +2518,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "У Dictionnaire infernal гравюра підписана Ronwe.",
       "width": 711,
-      "height": 800
+      "height": 800,
+      "kind": "portrait"
     },
     "rank": "Маркіз / Граф",
     "legions": 19,
@@ -2432,7 +2613,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 969
+      "height": 969,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 26,
@@ -2525,7 +2707,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 718,
-      "height": 800
+      "height": 800,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 40,
@@ -2611,7 +2794,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/30-forneus-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-30.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35",
+      "caption": "Початок запису № 30 · електронне перевидання тексту Goetia (1904), PDF-сторінка 35",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 324
+    },
     "rank": "Маркіз",
     "legions": 29,
     "facts": [
@@ -2676,6 +2867,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35"
       }
     ]
   },
@@ -2696,7 +2891,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/31-foras-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-31.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35",
+      "caption": "Початок запису № 31 · електронне перевидання тексту Goetia (1904), PDF-сторінка 35",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 222
+    },
     "rank": "Президент",
     "legions": 29,
     "facts": [
@@ -2761,6 +2964,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35"
       }
     ]
   },
@@ -2788,7 +2995,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 966
+      "height": 966,
+      "kind": "portrait"
     },
     "rank": "Король",
     "legions": 72,
@@ -2882,7 +3090,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "Історичний образ Tap / Gaap у Dictionnaire infernal.",
       "width": 500,
-      "height": 571
+      "height": 571,
+      "kind": "portrait"
     },
     "rank": "Президент / Князь",
     "legions": 66,
@@ -2975,7 +3184,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 976
+      "height": 976,
+      "kind": "portrait"
     },
     "rank": "Граф",
     "legions": 26,
@@ -3069,7 +3279,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 984
+      "height": 984,
+      "kind": "portrait"
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -3162,7 +3373,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "У Dictionnaire infernal Столас має совоподібну постать; у Goetia його початкова подоба — великий крук.",
       "width": 850,
-      "height": 989
+      "height": 989,
+      "kind": "portrait"
     },
     "rank": "Князь",
     "legions": 26,
@@ -3248,7 +3460,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/37-phenex-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-37.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38",
+      "caption": "Початок запису № 37 · електронне перевидання тексту Goetia (1904), PDF-сторінка 38",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 393
+    },
     "rank": "Маркіз",
     "legions": 20,
     "facts": [
@@ -3313,6 +3533,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38"
       }
     ]
   },
@@ -3333,7 +3557,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/38-halphas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-38.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38",
+      "caption": "Початок запису № 38 · електронне перевидання тексту Goetia (1904), PDF-сторінка 38",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 257
+    },
     "rank": "Граф",
     "legions": 26,
     "facts": [
@@ -3399,6 +3631,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38"
       }
     ]
   },
@@ -3426,7 +3662,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 980
+      "height": 980,
+      "kind": "portrait"
     },
     "rank": "Президент",
     "legions": 40,
@@ -3512,7 +3749,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/40-raum-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-40.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
+      "caption": "Початок запису № 40 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 359
+    },
     "rank": "Граф",
     "legions": 30,
     "facts": [
@@ -3578,6 +3823,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39"
       }
     ]
   },
@@ -3598,7 +3847,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/41-focalor-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-41.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
+      "caption": "Початок запису № 41 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 359
+    },
     "rank": "Герцог",
     "legions": 30,
     "facts": [
@@ -3663,6 +3920,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39"
       }
     ]
   },
@@ -3683,7 +3944,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/42-vepar-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-42.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
+      "caption": "Початок запису № 42 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 523
+    },
     "rank": "Герцог",
     "legions": 29,
     "facts": [
@@ -3748,6 +4017,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39"
       }
     ]
   },
@@ -3768,7 +4041,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/43-sabnock-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-43.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40",
+      "caption": "Початок запису № 43 · електронне перевидання тексту Goetia (1904), PDF-сторінка 40",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 359
+    },
     "rank": "Маркіз",
     "legions": 50,
     "facts": [
@@ -3833,6 +4114,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40"
       }
     ]
   },
@@ -3860,7 +4145,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 963
+      "height": 963,
+      "kind": "portrait"
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -3947,7 +4233,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/45-vine-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-45.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40",
+      "caption": "Початок запису № 45 · електронне перевидання тексту Goetia (1904), PDF-сторінка 40",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 387
+    },
     "rank": "Король / Граф",
     "legions": 36,
     "facts": [
@@ -4013,6 +4307,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40"
       }
     ]
   },
@@ -4040,7 +4338,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 738,
-      "height": 744
+      "height": 744,
+      "kind": "portrait"
     },
     "rank": "Граф",
     "legions": 6,
@@ -4134,7 +4433,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "Гравюра Wall — варіант імені Uvall / Vual. Людська подоба відрізняється від початкового образу верблюда в Goetia.",
       "width": 850,
-      "height": 969
+      "height": 969,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 37,
@@ -4220,7 +4520,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/48-haagenti-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-48.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=41",
+      "caption": "Початок запису № 48 · електронне перевидання тексту Goetia (1904), PDF-сторінка 41",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 409
+    },
     "rank": "Президент",
     "legions": 33,
     "facts": [
@@ -4285,6 +4593,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=41"
       }
     ]
   },
@@ -4305,7 +4617,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/49-crocell-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-49.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=42",
+      "caption": "Початок запису № 49 · електронне перевидання тексту Goetia (1904), PDF-сторінка 42",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 359
+    },
     "rank": "Герцог",
     "legions": 48,
     "facts": [
@@ -4370,6 +4690,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=42"
       }
     ]
   },
@@ -4397,7 +4721,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 958
+      "height": 958,
+      "kind": "portrait"
     },
     "rank": "Лицар",
     "legions": 20,
@@ -4491,7 +4816,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 995
+      "height": 995,
+      "kind": "portrait"
     },
     "rank": "Король",
     "legions": 40,
@@ -4584,7 +4910,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 400,
-      "height": 457
+      "height": 457,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 36,
@@ -4677,7 +5004,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 972
+      "height": 972,
+      "kind": "portrait"
     },
     "rank": "Президент",
     "legions": 30,
@@ -4764,7 +5092,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/54-murmur-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-54.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=43",
+      "caption": "Початок запису № 54 · електронне перевидання тексту Goetia (1904), PDF-сторінка 43",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 393
+    },
     "rank": "Герцог / Граф",
     "legions": 30,
     "facts": [
@@ -4830,6 +5166,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=43"
       }
     ]
   },
@@ -4857,7 +5197,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 269,
-      "height": 295
+      "height": 295,
+      "kind": "portrait"
     },
     "rank": "Князь",
     "legions": 20,
@@ -4950,7 +5291,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 836,
-      "height": 1000
+      "height": 1000,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 26,
@@ -5036,7 +5378,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/57-ose-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-57.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
+      "caption": "Початок запису № 57 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 359
+    },
     "rank": "Президент",
     "legions": 30,
     "facts": [
@@ -5101,6 +5451,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44"
       }
     ]
   },
@@ -5121,7 +5475,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/58-amy-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-58.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
+      "caption": "Початок запису № 58 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 257
+    },
     "rank": "Президент",
     "legions": 36,
     "facts": [
@@ -5186,6 +5548,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44"
       }
     ]
   },
@@ -5206,7 +5572,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/59-orias-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-59.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
+      "caption": "Початок запису № 59 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 319
+    },
     "rank": "Маркіз",
     "legions": 30,
     "facts": [
@@ -5271,6 +5645,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44"
       }
     ]
   },
@@ -5291,7 +5669,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/60-vapula-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-60.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45",
+      "caption": "Початок запису № 60 · електронне перевидання тексту Goetia (1904), PDF-сторінка 45",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 257
+    },
     "rank": "Герцог",
     "legions": 36,
     "facts": [
@@ -5356,6 +5742,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45"
       }
     ]
   },
@@ -5377,7 +5767,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/61-zagan-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-61.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45",
+      "caption": "Початок запису № 61 · електронне перевидання тексту Goetia (1904), PDF-сторінка 45",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 291
+    },
     "rank": "Король / Президент",
     "legions": 33,
     "facts": [
@@ -5442,6 +5840,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45"
       }
     ]
   },
@@ -5469,7 +5871,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 986
+      "height": 986,
+      "kind": "portrait"
     },
     "rank": "Президент",
     "legions": 38,
@@ -5562,7 +5965,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 449,
-      "height": 500
+      "height": 500,
+      "kind": "portrait"
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -5655,7 +6059,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 953
+      "height": 953,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 36,
@@ -5741,7 +6146,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/65-andrealphus-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-65.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46",
+      "caption": "Початок запису № 65 · електронне перевидання тексту Goetia (1904), PDF-сторінка 46",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 291
+    },
     "rank": "Маркіз",
     "legions": 30,
     "facts": [
@@ -5806,6 +6219,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46"
       }
     ]
   },
@@ -5826,7 +6243,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/66-cimeies-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-66.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46",
+      "caption": "Початок запису № 66 · електронне перевидання тексту Goetia (1904), PDF-сторінка 46",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 353
+    },
     "rank": "Маркіз",
     "legions": 20,
     "facts": [
@@ -5891,6 +6316,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46"
       }
     ]
   },
@@ -5918,7 +6347,8 @@
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
       "note": "",
       "width": 850,
-      "height": 963
+      "height": 963,
+      "kind": "portrait"
     },
     "rank": "Герцог",
     "legions": 29,
@@ -6011,7 +6441,8 @@
       "caption": "Buch Belial (1473) · історична ксилографія · суспільне надбання",
       "note": "Це образ Беліала з богословсько-літературного твору Якова Терамського, а не ілюстрація Goetia. Власний опис Goetia — двоє ангелів у вогняній колісниці.",
       "width": 350,
-      "height": 260
+      "height": 260,
+      "kind": "portrait"
     },
     "rank": "Король",
     "legions": 50,
@@ -6102,7 +6533,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/69-decarabia-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-69.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=47",
+      "caption": "Початок запису № 69 · електронне перевидання тексту Goetia (1904), PDF-сторінка 47",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 387
+    },
     "rank": "Маркіз",
     "legions": 30,
     "facts": [
@@ -6167,6 +6606,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=47"
       }
     ]
   },
@@ -6187,7 +6630,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/70-seere-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-70.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
+      "caption": "Початок запису № 70 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 461
+    },
     "rank": "Князь",
     "legions": 26,
     "facts": [
@@ -6252,6 +6703,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48"
       }
     ]
   },
@@ -6272,7 +6727,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/71-dantalion-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-71.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
+      "caption": "Початок запису № 71 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 394
+    },
     "rank": "Герцог",
     "legions": 36,
     "facts": [
@@ -6337,6 +6800,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48"
       }
     ]
   },
@@ -6357,7 +6824,15 @@
     "originalLanguage": "en",
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/72-andromalius-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
-    "illustration": null,
+    "illustration": {
+      "kind": "document",
+      "src": "/catalogues/artwork/goetia-record-72.svg",
+      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
+      "caption": "Початок запису № 72 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
+      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
+      "width": 984,
+      "height": 386
+    },
     "rank": "Граф",
     "legions": 36,
     "facts": [
@@ -6423,6 +6898,10 @@
       {
         "title": "Demonolatry.org: дозвіл на вільне поширення",
         "url": "https://demonolatry.org/library-archives/"
+      },
+      {
+        "title": "Електронне перевидання Goetia: сторінка запису",
+        "url": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48"
       }
     ]
   }

@@ -21,8 +21,10 @@ for (const [kind, entries] of [['demons', demons], ['angels', angels]]) {
     if (entry.illustration) assert(entry.illustration.width > 0 && entry.illustration.height > 0 && entry.illustration.page && entry.illustration.caption);
   }
 }
-assert.equal(demons.filter(e => e.illustration).length, 35);
-assert.equal(angels.filter(e => e.illustration).length, 18);
+assert.equal(demons.filter(e => e.illustration).length, 72);
+assert.equal(demons.filter(e => e.illustration.kind === 'portrait').length, 35);
+assert.equal(demons.filter(e => e.illustration.kind === 'document').length, 37);
+assert.equal(angels.filter(e => e.illustration?.kind === 'seal').length, 72);
 assert.equal(demons[1].sector, '10–20°');
 assert.equal(demons[36].sign, 'Овен');
 assert.equal(demons[67].sign, 'Водолій');
@@ -32,8 +34,17 @@ assert.equal(angels[69].invocation.text, 'In principio creavit Deus caelum et te
 assert.equal(angels[71].invocation.label, 'Псалом 114:7 · вірш звернення');
 assert.equal(demons.filter(e => e.element === 'Вода').length, 18);
 assert.equal(angels.filter(e => e.element === 'Земля').length, 18);
-console.log('Validated 144 entries, source URLs, 35 engravings, 18 angel seals, traditions and invocation mappings.');
+console.log('Validated 144 entries, source URLs, 35 engravings, 37 source excerpts, 72 angel seals, traditions and invocation mappings.');
 
 const parser = new DefaultUrlSerializer();
 assert.equal(parser.serialize(parser.parse('demonology')), '/demonology');
 assert.equal(parser.serialize(parser.parse('angelology')), '/angelology');
+
+for (const e of [...demons, ...angels]) {
+  if (e.illustration.src.startsWith('/catalogues/artwork/')) {
+    const path = e.illustration.src.replace('/catalogues/', '../public/');
+    const svg = await readFile(new URL(path, import.meta.url), 'utf8');
+    assert(svg.includes('data:image/png;base64,'));
+    assert(!svg.includes('<script'));
+  }
+}

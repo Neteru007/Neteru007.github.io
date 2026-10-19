@@ -1,6 +1,6 @@
 export type CatalogKind = 'demons' | 'angels';
 export interface Source { title: string; url: string; }
-export interface Illustration { src: string; page: string; caption: string; note: string; width: number; height: number; }
+export interface Illustration { kind: 'portrait' | 'seal' | 'document'; src: string; page: string; caption: string; note: string; width: number; height: number; }
 export interface Fact { label: string; value: string; }
 export interface CatalogEntry {
   id: number; kind: CatalogKind; name: string; latin: string; hebrew?: string;
@@ -20,6 +20,7 @@ export function isCatalog(value: unknown): value is CatalogEntry[] {
     ids.add(entry.id);
     if (!['demons', 'angels'].includes(entry.kind) || ['name', 'latin', 'description', 'appearance', 'symbol', 'element', 'sign', 'sector', 'original'].some(key => typeof entry[key] !== 'string')) return false;
     if (!Array.isArray(entry.planets) || !entry.planets.every((x: unknown) => typeof x === 'string') || !Array.isArray(entry.sources) || !Array.isArray(entry.notes) || !Array.isArray(entry.facts)) return false;
+    if (entry.illustration !== null && (!entry.illustration || !['portrait', 'seal', 'document'].includes(entry.illustration.kind) || typeof entry.illustration.src !== 'string' || !entry.illustration.page)) return false;
     if (!entry.invocation || typeof entry.invocation.text !== 'string' || !entry.invocation.text) return false;
   }
   return true;

@@ -11,19 +11,20 @@
     ],
     "sign": "Овен",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, піднесений і звеличений над усім».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, піднесений і звеличений над усім». Пов’язаний із просвітленням і першим весняним сектором вогню.",
     "appearance": "Ангел Vehuiah — № 1 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs the first ray of the Orient in the season of spring, that is the first five degrees of the sphere; he dwells in the region of fire, his sign is the Ram, and he presides over five days.\n\nTo obtain enlightenment; by the virtue of these divine names one becomes illuminated by the spirit of God.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-01.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/1_Vahuaih.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-01.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=2",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -79,8 +80,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -96,19 +101,20 @@
     ],
     "sign": "Овен",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який допомагає».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який допомагає». Пов’язаний із владою, злагодою між подружжям, вірністю та примиренням.",
     "appearance": "Ангел Jeliel — № 2 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs kings and princes; he keeps their subjects in obedience; he has influence over the generation of all beings existing within the animal kingdom; he restores peace between spouses and conjugal fidelity.\n\nTo calm popular uprisings, and to obtain victory over those who attack you unjustly. The request must be spoken with the genius's name, and the 20th verse of Psalm 21 recited.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-02.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/2_Yelaviel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-02.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=3",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -164,8 +170,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -181,19 +191,20 @@
     ],
     "sign": "Овен",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — надія всіх створінь».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — надія всіх створінь». Опікується шляхетністю й високими посадами; у тексті до нього звертаються під час випробувань.",
     "appearance": "Ангел Sitaël — № 3 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He rules over nobility, magnanimity and high offices; he protects against weapons and fierce beasts.\n\nHe is invoked against adversities, pronouncing the request with the divine names and the 2nd verse of psalm 90.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-03.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/3_Satiel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 346
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-03.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=4",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -249,8 +260,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -266,19 +281,20 @@
     ],
     "sign": "Овен",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог». Пов’язаний із подорожами, морськими експедиціями, корисними відкриттями й викриттям зради.",
     "appearance": "Ангел Elemiah — № 4 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs voyages, maritime expeditions, and influences useful discoveries.\n\nInvoked against torments of the mind and to know traitors.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-04.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/4_Nghelamiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-04.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=5",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -334,8 +350,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -351,19 +371,20 @@
     ],
     "sign": "Овен",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог-спаситель».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог-спаситель». Опікується вищими науками, окультною філософією, богослов’ям і вільними мистецтвами; пов’язаний із мирним співжиттям.",
     "appearance": "Ангел Mahasiah — № 5 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "The high sciences, occult philosophy, theology, and the liberal arts.\n\nTo live in peace with everyone.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-05.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/5_Mahasiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-05.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=6",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -419,8 +440,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -436,19 +461,20 @@
     ],
     "sign": "Овен",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний хвали».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний хвали». Пов’язаний із любов’ю, славою, науками, мистецтвами й набуттям знань.",
     "appearance": "Ангел Lelahel — № 6 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Love, renown, the sciences, the arts, and fortune.\n\nTo acquire knowledge and to cure illnesses.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-06.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/6_Lelahel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 314,
-      "height": 346
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-06.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=7",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -504,8 +530,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -521,19 +551,20 @@
     ],
     "sign": "Телець",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Добрий і терплячий Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Добрий і терплячий Бог». Уособлює терпіння; йому приписано розкриття таємниць природи й поширення знань.",
     "appearance": "Ангел Achaiah — № 7 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs patience; he uncovers the secrets of nature; he has influence over the spread of learning and over industry.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-07.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/7_Akaiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-07.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=8",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -589,8 +620,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -606,19 +641,20 @@
     ],
     "sign": "Телець",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний поклоніння».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний поклоніння». Пов’язаний із землеробством, врожаєм і вдячністю Богові за земні дари.",
     "appearance": "Ангел Cahethel — № 8 у каталозі Ленена. Належить до групи «Серафими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "All agricultural produce, especially that necessary for the existence of men and animals; he inspires man to raise himself toward God to thank him for all the goods he sends upon the earth.\n\nTo obtain the blessing of God and to drive away evil spirits.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-08.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/8_Kehethel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-08.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=9",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -674,8 +710,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -691,19 +731,20 @@
     ],
     "sign": "Телець",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог милосердя».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог милосердя». Опікується добросовісністю, примиренням, виконанням обіцянок і прихильністю впливових осіб.",
     "appearance": "Ангел Haziel — № 9 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs good faith and reconciliation.\n\nTo obtain the mercy of God, the friendship and favours of the great, and the fulfilment of a promise made by a person.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-09.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/9_Hazeyael.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 349
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-09.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=10",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -759,8 +800,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -776,19 +821,20 @@
     ],
     "sign": "Телець",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Прихильний Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Прихильний Бог». У джерелі пов’язаний із прихованими провинами, милістю та лікуванням недуг.",
     "appearance": "Ангел Aladiah — № 10 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules against rabies and plague, and influences the curing of diseases.\n\nHe is good for those who have hidden crimes and who fear being discovered.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-10.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/10_Eldiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-10.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=11",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -844,8 +890,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -861,19 +911,20 @@
     ],
     "sign": "Телець",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, якого хвалять і звеличують».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, якого хвалять і звеличують». Опікується славою й людьми, які вирізняються талантами та вченістю.",
     "appearance": "Ангел Lauviah — № 11 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules renown; he influences great personages, scholars, and all those who become famous through their talents.\n\nAgainst lightning, and to obtain victory.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-11.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/11_Leviah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-11.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=12",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -929,8 +980,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -946,19 +1001,20 @@
     ],
     "sign": "Телець",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — притулок».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — притулок». Пов’язаний зі снами, прихованими таємницями, мудрістю й розсудливістю.",
     "appearance": "Ангел Hahaiah — № 12 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs dreams, and reveals mysteries hidden from mortals. He has influence over wise, clever and discreet persons.\n\nHis help is invoked against adversities.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-12.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/12_Hihaiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-12.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=13",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1014,8 +1070,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1031,19 +1091,20 @@
     ],
     "sign": "Близнюки",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, прославлений понад усе».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, прославлений понад усе». Пов’язаний із дружбою, примиренням і подружньою вірністю.",
     "appearance": "Ангел Iezalel — № 13 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Friendship, reconciliation, and conjugal fidelity.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-13.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/13_Iezalel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-13.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=14",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1099,8 +1160,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1116,19 +1181,20 @@
     ],
     "sign": "Близнюки",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог-охоронець».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог-охоронець». Опікується справедливістю, правдою, свободою та захистом невинних і пригноблених.",
     "appearance": "Ангел Mebahel — № 14 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs justice, truth and liberty; he delivers the oppressed and prisoners; he protects innocence and makes truth known.\n\nInvoked against those who seek to usurp the fortune of others.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-14.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/14_Mebahael.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-14.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=15",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1184,8 +1250,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1201,19 +1271,20 @@
     ],
     "sign": "Близнюки",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог-творець».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог-творець». Пов’язаний із науками, мистецтвами, корисними відкриттями та новими методами.",
     "appearance": "Ангел Hariel — № 15 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs over the sciences and the arts; he influences useful discoveries and new methods.\n\nThis genius is invoked against the impious of religion; their names are pronounced with the divine names and the 22nd verse of psalm 93.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-15.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/15_Harayel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 313,
-      "height": 343
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-15.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=16",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1269,8 +1340,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1286,19 +1361,20 @@
     ],
     "sign": "Близнюки",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який утверджує всесвіт».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який утверджує всесвіт». Опікується правителями й воєначальниками; пов’язаний із перемогою, залізом і військовою справою.",
     "appearance": "Ангел Hakamiah — № 16 у каталозі Ленена. Належить до групи «Херувими». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs crowned heads and great captains; he gives victory, and prevents seditions; he has influence over iron, arsenals, and all that pertains to the art of war.\n\nHe is invoked against traitors, to obtain victory over the enemy, and to be delivered from those who wish to oppress us.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-16.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/16_Hoqamiah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-16.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=17",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1354,8 +1430,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1371,19 +1451,20 @@
     ],
     "sign": "Близнюки",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог дивовижний».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог дивовижний». Пов’язаний із вищими науками, незвичайними відкриттями та одкровеннями уві сні.",
     "appearance": "Ангел Lauviah — № 17 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs the high sciences and marvelous discoveries, and gives revelations in dreams.\n\nIt serves against torments of the spirit and sadness, and for resting well at night.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-17.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/17_Laviah.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-17.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=18",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1439,8 +1520,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1456,19 +1541,20 @@
     ],
     "sign": "Близнюки",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який швидко чує».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який швидко чує». Опікується встановленням правди в суді, захистом невинних і викриттям неправдивих свідчень.",
     "appearance": "Ангел Caliel — № 18 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Making the truth known in legal proceedings, causing innocence to triumph, and confounding the guilty and false witnesses.\n\nObtaining prompt help when some adversity occurs.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-18.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
     "illustration": {
-      "src": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/images/Schemhamphorash/18_Keliel.jpg",
-      "page": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html",
-      "caption": "Печать у публікації лекцій Golden Dawn · у джерелі приписано Blaise de Vigenère",
-      "note": "Це зображення печаті, а не портрет ангела. Графіку подано з окремої традиції; зодіакальні дані цієї картки залишаються за схемою Ленена від Овна.",
-      "width": 320,
-      "height": 350
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-18.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=19",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
     },
     "facts": [
       {
@@ -1524,8 +1610,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1541,13 +1631,21 @@
     ],
     "sign": "Рак",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який чує грішників».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який чує грішників». Пов’язаний із пам’яттю, розумовими здібностями й набуттям Божої благодаті.",
     "appearance": "Ангел Leuviah — № 19 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs the memory and the intelligence of man, and rules the first ray of the south, from the 91st to the 95th degree of the sphere inclusively.\n\nObtaining the grace of God.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-19.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-19.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=20",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1602,8 +1700,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1619,13 +1721,21 @@
     ],
     "sign": "Рак",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог-відкупитель».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог-відкупитель». Опікується релігією, богослов’ям, моральністю, цнотливістю та побожністю.",
     "appearance": "Ангел Pahaliah — № 20 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs religion, theology and morals; it influences chastity and piety, and those whose calling is to the ecclesiastical state.\n\nIt serves against the enemies of religion, and to convert peoples to Christianity.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-20.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-20.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=21",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1680,8 +1790,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1697,13 +1811,21 @@
     ],
     "sign": "Рак",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Єдиний і неповторний Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Єдиний і неповторний Бог». Пов’язаний з астрономією, математикою, географією та абстрактними науками.",
     "appearance": "Ангел Nelchael — № 21 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs astronomy, mathematics, geography, and all the abstract sciences; he influences the learned and philosophers.\n\nIt serves against slanderers and charms, and to destroy the power of evil spirits.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-21.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-21.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=22",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1758,8 +1880,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1775,13 +1901,21 @@
     ],
     "sign": "Рак",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Права рука Бога».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Права рука Бога». Опікується торгівлею, дипломатією, подорожами й морськими експедиціями.",
     "appearance": "Ангел Ieiaiel — № 22 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs fortune, renown, diplomacy and commerce; he has influence over travels, discoveries, and maritime expeditions; he protects against storms and shipwrecks.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-22.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-22.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=23",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1836,8 +1970,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1853,13 +1991,21 @@
     ],
     "sign": "Рак",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який визволяє від лиха».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який визволяє від лиха». Пов’язаний із водою, земними плодами й рослинами, що використовуються для лікування.",
     "appearance": "Ангел Melahel — № 23 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs water, all the productions of the earth, and principally the plants that are necessary for the healing of illnesses.\n\nAgainst weapons, and for traveling safely.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-23.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-23.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=24",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1914,8 +2060,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -1931,13 +2081,21 @@
     ],
     "sign": "Рак",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, добрий сам по собі».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, добрий сам по собі». У джерелі опікується вигнанцями, втікачами й людьми, засудженими заочно; пов’язаний із милосердям.",
     "appearance": "Ангел Hahiuiah — № 24 у каталозі Ленена. Належить до групи «Престоли». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over exiles, fugitive prisoners, and those condemned in absentia; he prevents the discovery of secret crimes, and those who committed them will escape the justice of men, provided they do not fall again into the same fault; he protects against harmful animals, and he preserves from thieves and murderers.\n\nIt serves to obtain the grace and mercy of God.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-24.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-24.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=25",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -1992,8 +2150,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2009,13 +2171,21 @@
     ],
     "sign": "Лев",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дає мудрість».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дає мудрість». Опікується окультними науками, пошуком прихованої істини й одкровеннями уві сні.",
     "appearance": "Ангел Nith-Haiah — № 25 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He rules all the occult sciences; he gives revelations in dreams, particularly to those born on the day he presides; he has influence over wise men who love peace and solitude, and over those who seek truth and practise the magic of the wise, which is that of God.\n\nTo have wisdom, and to discover the truth of hidden mysteries.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-25.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-25.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=26",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2070,8 +2240,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2087,13 +2261,21 @@
     ],
     "sign": "Лев",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог». Пов’язаний із пошуком істини, дипломатією, мирними договорами, посольствами й угодами.",
     "appearance": "Ангел Haaiah — № 26 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius protects all who seek the truth; he leads men to the contemplation of divine things; he governs politics, diplomats, plenipotentiaries, ambassadors, treaties of peace and commerce, and all conventions in general; he has influence over couriers, dispatches, agents, and secret expeditions.\n\nWinning one's lawsuit and making the judges favorable to oneself.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-26.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-26.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=27",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2148,8 +2330,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2165,13 +2351,21 @@
     ],
     "sign": "Лев",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який карає нечестивих».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який карає нечестивих». Опікується поширенням знань, цивілізації та свободи; пов’язаний із протидією наклепам.",
     "appearance": "Ангел Ierathel — № 27 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Protects against those who provoke and unjustly attack us; governs the spread of learning, civilization, and liberty.\n\nTo confound the wicked and slanderers, and to be delivered from our enemies.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-27.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-27.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=28",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2226,8 +2420,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2243,13 +2441,21 @@
     ],
     "sign": "Лев",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який зцілює хворих».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який зцілює хворих». У джерелі пов’язаний із захистом від пожеж, руйнувань і падінь, а також зі здоров’ям і довголіттям.",
     "appearance": "Ангел Séheiah — № 28 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Protects against fires, ruin of buildings, falls, and illnesses; governs health and length of life.\n\nInvoked against infirmities and thunder.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-28.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-28.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=29",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2304,8 +2510,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2321,13 +2531,21 @@
     ],
     "sign": "Лев",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який швидко допомагає».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який швидко допомагає». Опікується релігійними почуттями, божественною філософією та медитацією.",
     "appearance": "Ангел Reiiel — № 29 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "All religious sentiments, divine philosophy, and meditation.\n\nTo act against the impious and enemies of religion, and to be delivered from all one's enemies, both visible and invisible.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-29.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-29.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=30",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2382,8 +2600,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2399,13 +2621,21 @@
     ],
     "sign": "Лев",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Терплячий Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Терплячий Бог». Пов’язаний із тваринним світом, продовженням життя видів, терпінням, лікарями й хіміками.",
     "appearance": "Ангел Omael — № 30 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over the animal kingdom; he watches over the generation of beings, so as to multiply their species and perpetuate their races; he has influence over chemists, physicians, and surgeons.\n\nInvoked against sorrows and despair, and to obtain patience.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-30.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-30.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=31",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2460,8 +2690,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2477,13 +2711,21 @@
     ],
     "sign": "Діва",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який надихає».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який надихає». Опікується рослинністю та землеробством; пов’язаний зі знаннями й корисними професійними методами.",
     "appearance": "Ангел Lecabel — № 31 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Vegetation and agriculture.\n\nTo obtain knowledge, and for methods useful to one's profession.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-31.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-31.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=32",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2538,8 +2780,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2555,13 +2801,21 @@
     ],
     "sign": "Діва",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Справедливий Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Справедливий Бог». Опікується правосуддям, суддями, правознавцями, адвокатами та помилуванням.",
     "appearance": "Ангел Vasariah — № 32 у каталозі Ленена. Належить до групи «Панування». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules justice; he has influence over nobility, jurisconsults, magistrates and lawyers.\n\nHis aid is invoked against those who attack us in a court of justice, and for obtaining pardon for those who resort to the clemency of kings; for this one must name the person who attacks you, and state the reason, then pronounce the divine names with the 4th verse of psalm 32.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-32.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-32.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=33",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2616,8 +2870,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2633,13 +2891,21 @@
     ],
     "sign": "Діва",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який знає все».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який знає все». У джерелі пов’язаний із захистом християнських правителів і викриттям змов та зради.",
     "appearance": "Ангел Iehuiah — № 33 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Protects all Christian princes and keeps their subjects in obedience.\n\nTo know traitors, and to destroy their projects and machinations.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-33.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-33.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=34",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2694,8 +2960,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2711,13 +2981,21 @@
     ],
     "sign": "Діва",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Милосердний Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Милосердний Бог». Опікується злагодою між правителями й підлеглими; до нього звертаються для приборкання гніву.",
     "appearance": "Ангел Lehahiah — № 34 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over crowned heads, princes, and nobles; it maintains harmony, good understanding, and peace among them; and it influences the obedience of subjects towards their princes.\n\nIt serves against anger.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-34.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-34.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=35",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2772,8 +3050,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2789,13 +3071,21 @@
     ],
     "sign": "Діва",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дарує радість».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дарує радість». Пов’язаний зі спадщиною, мирним поділом майна, сімейною злагодою та примиренням.",
     "appearance": "Ангел Chavakiah — № 35 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Wills, successions, and all divisions of property made amicably; he maintains peace and harmony within families.\n\nTo be restored to the good graces of those one has offended; for this one must utter the request, the divine names, and name the person, then say the verse of the psalm daily until reconciled with the person.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-35.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-35.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=36",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2850,8 +3140,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2867,13 +3161,21 @@
     ],
     "sign": "Діва",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний поклоніння».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний поклоніння». Опікується засобами до існування, поверненням вигнанців, пошуком зниклих людей і втраченого майна.",
     "appearance": "Ангел Menadel — № 36 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He gives knowledge concerning absent persons from whom no news has been received for a long time, causes exiles to return to their homeland, and discovers goods lost or misappropriated.\n\nTo be maintained in one's employment, to preserve one's existing means of livelihood, against calumnies, and to deliver prisoners.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-36.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-36.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=37",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -2928,8 +3230,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -2945,13 +3251,21 @@
     ],
     "sign": "Терези",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог чеснот».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог чеснот». Пов’язаний із науками, мистецтвами, таємницями природи та філософським спогляданням.",
     "appearance": "Ангел Aniel — № 37 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He rules over the sciences and the arts; he reveals the secrets of nature, and inspires wise philosophers in their meditations.\n\nTo obtain victory and to make an army lift the siege of a town.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-37.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-37.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=38",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3006,8 +3320,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3023,13 +3341,21 @@
     ],
     "sign": "Терези",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — надія всіх дітей землі».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — надія всіх дітей землі». Опікується релігійним поклонінням і людьми, які шукають істину.",
     "appearance": "Ангел Haamiah — № 38 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs all religious worship and all that pertains to God; he protects all who seek the truth.\n\nTo acquire all the treasures of heaven and earth.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-38.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-38.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=39",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3084,8 +3410,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3101,13 +3431,21 @@
     ],
     "sign": "Терези",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який приймає грішників».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який приймає грішників». Пов’язаний із довголіттям, здоров’ям, батьківською й дитячою любов’ю та повагою в родині.",
     "appearance": "Ангел Rehael — № 39 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs health and length of life; he influences paternal and filial love, and the obedience and respect of children toward their parents.\n\nFor the healing of sicknesses and to obtain the mercy of God.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-39.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-39.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=40",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3162,8 +3500,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3179,13 +3521,21 @@
     ],
     "sign": "Терези",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дарує радість».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дарує радість». Опікується друкарством, книгарством, літераторами й митцями; пов’язаний із розрадою та звільненням в’язнів.",
     "appearance": "Ангел Ieiazel — № 40 у каталозі Ленена. Належить до групи «Сили». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs printing and bookselling, and influences men of letters and artists.\n\nThis psalm is used to deliver prisoners, to obtain consolations, and to be delivered from one's enemies.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-40.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-40.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=41",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3240,8 +3590,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3257,13 +3611,21 @@
     ],
     "sign": "Терези",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог у трьох особах».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог у трьох особах». У джерелі опікується християнством, місіонерами, духовенством і проповіддю Євангелія.",
     "appearance": "Ангел Hahahel — № 41 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Governs Christianity; protects missionaries and all disciples of Christ who proclaim the words of the Gospel to the nations; influences pious souls, prelates, clergymen, and all that pertains to the priesthood.\n\nInvoked against the enemies of religion, the impious, and slanderers.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-41.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-41.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=42",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3318,8 +3680,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3335,13 +3701,21 @@
     ],
     "sign": "Терези",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Сила Бога; дім Бога; подібний до Бога».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Сила Бога; дім Бога; подібний до Бога». Пов’язаний із правителями, викриттям змов, збереженням державної влади й безпечними подорожами.",
     "appearance": "Ангел Mikael — № 42 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius influences monarchs, princes, and nobles; he keeps their subjects in obedience, and uncovers conspiracies and all those who seek to destroy their persons and their governments.\n\nTravelling in safety.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-42.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-42.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=43",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3396,8 +3770,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3413,13 +3791,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Цар-володар».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Цар-володар». Опікується миром і добробутом держав; у джерелі також пов’язаний зі звільненням від рабства.",
     "appearance": "Ангел Veualiah — № 43 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius presides over peace, and influences the prosperity of empires; he strengthens tottering thrones and the power of kings.\n\nUsed to destroy the enemy and to be delivered from slavery.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-43.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-43.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=44",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3474,8 +3860,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3491,13 +3881,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Вічний Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Вічний Бог». Пов’язаний із перемогою, захистом під час війни, успіхом корисних починань і судовими справами.",
     "appearance": "Ангел Ielahiah — № 44 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius protects against weapons and gives victory.\n\nObtaining the success of a useful undertaking; it is also good for gaining the protection of magistrates and for winning a lawsuit.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-44.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-44.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=45",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3552,8 +3950,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3569,13 +3971,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Рушій усього».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Рушій усього». Опікується рослинністю та життєвими силами природи; пов’язаний із підтримкою принижених і занепалих.",
     "appearance": "Ангел Sealiah — № 45 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs vegetation, bringing life and health into all that breathes, and influences the principal agents of nature.\n\nTo confound the wicked and the proud, and to raise up those who are humbled and fallen.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-45.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-45.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=46",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3630,8 +4040,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3647,13 +4061,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який відкриває».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який відкриває». Пов’язаний із прихованими скарбами, таємницями природи та одкровеннями у снах.",
     "appearance": "Ангел Ariel — № 46 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius discovers hidden treasures, reveals nature's greatest secrets, and shows in dreams the objects one desires.\n\nTo obtain revelations, invoked along with the divine names and the ninth verse of Psalm 144; it also serves to thank God for the good things he sends us.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-46.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-46.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=47",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3708,8 +4130,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3725,13 +4151,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Справедливий Бог, який відкриває істину».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Справедливий Бог, який відкриває істину». Опікується правосуддям, встановленням істини в судових справах і спогляданням божественного.",
     "appearance": "Ангел Asaliah — № 47 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs justice and makes the truth known in legal proceedings; he has influence over upright men, and over those who raise their mind to the contemplation of divine things.\n\nTo praise God and to rise up towards him when he sends us knowledge.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-47.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-47.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=48",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3786,8 +4220,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3803,13 +4241,21 @@
     ],
     "sign": "Скорпіон",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — батько, який допомагає».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — батько, який допомагає». Пов’язаний із продовженням життя, дружбою, подружньою вірністю та сімейною злагодою.",
     "appearance": "Ангел Mihael — № 48 у каталозі Ленена. Належить до групи «Влади». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs the generation of beings, and he has influence over friendship and conjugal fidelity.\n\nFor preserving peace and union between spouses; those who have recourse to this genius will have premonitions and secret inspirations about all that will happen to them.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-48.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-48.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=49",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3864,8 +4310,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3881,13 +4331,21 @@
     ],
     "sign": "Стрілець",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог великий і піднесений».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог великий і піднесений». Опікується людьми, які підносяться завдяки талантам і чеснотам; пов’язаний із прославленням Бога та розрадою.",
     "appearance": "Ангел Vehuel — № 49 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over great personages, and over all those who rise up and distinguish themselves by their talents and virtues.\n\nIt serves to raise oneself toward God, to bless and glorify Him, when one is moved by admiration; one recites this psalm entirely when one feels sorrows and when one's mind is troubled.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-49.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-49.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=50",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -3942,8 +4400,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -3959,13 +4421,21 @@
     ],
     "sign": "Стрілець",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Знак милосердя; ангел сповідей».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Знак милосердя; ангел сповідей». Пов’язаний із правосуддям, адвокатами й суддями; допомога у складному виборі є частиною його опису.",
     "appearance": "Ангел Daniel — № 50 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs justice, lawyers, attorneys, and all magistrates in general. He gives inspirations to those who are perplexed about several things and do not know which they ought to decide upon.\n\nTo obtain the mercy of God, and to have consolations.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-50.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-50.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=51",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4020,8 +4490,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4037,13 +4511,21 @@
     ],
     "sign": "Стрілець",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Прихований Бог». Опікується хімією та фізикою; у тексті йому приписано знання філософського каменю й універсальних ліків.",
     "appearance": "Ангел Hahasiah — № 51 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Chemistry and physics; he reveals the greatest secrets of nature, notably the philosopher's stone and the universal medicine.\n\nTo elevate the soul to the contemplation of divine things, and to discover the mysteries of wisdom.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-51.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-51.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=52",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4098,8 +4580,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4115,13 +4601,21 @@
     ],
     "sign": "Стрілець",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, піднесений над усім».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, піднесений над усім». Пов’язаний із подорожами, пошуком істини, визволенням в’язнів і щирим каяттям.",
     "appearance": "Ангел Imamiah — № 52 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs all journeys in general; he protects prisoners who have recourse to him and inspires in them the means to obtain their liberty; he influences all those who seek truth in good faith and return from their errors by a truly sincere return to God.\n\nHe is good for destroying the power of enemies and for humbling them.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-52.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-52.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=53",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4176,8 +4670,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4193,13 +4691,21 @@
     ],
     "sign": "Стрілець",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який упокорює гордих».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який упокорює гордих». Опікується вищими науками, викладачами, духовенством, суддями й правознавцями.",
     "appearance": "Ангел Nanael — № 53 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over the high sciences; he influences clergymen, professors, magistrates, and men of law.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-53.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-53.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=54",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4254,8 +4760,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4271,13 +4781,21 @@
     ],
     "sign": "Стрілець",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Цар небес».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Цар небес». Пов’язаний із законними династіями, стійкістю держав і збереженням світських та церковних посад.",
     "appearance": "Ангел Nithael — № 54 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Emperors, kings, princes, and all civil and ecclesiastical dignities; he watches over legitimate dynasties and the stability of empires, gives a long and peaceful reign to princes who have recourse to him, and protects all who wish to keep their positions.\n\nTo obtain the mercy of God and to live a long life.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-54.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-54.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=55",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4332,8 +4850,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4349,13 +4871,21 @@
     ],
     "sign": "Козоріг",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Вічний Бог».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Вічний Бог». Опікується моральністю та релігією; у джерелі також пов’язаний із розрадою й бажанням мати дітей.",
     "appearance": "Ангел Mebahiah — № 55 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs morality and religion, influencing those who protect it with all their power and spread it by every possible means.\n\nTo obtain consolations, and for those who wish to have children.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-55.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-55.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=56",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4410,8 +4940,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4427,13 +4961,21 @@
     ],
     "sign": "Козоріг",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який підтримує всесвіт».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який підтримує всесвіт». Пов’язаний зі славою, добробутом і філософією.",
     "appearance": "Ангел Poiel — № 56 у каталозі Ленена. Належить до групи «Начала». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs renown, fortune, and philosophy.\n\nTo obtain what one asks for.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-56.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-56.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=57",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4488,8 +5030,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4505,13 +5051,21 @@
     ],
     "sign": "Козоріг",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний хвали».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, гідний хвали». Опікується воєначальниками та людьми, які борються за справедливу справу; пов’язаний зі звільненням в’язнів.",
     "appearance": "Ангел Nemamiah — № 57 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Great captains, admirals, generals, and all who fight for a just cause.\n\nTo prosper in all things, and to deliver prisoners.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-57.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-57.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=58",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4566,8 +5120,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4583,13 +5141,21 @@
     ],
     "sign": "Козоріг",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який приймає молитви поколінь».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який приймає молитви поколінь». Пов’язаний із залізом, зброярами, слюсарями та викриттям неправдивих свідчень.",
     "appearance": "Ангел Ieialel — № 58 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs iron; he influences armourers, locksmiths, cutlers, and all who trade in it; he confounds the wicked and false witnesses.\n\nInvoked against sorrows and to cure illnesses, principally ailments of the eyes.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-58.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-58.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=59",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4644,8 +5210,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4661,13 +5231,21 @@
     ],
     "sign": "Козоріг",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який знає все».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який знає все». Опікується скарбами, фінансами, архівами, бібліотеками, рідкісними колекціями й книговиданням.",
     "appearance": "Ангел Harahel — № 59 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs treasures, stockbrokers, public funds, archives, libraries, and all rare and precious collections; it has influence over printing and bookselling, and over all who trade in them.\n\nInvoked against the sterility of women, and to make children submissive and respectful toward their parents.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-59.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-59.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=60",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4722,8 +5300,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4739,13 +5321,21 @@
     ],
     "sign": "Козоріг",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який полегшує долю пригноблених».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який полегшує долю пригноблених». Пов’язаний із людьми, відомими талантами й чеснотами, а також із вірністю у службових стосунках.",
     "appearance": "Ангел Mitzrael — № 60 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He rules over illustrious persons distinguished by their talents and virtues, and influences the fidelity and obedience of subordinates towards their superiors.\n\nTo cure illnesses of the mind, and to be delivered from those who persecute us.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-60.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-60.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=61",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4800,8 +5390,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4817,13 +5411,21 @@
     ],
     "sign": "Водолій",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог понад усім».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог понад усім». Опікується астрономією та фізикою; у зверненнях пов’язаний із набуттям дружби.",
     "appearance": "Ангел Umabel — № 61 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs astronomy and physics, and influences all who distinguish themselves in that field.\n\nObtaining the friendship of a person.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-61.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-61.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=62",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4878,8 +5480,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4895,13 +5501,21 @@
     ],
     "sign": "Водолій",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Найвища сутність».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Найвища сутність». Пов’язаний із філософами, просвітленими людьми, усамітненням і пошуком мудрості.",
     "appearance": "Ангел Iah-hel — № 62 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Philosophers, the enlightened, and all who wish to withdraw from the world.\n\nTo acquire wisdom.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-62.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-62.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=63",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -4956,8 +5570,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -4973,13 +5591,21 @@
     ],
     "sign": "Водолій",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог безмежно добрий».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог безмежно добрий». Опікується торгівлею, банкірами, діловими посередниками й службовцями; у тексті пов’язаний із захистом від нещасних випадків.",
     "appearance": "Ангел Anauel — № 63 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "Protects against accidents; preserves health and cures illnesses; governs commerce, bankers, business agents, and clerks.\n\nTo convert nations to Christianity, and to confound those who are its enemies.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-63.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-63.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=64",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5034,8 +5660,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5051,13 +5681,21 @@
     ],
     "sign": "Водолій",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дає життя всьому».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який дає життя всьому». Пов’язаний із ученими, викладачами, ораторами, письменниками, друкарством і книгарством.",
     "appearance": "Ангел Mehiel — № 64 у каталозі Ленена. Належить до групи «Архангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius protects against rabies and ferocious animals; he rules over scholars, professors, orators and authors; he has influence over printing and bookselling, and over all who trade in it.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-64.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-64.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=65",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5112,8 +5750,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5129,13 +5771,21 @@
     ],
     "sign": "Водолій",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — джерело мудрості».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — джерело мудрості». Опікується морями, річками, джерелами, суднобудуванням, мореплавством і рибальством.",
     "appearance": "Ангел Damabiah — № 65 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs the seas, rivers, springs, maritime expeditions, and shipbuilding; he influences sailors, pilots, fishing, and all who trade in it.\n\nInvoked against sorceries, and to obtain wisdom and the success of useful undertakings.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-65.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-65.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=66",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5190,8 +5840,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5207,13 +5861,21 @@
     ],
     "sign": "Водолій",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який допомагає й підтримує все».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який допомагає й підтримує все». Пов’язаний із рослинністю, водними тваринами, сном і сновидіннями.",
     "appearance": "Ангел Manakel — № 66 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "He governs vegetation and aquatic animals; he influences sleep and dreams.\n\nTo appease the wrath of God, and to cure the falling sickness (epilepsy).",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-66.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-66.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=67",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5268,8 +5930,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5285,13 +5951,21 @@
     ],
     "sign": "Риби",
     "sector": "0–5°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — утіха синів людських».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — утіха синів людських». Опікується змінами, збереженням пам’яток, довголіттям та окультними науками.",
     "appearance": "Ангел Eïael — № 67 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs changes, the preservation of monuments, and longevity of life; he influences the occult sciences, and makes the truth known to those who have recourse to him in their labours.\n\nTo obtain consolation in adversity, and to acquire wisdom.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-67.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-67.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=68",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5346,8 +6020,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5363,13 +6041,21 @@
     ],
     "sign": "Риби",
     "sector": "5–10°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який щедро дарує».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який щедро дарує». Пов’язаний із землеробством, плодючістю та збереженням здоров’я.",
     "appearance": "Ангел Habuhiah — № 68 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius rules over agriculture and fecundity.\n\nTo preserve health and to cure illnesses.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-68.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-68.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=69",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5424,8 +6110,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5441,13 +6131,21 @@
     ],
     "sign": "Риби",
     "sector": "10–15°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який бачить усе».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог, який бачить усе». Опікується спадщиною й правничими професіями; пов’язаний із поверненням загубленого або викраденого.",
     "appearance": "Ангел Rochel — № 69 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs renown, fortune and inheritances; he influences jurists, magistrates, attorneys, lawyers and notaries.\n\nFor recovering lost or stolen objects, and for finding out the person who took them.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-69.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-69.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=70",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5502,8 +6200,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5519,13 +6221,21 @@
     ],
     "sign": "Риби",
     "sector": "15–20°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Слово, яке породжує все».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Слово, яке породжує все». Пов’язаний із народженням істот, явищами природи, очищенням і відновленням духовної гармонії.",
     "appearance": "Ангел Jabamiah — № 70 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius governs the generation of beings and the phenomena of nature; he protects those who wish to regenerate themselves and re-establish within themselves the harmony broken by Adam's disobedience, which is done by exalting oneself toward God and purifying, through the elements, those things that compose the nature of man; it is then that the wise man re-enters into the principle of creation, recovers his rights and his first dignity, becomes again the master of nature, and enjoys all the prerogatives that God gave him in creating him.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-70.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-70.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=71",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5580,8 +6290,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5597,13 +6311,21 @@
     ],
     "sign": "Риби",
     "sector": "20–25°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Бог — володар всесвіту».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Бог — володар всесвіту». У джерелі опікується захистом, перемогою, миром, укріпленими містами й військовою інженерією.",
     "appearance": "Ангел Haiaiel — № 71 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius protects all who have recourse to him; he gives victory and peace, and he has influence over iron, arsenals, fortified towns, and everything pertaining to military engineering.\n\nTo confound the wicked, and to deliver oneself from those who wish to oppress us.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-71.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-71.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=72",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5658,8 +6380,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   },
@@ -5675,13 +6401,21 @@
     ],
     "sign": "Риби",
     "sector": "25–30°",
-    "description": "Атрибут у La Science Cabalistique (1823): «Омега як знак завершення всього».",
+    "description": "Атрибут у La Science Cabalistique (1823): «Омега як знак завершення всього». Пов’язаний із таємними операціями, завершенням дослідів, хімією, фізикою, медициною та довголіттям.",
     "appearance": "Ангел Mumiah — № 72 у каталозі Ленена. Належить до групи «Ангели». Історичне джерело описує властивості й відповідності; усталеного індивідуального портрета для цього запису воно не подає.",
     "original": "This genius protects in mysterious operations; he makes one succeed in all things and brings every experiment to its conclusion; he governs chemistry, physics and medicine, and influences health and length of life.",
     "originalLanguage": "en",
     "symbol": "/assets/shem/angel-72.svg",
     "symbolCaption": "Авторський медальйон з єврейським ім’ям · magic_gallery",
-    "illustration": null,
+    "illustration": {
+      "kind": "seal",
+      "src": "/catalogues/artwork/angel-seal-72.svg",
+      "page": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf#page=73",
+      "caption": "Розенкрейцерська печать · Piers Vaughan, Rosicrucian Sigils of the 72 Geniuses (2020)",
+      "note": "Сучасне відтворення печаті на основі розенкрейцерської системи. Це не портрет ангела й не факсиміле давнього рукопису. Автор прямо дозволяє використання та зміну зображень.",
+      "width": 859,
+      "height": 873
+    },
     "facts": [
       {
         "label": "Атрибут за Лененом",
@@ -5736,8 +6470,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       {
-        "title": "Golden Dawn: джерело 18 зображень печатей",
-        "url": "https://www.tarrdaniel.com/documents/Thelemagick/gd/publication/english/Schemhamphorash.html"
+        "title": "Piers Vaughan (2020): 72 розенкрейцерські печаті",
+        "url": "https://rosecirclebooks.com/wp-content/uploads/2020/07/Roscrucian-Sigils-of-the-72-Geniuses.pdf"
+      },
+      {
+        "title": "Rose Circle Books: походження печатей і дозвіл автора",
+        "url": "https://rosecirclebooks.com/the-science-of-the-kabbalah-lenain/"
       }
     ]
   }

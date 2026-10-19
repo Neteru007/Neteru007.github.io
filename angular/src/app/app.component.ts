@@ -4,7 +4,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 @Component({ selector: 'mg-root', standalone: true, imports: [RouterLink, RouterLinkActive, RouterOutlet], changeDetection: ChangeDetectionStrategy.OnPush, template: `
 <a class="skip-link" href="#main-content" (click)="focusMain($event)">До вмісту</a>
 <header class="site-header"><a class="brand" href="/">✧ magic_gallery</a><nav aria-label="Головна навігація"><a href="/">Головна</a><a routerLink="/" class="active">Теургія</a><a href="/divination.html">Онлайн-гадання</a><a href="/forum.html">Форум</a><a href="/belial.html">Викликати Беліала ✧</a></nav></header>
-<main id="main-content" tabindex="-1"><p class="breadcrumb"><a href="/">Головна</a> / Теургія</p><nav class="section-nav" aria-label="Розділи теургії"><a routerLink="/" routerLinkActive="selected" [routerLinkActiveOptions]="{exact:true}">Огляд</a><a routerLink="/angelology" routerLinkActive="selected">Ангелогія</a><a routerLink="/demonology" routerLinkActive="selected">Демонологія</a></nav>
+<main id="main-content" tabindex="-1"><p class="breadcrumb"><a href="/">Головна</a> / Теургія</p><nav class="section-nav" aria-label="Розділи теургії"><a routerLink="/" routerLinkActive="selected" [routerLinkActiveOptions]="{exact:true}">Огляд</a><a routerLink="/angelology" routerLinkActive="selected">Ангелологія</a><a routerLink="/demonology" routerLinkActive="selected">Демонологія</a></nav>
 @if (navigating()) { <div class="route-progress" role="status">Завантаження сторінки…</div> }
 @if (routeError()) { <div class="notice" role="alert">Не вдалося завантажити сторінку. <button type="button" (click)="reload()">Спробувати ще раз</button></div> }
 <router-outlet /></main><footer>magic_gallery · Бібліотека символів і традицій</footer>` })

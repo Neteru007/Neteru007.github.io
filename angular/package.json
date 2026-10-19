@@ -5,7 +5,8 @@
   "scripts": {
     "build": "ng build --configuration production",
     "check:data": "node scripts/check-data.mjs",
-    "stage": "node scripts/stage.mjs"
+    "stage": "node scripts/stage.mjs",
+    "prebuild": "node scripts/version-data.mjs"
   },
   "dependencies": {
     "@angular/common": "22.2.3",

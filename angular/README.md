@@ -32,4 +32,6 @@ Data files in `public/data` are the reviewed content source. Edit those files di
 
 ## Verification
 
-`check:data` checks all entries, number uniqueness, source links, illustration counts and critical correspondence / verse cases. Production compilation performs strict TypeScript and Angular template checks and enforces an initial bundle size budget. Visual browser verification was unavailable in the editing environment.
+`check:data` checks all entries, number uniqueness, source links, all 144 source-backed visual records (35 demon illustrations, 37 document excerpts and 72 modern Rosicrucian seals) and critical correspondence / verse cases. Production compilation performs strict TypeScript and Angular template checks and enforces an initial bundle size budget. Visual browser verification was unavailable in the editing environment.
+
+The Ukrainian section name is “Ангелологія”. The public route `angelology` remains unchanged for backwards compatibility. JSON requests include a content hash generated before each build, so updated catalogue data is not confused with an older browser cache.
