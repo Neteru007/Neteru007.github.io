@@ -48,7 +48,7 @@ create policy topics_close on public.forum_topics for update to authenticated us
 create policy topics_delete on public.forum_topics for delete to authenticated using((select forum_private.is_admin()));
 create policy replies_read on public.forum_replies for select to anon,authenticated using(true);
 create policy replies_insert on public.forum_replies for insert to authenticated with check(author_id=(select auth.uid()) and (select forum_private.can_post()) and exists(select 1 from public.forum_topics t where t.id=topic_id and not t.closed));
-create policy replies_delete on public.forum_replies for delete to authenticated using((select forum_private.is_admin()));
+create policy replies_delete on public.forum_replies for delete to authenticated using(author_id = (select auth.uid()) or (select forum_private.is_admin()));
 create function forum_private.post_guard() returns trigger language plpgsql security invoker set search_path='' as $$
 begin
 perform pg_advisory_xact_lock(hashtext(auth.uid()::text));
