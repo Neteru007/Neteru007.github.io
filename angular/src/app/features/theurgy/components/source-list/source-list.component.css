@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+.source-list a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.source-list {
+  border-top: 1px solid var(--line);
+  margin-top: 40px;
+  padding-top: 25px;
+}
+.source-list h2 {
+  font-size: 26px;
+}
+.source-list ul {
+  padding-left: 20px;
+  font-size: 12px;
+}
+.source-list li {
+  margin: 7px 0;
+}

@@ -1,0 +1,75 @@
+<a routerLink="/forum" class="back-link">← Усі теми</a>
+@if (loading()) {
+  <p role="status">Завантажуємо розмову…</p>
+} @else if (error()) {
+  <p role="alert">Не вдалося завантажити тему.</p>
+  <button (click)="load()">Спробувати ще раз</button>
+} @else if (topic(); as item) {
+  <p class="eyebrow">{{ categories[item.category] }}{{ item.closed ? ' · Тему закрито' : '' }}</p>
+  <h2>{{ item.title }}</h2>
+  <p class="small">
+    {{ item.forum_profiles?.nickname || 'Учасник' }} ·
+    {{ item.created_at | date: 'dd.MM.yyyy HH:mm' }}
+  </p>
+  <div class="body">{{ item.body }}</div>
+  @if (store.identity().admin) {
+    <div class="actions">
+      <button [disabled]="busy()" (click)="closeTopic()">
+        {{ item.closed ? 'Відкрити тему' : 'Закрити тему' }}</button
+      ><button class="danger" [disabled]="busy()" (click)="deleteTopic()">Видалити тему</button>
+      @if (item.author_id !== store.auth.user()?.id) {
+        <button [disabled]="busy()" (click)="ban(item.author_id)">Бан автора</button>
+      }
+    </div>
+  }
+  <h3>Відповіді</h3>
+  @for (reply of replies(); track reply.id) {
+    <article class="post">
+      <p class="small">
+        {{ reply.forum_profiles?.nickname || 'Учасник' }} ·
+        {{ reply.created_at | date: 'dd.MM.yyyy HH:mm' }}
+      </p>
+      <div class="body">{{ reply.body }}</div>
+      <div class="actions">
+        @if (store.identity().admin || reply.author_id === store.auth.user()?.id) {
+          <button [disabled]="busy()" (click)="deleteReply(reply.id)">Видалити</button>
+        }
+        @if (store.identity().admin && reply.author_id !== store.auth.user()?.id) {
+          <button [disabled]="busy()" (click)="ban(reply.author_id)">Бан автора</button>
+        }
+      </div>
+    </article>
+  } @empty {
+    <p>Відповідей поки немає.</p>
+  }
+  @if (hasMore()) {
+    <button [disabled]="replyLoading()" (click)="more()">Ще відповіді ↓</button>
+  }
+  @if (item.closed) {
+    <p>Тему закрито для нових відповідей.</p>
+  } @else if (!store.auth.user()) {
+    <button (click)="store.dialog.set('login')">Увійдіть, щоб відповісти</button>
+  } @else if (store.identity().banned) {
+    <p>Ваше право писати обмежено.</p>
+  } @else {
+    <form #form="ngForm" (ngSubmit)="send()">
+      <label
+        >Ваша відповідь<textarea
+          name="body"
+          [(ngModel)]="body"
+          required
+          maxlength="8000"
+          rows="5"
+        ></textarea></label
+      ><button
+        class="primary"
+        [disabled]="busy() || form.invalid || !store.canWrite()"
+        type="submit"
+      >
+        Надіслати відповідь
+      </button>
+    </form>
+  }
+} @else {
+  <p>Тему не знайдено або її видалено.</p>
+}

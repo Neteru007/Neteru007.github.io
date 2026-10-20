@@ -1,0 +1,39 @@
+<section id="library">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">01 / Бібліотека</p>
+      <h2>Знання, до яких повертаються</h2>
+    </div>
+    <p>Тематичні добірки для уважного читання.<br />Від першого символу до власного щоденника.</p>
+  </div>
+  <div class="tools">
+    <div class="filters" role="group" aria-label="Теми бібліотеки">
+      @for (item of categories; track item[0]) {
+        <button
+          [class.active]="category() === item[0]"
+          [attr.aria-pressed]="category() === item[0]"
+          (click)="category.set(item[0])"
+        >
+          {{ item[1] }}
+        </button>
+      }
+    </div>
+    <label
+      >⌕
+      <input
+        #search
+        type="search"
+        [value]="query()"
+        (input)="query.set(search.value)"
+        aria-label="Пошук у бібліотеці"
+        placeholder="Знайти матеріал"
+    /></label>
+  </div>
+  <div class="books">
+    @for (card of cards(); track card.slug) {
+      <mg-library-card [card]="card" />
+    } @empty {
+      <p role="status">Матеріалів не знайдено. Спробуйте іншу тему або запит.</p>
+    }
+  </div>
+</section>

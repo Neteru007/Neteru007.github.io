@@ -1,0 +1,27 @@
+<header class="site-header">
+  <a class="brand" routerLink="/">✧ magic_gallery</a
+  ><button
+    class="menu-toggle"
+    (click)="menuOpen.set(!menuOpen())"
+    [attr.aria-expanded]="menuOpen()"
+    aria-controls="site-nav"
+    aria-label="Меню"
+  >
+    ☰
+  </button>
+  <nav
+    id="site-nav"
+    [class.open]="menuOpen()"
+    aria-label="Головна навігація"
+    (click)="menuOpen.set(false)"
+  >
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"
+      >Головна</a
+    ><a routerLink="/" fragment="library">Бібліотека</a
+    ><a routerLink="/" fragment="journal">Журнал</a
+    ><a routerLink="/theurgy" routerLinkActive="active">Теургія</a
+    ><a routerLink="/divination" routerLinkActive="active">Онлайн-гадання</a
+    ><a routerLink="/forum" routerLinkActive="active">Форум</a
+    ><a routerLink="/belial" routerLinkActive="active">Викликати Беліала ✧</a>
+  </nav>
+</header>

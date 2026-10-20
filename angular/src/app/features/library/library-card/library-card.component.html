@@ -1,0 +1,14 @@
+<article>
+  <img
+    [src]="card().image"
+    [alt]="card().alt"
+    width="1000"
+    height="750"
+    loading="lazy"
+    decoding="async"
+  />
+  <p class="eyebrow">{{ card().meta }}</p>
+  <h3>{{ card().title }}</h3>
+  <p>{{ card().description }}</p>
+  <a [routerLink]="['/articles', card().slug]">Читати матеріал ↗</a>
+</article>

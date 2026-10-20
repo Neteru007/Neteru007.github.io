@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  height: 100%;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.image-error {
+  font-size: 11px;
+  color: var(--red);
+  padding: 20px;
+}

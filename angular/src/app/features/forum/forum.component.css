@@ -1,0 +1,44 @@
+@import './forum-forms.css';
+.identity,
+.toolbar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px 0;
+}
+.toolbar {
+  align-items: end;
+}
+.toolbar label {
+  flex: 1;
+  min-width: 180px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 45px;
+  margin-top: 40px;
+}
+.layout > section {
+  min-width: 0;
+}
+aside {
+  border-left: 1px solid var(--line);
+  padding-left: 25px;
+  font-size: 13px;
+  color: var(--muted);
+}
+aside h2 {
+  font-size: 26px;
+}
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  aside {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 25px 0;
+  }
+}

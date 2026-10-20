@@ -1,0 +1,16 @@
+@if (!failed()) {
+  <img
+    [src]="src()"
+    [alt]="alt()"
+    [width]="width()"
+    [height]="height()"
+    [attr.loading]="priority() ? 'eager' : 'lazy'"
+    decoding="async"
+    referrerpolicy="no-referrer"
+    (error)="failed.set(true)"
+  />
+} @else {
+  <p class="image-error" role="status">
+    Зображення недоступне. Скористайтеся посиланням на джерело.
+  </p>
+}

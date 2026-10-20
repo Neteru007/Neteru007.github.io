@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+.invocation blockquote {
+  font: 30px/1.7 Georgia;
+  padding: 25px;
+  border-left: 3px solid var(--red);
+  background: #e6e1d6;
+  margin: 25px 0;
+  overflow-wrap: anywhere;
+}
+.copy-status {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 10px;
+  display: inline-block;
+}
+@media (max-width: 650px) {
+  .invocation blockquote {
+    font-size: 25px;
+    padding: 20px;
+  }
+}

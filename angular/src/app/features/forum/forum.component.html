@@ -1,0 +1,75 @@
+<p class="eyebrow">СПІЛЬНОТА / MAGIC_GALLERY</p>
+<h1>Коло спілкування</h1>
+<p class="intro">Запитуйте, діліться досвідом і досліджуйте разом.</p>
+<p role="status" aria-live="polite">{{ store.notice() || store.auth.error() }}</p>
+<div class="identity">
+  @if (store.auth.loading()) {
+    <span>Завантажуємо акаунт…</span>
+  } @else if (store.auth.user()) {
+    <span
+      >{{ store.identity().profile?.nickname || 'Учасник'
+      }}{{ store.identity().admin ? ' · Адміністраторка' : ''
+      }}{{ store.identity().banned ? ' · Право писати обмежено' : '' }}</span
+    ><button
+      [disabled]="store.identity().banned || store.identityLoading()"
+      (click)="store.dialog.set('nickname')"
+    >
+      Змінити ім’я
+    </button>
+    @if (store.identity().admin) {
+      <button (click)="store.dialog.set('admin')">Модерація</button>
+    }
+    <button (click)="logout()">Вийти</button>
+  } @else {
+    <button (click)="store.dialog.set('login')">Увійти / Реєстрація</button>
+  }
+</div>
+<div class="toolbar">
+  <label
+    >Розділ<select #category [value]="store.category()" (change)="changeCategory(category.value)">
+      <option value="all">Усі теми</option>
+      @for (item of categories; track item[0]) {
+        <option [value]="item[0]">{{ item[1] }}</option>
+      }
+    </select></label
+  ><label
+    >Пошук<input
+      #query
+      type="search"
+      [value]="store.search()"
+      (input)="search(query.value)"
+      placeholder="Назва теми"
+      maxlength="100" /></label
+  ><button (click)="store.refresh()">Оновити ↻</button
+  ><button class="primary" (click)="compose()">Нова тема +</button>
+</div>
+<div class="layout">
+  <section><router-outlet /></section>
+  <aside>
+    <p class="eyebrow">ПРАВИЛА КОЛА</p>
+    <h2>Повага до співрозмовника</h2>
+    <p>Обговорюйте ідеї без образ, погроз і публікації чужих особистих даних.</p>
+    <p>Розрізняйте власний досвід і перевірені факти. Для цитат зазначайте джерело.</p>
+    <p>Адміністраторка може видаляти дописи, закривати теми та обмежувати право писати.</p>
+    <p class="small">Теми, відповіді й обрані імена видимі всім. Email не публікується.</p>
+  </aside>
+</div>
+@switch (store.dialog()) {
+  @case ('login') {
+    <mg-forum-auth />
+  }
+  @case ('compose') {
+    <mg-forum-composer />
+  }
+  @case ('admin') {
+    @if (store.identity().admin) {
+      <mg-forum-moderation />
+    }
+  }
+  @case ('reset') {
+    <mg-forum-account />
+  }
+  @case ('nickname') {
+    <mg-forum-account />
+  }
+}

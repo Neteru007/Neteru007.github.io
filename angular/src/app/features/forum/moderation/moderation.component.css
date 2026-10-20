@@ -1,0 +1,5 @@
+@import '../forum-forms.css';
+.member {
+  padding: 15px 0;
+  border-top: 1px solid var(--line);
+}

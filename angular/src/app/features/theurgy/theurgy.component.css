@@ -1,0 +1,25 @@
+.section-nav {
+  display: flex;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 45px;
+  overflow-x: auto;
+}
+.section-nav a {
+  padding: 15px 32px;
+  white-space: nowrap;
+  font-size: 14px;
+  border-bottom: 3px solid transparent;
+}
+.section-nav .selected {
+  border-bottom-color: var(--red);
+  color: var(--red);
+}
+@media (max-width: 650px) {
+  .section-nav {
+    margin-bottom: 35px;
+  }
+  .section-nav a {
+    padding: 12px 18px;
+    font-size: 12px;
+  }
+}

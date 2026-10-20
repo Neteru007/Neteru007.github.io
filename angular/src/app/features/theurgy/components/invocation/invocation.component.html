@@ -1,0 +1,11 @@
+<section class="content-section invocation">
+  <p class="eyebrow">ТЕКСТ ЗВЕРНЕННЯ / ДЖЕРЕЛО</p>
+  <h2>{{ value().label }}</h2>
+  <blockquote [attr.lang]="kind() === 'angels' ? 'la' : 'und'">{{ value().text }}</blockquote>
+  <button type="button" (click)="copy()">Скопіювати текст</button
+  ><span role="status" class="copy-status">{{ status() }}</span>
+  <p class="small">{{ value().note }}</p>
+  <a [href]="value().source.url" target="_blank" rel="noopener noreferrer"
+    >{{ value().source.title }} ↗</a
+  >
+</section>

@@ -1,0 +1,41 @@
+<mg-dialog (closed)="store.dialog.set(null)"
+  ><h2>Модерація</h2>
+  <p>Бан забороняє дописи й відповіді. Читання залишається доступним.</p>
+  @if (busy()) {
+    <p role="status">Завантаження…</p>
+  }
+  @for (person of profiles(); track person.id) {
+    <div class="member">
+      <div>
+        <strong>{{ person.nickname }}</strong>
+        <p class="small">
+          {{ active(person.id) ? 'Право писати обмежено' : 'Учасник' }}
+          @if (active(person.id)) {
+            ·
+            {{
+              bans().get(person.id)?.until_at === 'infinity'
+                ? 'назавжди'
+                : (bans().get(person.id)?.until_at | date: 'dd.MM.yyyy')
+            }}
+          }
+          @if (person.id === store.auth.user()?.id) {
+            · Це ви
+          }
+        </p>
+      </div>
+      @if (person.id !== store.auth.user()?.id) {
+        <div class="actions">
+          <button [disabled]="busy()" (click)="ban(person.id)">
+            {{ active(person.id) ? 'Змінити бан' : 'Забанити' }}
+          </button>
+          @if (bans().has(person.id)) {
+            <button [disabled]="busy()" (click)="unban(person.id)">Розбанити</button>
+          }
+        </div>
+      }
+    </div>
+  }
+  @if (hasMore()) {
+    <button [disabled]="busy()" (click)="load(true)">Ще учасники ↓</button>
+  }
+</mg-dialog>

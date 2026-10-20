@@ -1,0 +1,55 @@
+:host {
+  display: block;
+}
+section {
+  padding: 75px 0;
+}
+.section-heading,
+.tools {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  color: var(--muted);
+  font-size: 13px;
+}
+.tools {
+  align-items: center;
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filters button {
+  border-color: transparent;
+  color: var(--muted);
+}
+.filters .active {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  padding: 12px;
+}
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+@media (max-width: 800px) {
+  .section-heading,
+  .tools {
+    align-items: start;
+    flex-direction: column;
+  }
+  .books {
+    grid-template-columns: 1fr;
+  }
+}
