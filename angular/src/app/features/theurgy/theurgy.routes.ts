@@ -5,6 +5,11 @@ export const theurgyRoutes: Routes = [
     title: 'Теургія — magic_gallery',
     loadComponent: () => import('./pages/overview/overview.component'),
   },
+  {
+    path: 'enochian',
+    title: 'Єнохіанська магія — magic_gallery',
+    loadComponent: () => import('./pages/enochian/enochian.component'),
+  },
   { path: 'overview', redirectTo: 'theurgy', pathMatch: 'full' },
   {
     path: 'demonology',

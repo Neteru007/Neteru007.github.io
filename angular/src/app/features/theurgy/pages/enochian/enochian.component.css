@@ -1,0 +1,96 @@
+:host {
+  display: block;
+}
+section {
+  scroll-margin-top: 30px;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 28px 0;
+}
+.contents a,
+.source-note a {
+  color: var(--red);
+}
+.basics-grid,
+.tablets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.basics-grid article,
+.key-card,
+figure {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 24px;
+}
+figure {
+  margin: 0;
+}
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.key-card {
+  margin: 16px 0;
+}
+summary {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+summary:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+.call-text {
+  line-height: 1.9;
+  white-space: pre-line;
+}
+.association {
+  border-left: 3px solid var(--red);
+  padding-left: 16px;
+}
+.source-note {
+  font-size: 13px;
+  color: var(--muted);
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  font: inherit;
+}
+.aethyrs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px 32px;
+  padding-left: 32px;
+}
+@media (max-width: 650px) {
+  .basics-grid,
+  .tablets-grid {
+    grid-template-columns: 1fr;
+  }
+  .aethyrs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .key-card,
+  figure,
+  .basics-grid article {
+    padding: 18px;
+  }
+}

@@ -22,3 +22,8 @@
 All 144 records now have a source-backed visual. The 35 demon illustrations are retained. For 37 demons without a verified portrait, the image is the beginning of the numbered record in an electronic reprint of the public-domain 1904 text: https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf . These images are explicitly labeled **document excerpts**, not portraits and not scans of original 1904 printed pages. PDF page numbers and direct source links are preserved. They are also visually and semantically separated by the catalogue's image-type filter.
 
 No missing historical portraits or universally official enns have been invented. The invocation traditions remain identified as above.
+
+
+## Enochian section
+
+`/#/enochian` uses the user-supplied scan of Gerald & Betty Schueler, *The Enochian Workbook: A Complete Guide to Angelic Magic*. The 19 English calls are from lesson 17, printed pp. 115–120; usage associations follow pp. 120–125. Ukrainian annotations are editorial summaries, not translations of the Enochian language. Five PNGs in `public/artwork/enochian/` reproduce figures 1–5, printed pp. 9–13 (PDF pp. 27–31), directly from the supplied scan. The Golden Dawn interpretation is identified separately from the original Dee/Kelley material.

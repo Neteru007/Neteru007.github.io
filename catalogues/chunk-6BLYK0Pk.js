@@ -1,0 +1,1 @@
+var t=[{path:``,redirectTo:`tarot`,pathMatch:`full`},{path:`tarot`,title:`Таро — magic_gallery`,loadComponent:()=>import(`./chunk-BHmSivNc.js`)},{path:`runes`,title:`Руни — magic_gallery`,loadComponent:()=>import(`./chunk-BGb8VxAv.js`)}];export{t as divinationRoutes};
