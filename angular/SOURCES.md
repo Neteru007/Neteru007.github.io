@@ -41,3 +41,17 @@ No missing historical portraits or universally official enns have been invented.
 - `logic.jpg`: https://commons.wikimedia.org/wiki/File:First-logic-version-b-bodley951-f.10v.jpg — Oxford Bodley 951, f. 10v; Haplo1990; CC BY-SA 4.0, unchanged.
 
 Image license: https://creativecommons.org/licenses/by-sa/4.0/ . Attribution and license links appear alongside each figure in the UI.
+
+
+## Rune guide
+
+`/#/divination/runes` combines the existing one-rune draw with a 24-rune guide, search, three positional aett groups, historical background and original reflective readings. The same page is linked from Theurgy. No claim is made that the modern interpretive prompts reproduce a documented Viking divination method.
+
+- National Museum of Denmark, writing-system background: https://natmus.dk/historisk-viden/temaer/runer/hvad-er-runer/
+- Elder/Younger rows: https://natmus.dk/historisk-viden/temaer/runer/runer-i-jernalderen/
+- Reconstructed names and literal meanings: https://natmus.dk/historisk-viden/temaer/runer/runernes-navne/ . Common Latin forms in the UI have spelling variants; they are not all verbatim museum spellings. Perthro, Kenaz/Kaunan, Algiz and Eihwaz receive uncertainty/variant notes.
+- Literary vs inscriptional magic: https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/religion-magic-death-and-rituals/runic-magic/
+- B. Dickins (1915), Old English Rune Poem, primary text and edition: https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples/The_Runic_Poems/The_Anglo-Saxon_Runic_Poem . Referenced for name-image differences, not conflated with an Elder Futhark poem.
+- Noto Sans Runic, unmodified font, SIL OFL 1.1: https://github.com/notofonts/noto-fonts/tree/main/hinted/ttf/NotoSansRunic . License distributed in `public/fonts/NotoSansRunic-OFL.txt`.
+
+Rune guide symbols join the existing deck by symbol, keeping draw names and reflection questions consistent with the catalogue.

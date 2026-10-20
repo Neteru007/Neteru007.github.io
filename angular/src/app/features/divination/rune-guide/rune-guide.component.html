@@ -1,0 +1,69 @@
+<section aria-labelledby="rune-catalogue-title">
+  <p class="eyebrow">СТАРШИЙ ФУТАРК / ДОВІДНИК</p>
+  <h2 id="rune-catalogue-title">24 руни</h2>
+  <p>
+    Знаки наведено в поширеному порядку Старшого Футарку й поділено на три етти по вісім. Латинські
+    назви мають варіанти; назви ранніх рун частково реконструюють за пізнішими мовними свідченнями.
+    Розгорніть картку для пояснення та питання для роздумів.
+  </p>
+  <div class="filters">
+    <label for="rune-search"
+      >Знайти руну<input
+        id="rune-search"
+        type="search"
+        [value]="query()"
+        (input)="query.set($any($event.target).value)"
+        placeholder="Феху, Fehu, ᚠ, багатство…" /></label
+    ><label for="rune-aett"
+      >Етт<select id="rune-aett" [value]="aett()" (change)="aett.set($any($event.target).value)">
+        <option value="">Усі три етти</option>
+        <option value="1">Перший · 1–8</option>
+        <option value="2">Другий · 9–16</option>
+        <option value="3">Третій · 17–24</option>
+      </select></label
+    ><button type="button" (click)="reset()">Скинути</button>
+  </div>
+  <p role="status" aria-live="polite">Знайдено: {{ filtered().length }} із 24</p>
+  <div class="rune-grid">
+    @for (rune of filtered(); track rune.symbol) {
+      <details class="rune-card">
+        <summary>
+          <span class="rune-symbol" aria-hidden="true">{{ rune.symbol }}</span
+          ><span class="card-heading"
+            ><span class="eyebrow">{{ rune.number }} / ЕТТ {{ rune.aett }}</span
+            ><span class="rune-name">{{ rune.name }}</span
+            ><span class="latin">{{ rune.latin }} · {{ rune.sound }}</span></span
+          ><span class="expand" aria-hidden="true">+</span>
+        </summary>
+        <div class="card-content">
+          <h3>Ім’я та історичний образ</h3>
+          <p>{{ rune.meaning }}</p>
+          @if (rune.note) {
+            <p class="source-note">{{ rune.note }}</p>
+          }
+          <h3>Сучасне символічне прочитання</h3>
+          <p class="eyebrow">{{ rune.theme }}</p>
+          <p>{{ rune.interpretation }}</p>
+          <blockquote>{{ rune.question }}</blockquote>
+        </div>
+      </details>
+    } @empty {
+      <p class="empty">За цим запитом рун немає. Спробуйте українську або латинську назву.</p>
+    }
+  </div>
+  <p class="source-note">
+    Назви й образи: National Museum of Denmark,
+    <a
+      href="https://natmus.dk/historisk-viden/temaer/runer/runernes-navne/"
+      target="_blank"
+      rel="noopener"
+      >Runernes navne</a
+    >; для розбіжностей —
+    <a
+      href="https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples/The_Runic_Poems/The_Anglo-Saxon_Runic_Poem"
+      target="_blank"
+      rel="noopener"
+      >давньоанглійська рунічна поема, видання B. Dickins (1915)</a
+    >. Символічні прочитання та запитання — авторські.
+  </p>
+</section>

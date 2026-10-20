@@ -23,7 +23,9 @@
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font: 110px Georgia;
+  font:
+    110px 'Noto Sans Runic',
+    sans-serif;
   color: #3b3932;
   text-shadow:
     1px 2px 2px #f3ecd9,
@@ -40,4 +42,43 @@
   margin: 35px 0;
   padding: 25px;
   border-top: 1px solid var(--line);
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 28px 0;
+}
+section {
+  scroll-margin-top: 30px;
+}
+a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.page-title {
+  font-size: clamp(30px, 4vw, 44px);
+}
+.basics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.basics-grid article {
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.basics-grid h3 {
+  font-size: 25px;
+}
+.sources-list li,
+ol li {
+  margin-bottom: 12px;
+}
+@media (max-width: 750px) {
+  .basics-grid {
+    grid-template-columns: 1fr;
+  }
 }

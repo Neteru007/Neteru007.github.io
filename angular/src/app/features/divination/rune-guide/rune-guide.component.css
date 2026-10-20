@@ -1,0 +1,121 @@
+:host {
+  display: block;
+}
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto;
+  gap: 16px;
+  align-items: end;
+  margin: 28px 0 16px;
+}
+label {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+input,
+select {
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+}
+.filters button {
+  padding: 14px 18px;
+}
+.rune-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+.rune-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  min-width: 0;
+}
+summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  cursor: pointer;
+  padding: 24px 18px;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+.rune-symbol {
+  font:
+    54px/1.2 'Noto Sans Runic',
+    sans-serif;
+  color: var(--red);
+  width: 48px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.card-heading {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+.rune-name {
+  font:
+    25px/1.2 Georgia,
+    serif;
+}
+.latin {
+  font-size: 13px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.expand {
+  margin-left: auto;
+  font-size: 24px;
+}
+details[open] .expand {
+  transform: rotate(45deg);
+}
+.card-content {
+  padding: 0 22px 22px;
+  border-top: 1px solid var(--line);
+}
+h3 {
+  font-size: 22px;
+}
+blockquote {
+  margin: 22px 0 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--red);
+}
+.source-note {
+  font-size: 13px;
+  color: var(--muted);
+}
+a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.empty {
+  grid-column: 1 / -1;
+}
+@media (max-width: 1000px) {
+  .rune-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .filters,
+  .rune-grid {
+    grid-template-columns: 1fr;
+  }
+  .rune-name {
+    font-size: 25px;
+  }
+}

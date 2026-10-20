@@ -1,36 +1,165 @@
-<p class="eyebrow">ОДИН СИМВОЛ ДЛЯ РОЗДУМІВ</p>
-<h2>Руна дня</h2>
-<p class="small">24 руни · Старший футарк</p>
-<p class="intro">Якій темі сьогодні приділити увагу?</p>
-<div class="rune-stage">
-  <button
-    class="rune-token"
-    [disabled]="busy()"
-    (click)="draw()"
-    [attr.aria-label]="rune() ? rune()![1] + '. Витягнути іншу руну' : 'Витягнути руну'"
-  >
-    <img
-      [src]="rune() ? '/assets/rune-stone.svg' : '/assets/rune-back.svg?v=blank-stone-2'"
-      alt=""
-      width="400"
-      height="500"
-    />
-    @if (rune()) {
-      <span class="engraved-rune" aria-hidden="true">{{ rune()![0] }}</span>
-    }
+<p class="eyebrow">ПИСЕМНІСТЬ / СИМВОЛІКА / ПРАКТИКА</p>
+<h2 class="page-title">Руни та рунічна традиція</h2>
+<p class="intro">
+  24 знаки Старшого Футарку: назви, історичні образи та сучасні символічні прочитання.
+</p>
+<nav class="contents" aria-label="Зміст розділу рун">
+  <a routerLink="/divination/runes" fragment="rune-basics">Основи</a
+  ><a routerLink="/divination/runes" fragment="rune-catalogue">24 руни</a
+  ><a routerLink="/divination/runes" fragment="rune-draw">Руна дня</a
+  ><a routerLink="/divination/runes" fragment="rune-practice">Як працювати</a
+  ><a routerLink="/divination/runes" fragment="rune-sources">Джерела</a>
+</nav>
+<section id="rune-basics" class="content-section">
+  <h2>Що варто знати</h2>
+  <p>
+    Руни — германська система письма. Назва «Футарк» походить від перших шести знаків: f, u, þ, a,
+    r, k. Старший ряд містить 24 знаки; у скандинавську добу вікінгів використовували переважно
+    Молодший Футарк із 16 знаків. Існують також англосаксонські та середньовічні рунічні системи.
+  </p>
+  <div class="basics-grid">
+    <article>
+      <h3>Звук та ім’я</h3>
+      <p>
+        Руна позначає звук і має назву. Значення назви — наприклад, «лід» або «дар» — варто
+        відділяти від пізнішої символічної інтерпретації.
+      </p>
+    </article>
+    <article>
+      <h3>Рунічна магія</h3>
+      <p>
+        Саги описують магічне використання рун. Історичні написи водночас часто містять імена,
+        присвяти та буденні повідомлення. Літературний сюжет і археологічний напис є різними видами
+        свідчень.
+      </p>
+    </article>
+    <article>
+      <h3>Сучасне прочитання</h3>
+      <p>
+        Наведені нижче тлумачення — авторські теми для роздумів. Вони допомагають сформулювати
+        запитання до ситуації; не подаються як переклад давньої системи передбачень.
+      </p>
+    </article>
+  </div>
+</section>
+<section id="rune-catalogue" class="content-section"><mg-rune-guide /></section>
+<section id="rune-draw" class="content-section">
+  <p class="eyebrow">ОДИН СИМВОЛ ДЛЯ РОЗДУМІВ</p>
+  <h2>Руна дня</h2>
+  <p class="small">24 руни · Старший футарк</p>
+  <p class="intro">Якій темі сьогодні приділити увагу?</p>
+  <div class="rune-stage">
+    <button
+      class="rune-token"
+      [disabled]="busy()"
+      (click)="draw()"
+      [attr.aria-label]="rune() ? rune()![1] + '. Витягнути іншу руну' : 'Витягнути руну'"
+    >
+      <img
+        [src]="rune() ? '/assets/rune-stone.svg' : '/assets/rune-back.svg?v=blank-stone-2'"
+        alt=""
+        width="400"
+        height="500"
+      />
+      @if (rune()) {
+        <span class="engraved-rune" aria-hidden="true">{{ rune()![0] }}</span>
+      }
+    </button>
+  </div>
+  <button class="primary" [disabled]="busy()" (click)="draw()">
+    {{ rune() ? 'Витягнути іншу руну' : 'Витягнути руну' }}
   </button>
-</div>
-<button class="primary" [disabled]="busy()" (click)="draw()">
-  {{ rune() ? 'Витягнути іншу руну' : 'Витягнути руну' }}
-</button>
-<div class="rune-reading" aria-live="polite">
-  @if (rune(); as item) {
-    <h2>{{ item[0] }} {{ item[1] }}</h2>
-    <p class="eyebrow">{{ item[2] }}</p>
-    <p>{{ item[3] }}</p>
-  } @else {
-    <p>
-      {{ busy() ? 'Обираємо камінчик…' : error() || 'Витягніть символ, щоб відкрити тему дня.' }}
-    </p>
-  }
-</div>
+  <div class="rune-reading" aria-live="polite">
+    @if (rune(); as item) {
+      <h2>{{ item[0] }} {{ item[1] }}</h2>
+      <p class="eyebrow">{{ item[2] }}</p>
+      <p>{{ item[3] }}</p>
+      @if (runeDetails(); as detail) {
+        <p class="small">{{ detail.latin }} · Історичний образ: {{ detail.meaning }}</p>
+        <p>{{ detail.interpretation }}</p>
+        <a routerLink="/divination/runes" fragment="rune-catalogue"
+          >Переглянути довідник усіх рун ↑</a
+        >
+      }
+    } @else {
+      <p>
+        {{ busy() ? 'Обираємо камінчик…' : error() || 'Витягніть символ, щоб відкрити тему дня.' }}
+      </p>
+    }
+  </div>
+</section>
+<section id="rune-practice" class="content-section">
+  <h2>Як працювати з руною</h2>
+  <ol>
+    <li>
+      <strong>Сформулюйте відкрите питання.</strong> Наприклад: «На що звернути увагу в цій
+      ситуації?»
+    </li>
+    <li>
+      <strong>Витягніть символ.</strong> Сайт обирає одну з 24 рун; кожне натискання є окремим
+      випадковим вибором, тому можливі повтори.
+    </li>
+    <li>
+      <strong>Прочитайте картку.</strong> Порівняйте буквальний образ назви із сучасною темою та
+      поставленим питанням.
+    </li>
+    <li>
+      <strong>Запишіть власний висновок.</strong> Сформулюйте один конкретний крок і згодом
+      перевірте, чи був він корисним.
+    </li>
+  </ol>
+  <p>
+    Це сучасна вправа для саморефлексії. Тут використано 24 знаки без «порожньої руни» й без окремих
+    перевернутих значень. Етт у довіднику позначає групу з восьми рун.
+  </p>
+</section>
+<section id="rune-sources" class="content-section">
+  <h2>Джерела</h2>
+  <ul class="sources-list">
+    <li>
+      <a
+        href="https://natmus.dk/historisk-viden/temaer/runer/hvad-er-runer/"
+        target="_blank"
+        rel="noopener"
+        >National Museum of Denmark · Що таке руни ↗</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://natmus.dk/historisk-viden/temaer/runer/runer-i-jernalderen/"
+        target="_blank"
+        rel="noopener"
+        >National Museum of Denmark · Руни залізного віку ↗</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://natmus.dk/historisk-viden/temaer/runer/runernes-navne/"
+        target="_blank"
+        rel="noopener"
+        >National Museum of Denmark · Назви рун ↗</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/religion-magic-death-and-rituals/runic-magic/"
+        target="_blank"
+        rel="noopener"
+        >National Museum of Denmark · Рунічна магія ↗</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://en.wikisource.org/wiki/Runic_and_Heroic_Poems_of_the_Old_Teutonic_Peoples/The_Runic_Poems/The_Anglo-Saxon_Runic_Poem"
+        target="_blank"
+        rel="noopener"
+        >B. Dickins, 1915 · Давньоанглійська рунічна поема ↗</a
+      >
+    </li>
+  </ul>
+  <p class="small">
+    Українські пояснення — редакційний переказ. Сучасні прочитання й запитання — авторські.
+    Давньоанглійська поема належить до англосаксонського ряду, а не є окремою поемою Старшого
+    Футарку. Шрифт знаків: Noto Sans Runic, ліцензія SIL Open Font License 1.1.
+  </p>
+</section>
