@@ -1,0 +1,1 @@
+import{t as No}from"./chunk-CRtIV1Tf.js";export{No as supabase};

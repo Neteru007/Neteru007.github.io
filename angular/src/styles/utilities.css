@@ -1,0 +1,82 @@
+.breadcrumb {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 0 0 28px;
+}
+.breadcrumb a {
+  color: var(--red);
+}
+.back-link {
+  color: var(--red);
+}
+.back-link {
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 0 10px;
+}
+.eyebrow {
+  color: var(--red);
+  letter-spacing: 3px;
+  font-size: 11px;
+  margin: 18px 0;
+}
+.intro {
+  max-width: 850px;
+  font-size: 15px;
+  color: var(--muted);
+  margin: 0 0 30px;
+}
+.small {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.9;
+}
+.content-section {
+  margin-top: 45px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+.content-section > p {
+  max-width: 900px;
+}
+.content-section a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.notice {
+  padding: 35px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+}
+.initial-loading {
+  padding: 35px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+}
+.notice button {
+  margin: 10px;
+}
+.initial-loading {
+  max-width: 900px;
+  margin: 80px auto;
+}
+.image-error {
+  font-size: 11px;
+  color: var(--red);
+  padding: 20px;
+}
+@media (max-width: 650px) {
+  .eyebrow {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .content-section h2 {
+    font-size: 28px;
+  }
+}
+.error {
+  color: var(--red);
+}

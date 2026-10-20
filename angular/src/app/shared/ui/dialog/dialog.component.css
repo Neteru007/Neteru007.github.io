@@ -1,0 +1,21 @@
+dialog {
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  max-width: min(650px, calc(100% - 30px));
+  width: 650px;
+  max-height: 85dvh;
+  overflow: auto;
+  padding: 35px;
+}
+dialog::backdrop {
+  background: #171a17aa;
+}
+.close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 22px;
+  border: 0;
+  padding: 2px 10px;
+}

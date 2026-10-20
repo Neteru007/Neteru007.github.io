@@ -1,0 +1,1 @@
+import{a as l,i as f,n as a,o as r,r as d,s}from"./chunk-CRtIV1Tf.js";d();export{s as Headers,l as Request,a as Response,f as default,r as fetch};
