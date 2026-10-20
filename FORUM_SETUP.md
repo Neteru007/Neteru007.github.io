@@ -1,10 +1,10 @@
 # magic_gallery forum
 
-Frontend source: `angular/src/app/features/forum/`, shared authentication in `angular/src/app/core/auth/`, and public configuration in `angular/src/app/core/config/public-config.ts`. `forum.html` remains a generated compatibility entry point. Hosted with GitHub Pages. Supabase project: `xvisvzpxxmidkvvemltu` (Frankfurt). The browser contains only the publishable API key; it is safe for public use with the deployed row-level security policies.
+Frontend source: `angular/src/app/features/forum/`, shared authentication in `angular/src/app/core/auth/`, and public configuration in `angular/src/app/core/config/public-config.ts`. The site root `index.html` is the sole HTML entry point; the forum is the `/#/forum` Angular route. Hosted with GitHub Pages. Supabase project: `xvisvzpxxmidkvvemltu` (Frankfurt). The browser contains only the publishable API key; it is safe for public use with the deployed row-level security policies.
 
 ## Remaining owner setup
 
-1. In Supabase Authentication > URL Configuration, set Site URL to `https://neteru007.github.io` and allow `https://neteru007.github.io/forum.html` as a redirect URL.
+1. In Supabase Authentication > URL Configuration, set Site URL to `https://neteru007.github.io` and allow `https://neteru007.github.io/` as a redirect URL.
 2. Configure a custom SMTP service in Authentication > SMTP. Supabase's default sender only supports organization team addresses. Keep email confirmation enabled. Google sign-in is not configured yet.
 3. Register and confirm the owner's email on the forum. Grant admin rights only to the verified owner's account, using its exact `auth.users.id`, by inserting it into `public.forum_admins` through the trusted dashboard or connector. Never expose admin/secret API keys. No user is automatically made admin.
 
@@ -16,7 +16,7 @@ User content is rendered through Angular text interpolation, never injected as H
 
 ## Validation
 
-The component refactor adds strict Angular/TypeScript compilation, deterministic legacy-route and auth-callback ordering tests, architecture checks, and public read checks. It does not modify the database schema or admin membership. Full browser email/login/moderation verification was not available during this refactor.
+The component refactor adds strict Angular/TypeScript compilation, deterministic hash-route and auth-callback ordering tests, architecture checks, and public read checks. It does not modify the database schema or admin membership. Full browser email/login/moderation verification was not available during this refactor.
 
 Previous setup verification:
 

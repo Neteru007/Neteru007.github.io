@@ -8,7 +8,7 @@ The complete website uses Angular standalone components and lazy feature routes.
 | --- | --- |
 | `src/app/core/auth/` | Supabase session lifecycle, registration, confirmation and password recovery |
 | `src/app/core/config/` | Public browser configuration; no secret/service-role keys |
-| `src/app/core/routing/` | Compatibility with old HTML URLs and auth callbacks |
+| `src/app/core/routing/` | Initial hash route and auth callbacks |
 | `src/app/layout/` | Shared header, mobile navigation and footer |
 | `src/app/shared/` | Reusable native dialog and site-wide not-found page |
 | `src/app/features/home/` | Home page content |
@@ -20,7 +20,7 @@ The complete website uses Angular standalone components and lazy feature routes.
 | `src/app/features/belial/` | Interactive page, reply data and pure button-position algorithm |
 | `src/styles/` | Site tokens, base typography/reset and shared utilities only |
 | `public/data/`, `public/artwork/` | Reviewed catalogue data and attributed source images |
-| `tests/` | Deterministic tests for selection, coordinates, ban expiry, legacy routes and auth callback ordering |
+| `tests/` | Deterministic tests for selection, coordinates, ban expiry, hash routes and auth callback ordering |
 | `scripts/` | Data validation, architecture checks, versioning, build staging and artifact checks |
 
 The root `app.component` contains only the shared layout, route outlet and navigation/error state. Feature routes load asynchronously. Views use `OnPush` and signals; database calls live in services. Components never render pages by assigning `innerHTML` or installing global DOM event handlers.
@@ -35,7 +35,7 @@ The root `app.component` contains only the shared layout, route outlet and navig
 - `/#/forum`, `/#/forum/<uuid>` — forum and topic.
 - `/#/belial` — interactive page.
 
-The published HTML entry points remain available. A single bootstrap normalizes old article links, `#topic=…`, `#runes`, and catalogue query IDs. Email callback tokens are consumed by Supabase **before** the router changes the hash. The original `/forum.html` email redirect address is retained. Sessions use the same Supabase project and SDK storage as the previous site.
+`index.html` is the only deployed HTML document. Every section is a lazy Angular route; component HTML files are source templates compiled into JavaScript, not separate published pages. Email callback tokens are consumed by Supabase **before** the router changes the hash. Confirmation and password-reset links return to the site root. Sessions use the same Supabase project and SDK storage as the previous site.
 
 ## Data and authorization
 
@@ -62,7 +62,7 @@ node scripts/check-stage.mjs /absolute/path/to/stage
 
 `npm run format` applies the committed Prettier configuration. Production compilation checks strict TypeScript, Angular templates, unused imports and the initial bundle budget. Runtime tests do not require browser automation.
 
-`stage.mjs` writes the same compiled app entry to all 12 supported HTML filenames, and copies build output into `catalogues/`. Existing root `assets/` are retained on GitHub Pages. Do not edit generated HTML or bundled JavaScript: update `src/` or `public/`, build, and stage again.
+`stage.mjs` writes only the root `index.html`, removes duplicate page documents (including the copied build index), and copies JavaScript/CSS/data assets into `catalogues/`. Existing root `assets/` are retained on GitHub Pages. Do not edit generated HTML or bundled JavaScript: update `src/` or `public/`, build, and stage again.
 
 ## Verification boundary
 

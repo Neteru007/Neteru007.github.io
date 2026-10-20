@@ -1,10 +1,10 @@
-import { legacyRoute } from './legacy-route';
+import { initialRoute } from './initial-route';
 export async function prepareLocation(): Promise<void> {
   const hashParams = new URLSearchParams(location.hash.slice(1));
   const query = new URLSearchParams(location.search);
   const callback =
     hashParams.has('access_token') || hashParams.has('error_description') || query.has('code');
-  let route = legacyRoute(location.pathname, location.hash, location.search);
+  let route = initialRoute(location.hash);
   if (callback) {
     const type = hashParams.get('type');
     const callbackError = hashParams.get('error_description');

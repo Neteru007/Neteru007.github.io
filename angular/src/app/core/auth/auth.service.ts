@@ -8,6 +8,7 @@ export class AuthService {
   readonly error = signal('');
   readonly recovery = signal(false);
   readonly revision = signal(0);
+  private readonly redirectUrl = location.origin + '/';
   private queue: Promise<void> = Promise.resolve();
   constructor() {
     const subscription = supabase.auth.onAuthStateChange((event) => {
@@ -50,7 +51,7 @@ export class AuthService {
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
-      options: { data: { nickname }, emailRedirectTo: location.origin + '/forum.html' },
+      options: { data: { nickname }, emailRedirectTo: this.redirectUrl },
     });
     if (error) throw error;
     await this.refresh();
@@ -65,13 +66,13 @@ export class AuthService {
     const { error } = await supabase.auth.resend({
       type: 'signup',
       email,
-      options: { emailRedirectTo: location.origin + '/forum.html' },
+      options: { emailRedirectTo: this.redirectUrl },
     });
     if (error) throw error;
   }
   async forgot(email: string) {
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: location.origin + '/forum.html',
+      redirectTo: this.redirectUrl,
     });
     if (error) throw error;
   }

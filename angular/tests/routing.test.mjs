@@ -1,33 +1,24 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { pureModule, source, ts } from './helpers.mjs';
-const { legacyRoute } = await pureModule('core/routing/legacy-route.ts');
-test('published catalogue, library, rune and topic links still map to the right Angular routes', () => {
-  const cases = [
-    ['/theurgy.html', '', '', '/theurgy'],
-    ['/theurgy.html', '#/', '', '/theurgy'],
-    ['/theurgy.html', '#angelology', '', '/angelology'],
-    ['/theurgy.html', '#/demonology/68', '', '/demonology/68'],
-    ['/goetia-spirit.html', '', '?id=68', '/demonology/68'],
-    ['/shem-angel.html', '', '?id=01', '/angelology/1'],
-    ['/shem-angel.html', '', '?id=73', '/angelology'],
-    ['/shem-angel.html', '', '?id=1x', '/angelology'],
-    ['/divination.html', '#runes', '', '/divination/runes'],
-    ['/belial.html', '', '', '/belial'],
-    ['/article-intention.html', '', '', '/articles/intention'],
-    ['/', '#library', '', '/#library'],
-    [
-      '/forum.html',
-      '#topic=12345678-1234-1234-1234-123456789abc',
-      '',
-      '/forum/12345678-1234-1234-1234-123456789abc',
-    ],
-    ['/forum.html', '#topic=invalid', '', '/forum'],
-  ];
-  for (const [p, h, s, expected] of cases) assert.equal(legacyRoute(p, h, s), expected);
+const { initialRoute } = await pureModule('core/routing/initial-route.ts');
+test('all sections use hashes in one document, including library anchors', () => {
+  for (const route of [
+    '/',
+    '/theurgy',
+    '/angelology/1',
+    '/demonology/68',
+    '/articles/intention',
+    '/divination/runes',
+    '/forum/12345678-1234-1234-1234-123456789abc',
+    '/belial',
+  ])
+    assert.equal(initialRoute('#' + route), route);
+  assert.equal(initialRoute('#library'), '/#library');
+  assert.equal(initialRoute(''), '/');
 });
 const callbackSource = (await source('core/routing/prepare-location.ts'))
-  .replace(/import \{ legacyRoute \} from '.\/legacy-route';/, '')
+  .replace(/import \{ initialRoute \} from '.\/initial-route';/, '')
   .replace("await import('../auth/supabase-client')", 'await getClient()')
   .replace('export async function', 'async function');
 const callbackCode = ts.transpileModule(callbackSource, {
@@ -35,7 +26,7 @@ const callbackCode = ts.transpileModule(callbackSource, {
 }).outputText;
 async function callback(hash, result, search = '') {
   const events = [];
-  const location = { pathname: '/forum.html', hash, search };
+  const location = { pathname: '/', hash, search };
   let destination = '';
   const history = {
     replaceState(_state, _title, url) {
@@ -57,10 +48,10 @@ async function callback(hash, result, search = '') {
   await new Function(
     'location',
     'history',
-    'legacyRoute',
+    'initialRoute',
     'getClient',
     callbackCode + ';return prepareLocation();',
-  )(location, history, legacyRoute, getClient);
+  )(location, history, initialRoute, getClient);
   return { events, destination };
 }
 test('email recovery tokens are consumed before canonicalizing the URL', async () => {
