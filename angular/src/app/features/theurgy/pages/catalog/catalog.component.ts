@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { catchError, map, of, startWith, Subject, switchMap } from 'rxjs';
 import { CatalogService } from '../../data/catalog.service';
-import { CatalogKind, CatalogState } from '../../data/catalog.models';
+import { CatalogKind, CatalogState, catalogRanks, hasRank } from '../../data/catalog.models';
 import { EntryCardComponent } from '../../components/entry-card/entry-card.component';
 import { CatalogFilterComponent } from '../../components/catalog-filter/catalog-filter.component';
 @Component({
@@ -34,6 +34,11 @@ export default class CatalogComponent {
   readonly element = signal('');
   readonly planet = signal('');
   readonly imageType = signal('');
+  readonly rank = signal('');
+  readonly ranks = computed(() => {
+    const state = this.state();
+    return state.status === 'ready' ? catalogRanks(state.entries) : [];
+  });
   readonly filtered = computed(() => {
     const state = this.state();
     if (state.status !== 'ready') return [];
@@ -47,7 +52,8 @@ export default class CatalogComponent {
           String(e.id).padStart(2, '0') === q) &&
         (!this.element() || e.element === this.element()) &&
         (!this.planet() || e.planets.includes(this.planet())) &&
-        (!this.imageType() || e.illustration?.kind === this.imageType()),
+        (!this.imageType() || e.illustration?.kind === this.imageType()) &&
+        (this.kind !== 'demons' || hasRank(e, this.rank())),
     );
   });
 }

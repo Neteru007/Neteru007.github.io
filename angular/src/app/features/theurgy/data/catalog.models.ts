@@ -94,3 +94,18 @@ export function isCatalog(value: unknown): value is CatalogEntry[] {
   }
   return true;
 }
+
+export function catalogRanks(entries: CatalogEntry[]): string[] {
+  return [...new Set(entries.flatMap((entry) => splitRanks(entry.rank)))].sort((a, b) =>
+    a.localeCompare(b, 'uk'),
+  );
+}
+export function hasRank(entry: CatalogEntry, rank: string): boolean {
+  return !rank || splitRanks(entry.rank).includes(rank);
+}
+function splitRanks(rank?: string): string[] {
+  return (rank || '')
+    .split('/')
+    .map((value) => value.trim())
+    .filter(Boolean);
+}

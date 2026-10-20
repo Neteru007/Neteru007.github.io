@@ -11,6 +11,8 @@ export class CatalogFilterComponent {
   readonly element = model('');
   readonly planet = model('');
   readonly imageType = model('');
+  readonly rank = model('');
+  readonly ranks = input<string[]>([]);
   readonly kind = input('demons');
   readonly elements = ['Вогонь', 'Земля', 'Повітря', 'Вода'];
   readonly planets = ['Сонце', 'Місяць', 'Меркурій', 'Венера', 'Марс', 'Юпітер', 'Сатурн'];

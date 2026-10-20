@@ -28,6 +28,14 @@
   >
   @if (kind() === 'demons') {
     <label
+      >Ранг<select #rankInput [value]="rank()" (change)="rank.set(rankInput.value)">
+        <option value="">Усі ранги</option>
+        @for (value of ranks(); track value) {
+          <option [value]="value">{{ value }}</option>
+        }
+      </select></label
+    >
+    <label
       >Тип зображення<select
         #imageInput
         [value]="imageType()"

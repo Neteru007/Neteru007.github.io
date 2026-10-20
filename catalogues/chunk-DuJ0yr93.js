@@ -1,0 +1,1 @@
+var o=[{path:``,pathMatch:`full`,loadComponent:()=>import(`./chunk-oHHgN-GM.js`)},{path:`:id`,loadComponent:()=>import(`./chunk-CFdydkBD.js`)}];export{o as forumRoutes};
