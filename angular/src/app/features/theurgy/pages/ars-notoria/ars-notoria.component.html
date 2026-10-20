@@ -62,8 +62,9 @@
   <h2>Сім вільних наук</h2>
   <p>
     Trivium об’єднує граматику, діалектику й риторику; Quadrivium — арифметику, геометрію, музику та
-    астрономію. Нижче — довідник дисциплін із конкретними рукописними прикладами там, де їх називає
-    каталог.
+    астрономію. Нижче — короткі описи семи дисциплін. Натисніть картку, щоб відкрити докладну
+    сторінку за наданим виданням Skinner і Clark (2019): з поясненням предмета, нотами та точними
+    сторінками книги.
   </p>
   <div class="filters">
     <label for="notoria-search"
@@ -89,12 +90,13 @@
   <p role="status">Знайдено: {{ arts().length }} із 7</p>
   <div class="arts-grid">
     @for (art of arts(); track art.id) {
-      <article class="art-card">
+      <a class="art-card" [routerLink]="['/ars-notoria', art.id]">
         <p class="eyebrow">{{ art.group }}</p>
         <h3>{{ art.title }}</h3>
         <p>{{ art.description }}</p>
         <p class="source-note">{{ art.witness }}</p>
-      </article>
+        <span class="read-more">Докладніше про науку →</span>
+      </a>
     } @empty {
       <p>Збігів немає. Змініть пошук або групу.</p>
     }

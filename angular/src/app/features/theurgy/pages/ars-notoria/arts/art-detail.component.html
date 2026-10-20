@@ -1,0 +1,125 @@
+<p class="art-breadcrumb">
+  <a routerLink="/ars-notoria" fragment="notoria-arts">Ars Notoria / Сім вільних наук</a>
+</p>
+@if (art(); as item) {
+  <article>
+    <p class="eyebrow">{{ item.group }} / {{ item.latin }}</p>
+    <h1>{{ item.title }}</h1>
+    <p class="intro">{{ item.description }}</p>
+    <nav class="page-nav" aria-label="Зміст науки">
+      <a [routerLink]="['/ars-notoria', item.id]" fragment="art-overview">Про предмет</a
+      ><a [routerLink]="['/ars-notoria', item.id]" fragment="art-notae">Ноти</a
+      ><a [routerLink]="['/ars-notoria', item.id]" fragment="art-prayers">Молитви</a
+      ><a [routerLink]="['/ars-notoria', item.id]" fragment="art-references">Сторінки книги</a>
+    </nav>
+    <section id="art-overview" class="content-section">
+      <h2>Що вивчає ця наука</h2>
+      <p>{{ item.lead }}</p>
+      <ul>
+        @for (point of item.focus; track point) {
+          <li>{{ point }}</li>
+        }
+      </ul>
+    </section>
+    <section class="content-section">
+      <h2>Її місце в Ars Notoria</h2>
+      @for (paragraph of item.context; track paragraph) {
+        <p>{{ paragraph }}</p>
+      }
+    </section>
+    <section id="art-notae" class="content-section">
+      <h2>Ноти та їх пояснення</h2>
+      <ul>
+        @for (note of item.notes; track note) {
+          <li>{{ note }}</li>
+        }
+      </ul>
+      <figure>
+        @if (failedImage() !== item.id) {
+          <a [href]="item.figure.src" target="_blank" rel="noopener"
+            ><img
+              [src]="item.figure.src"
+              [alt]="item.figure.caption + ' — ' + item.figure.manuscript"
+              [width]="item.figure.width"
+              [height]="item.figure.height"
+              loading="lazy"
+              (error)="failedImage.set(item.id)"
+          /></a>
+        } @else {
+          <p role="status">
+            Ілюстрація не завантажилась. Її можна звірити в книзі за вказаними нижче сторінками.
+          </p>
+        }
+        <figcaption>
+          <p>{{ item.figure.caption }}</p>
+          <p>
+            <strong>{{ item.figure.manuscript }}</strong>
+          </p>
+          <p class="source-note">
+            Skinner &amp; Clark, 2019: друкована с. {{ item.figure.printedPage }}, сторінка PDF
+            {{ item.figure.pdfPage }}. Відтворення з наданого скану.
+          </p>
+          <a [href]="item.figure.src" target="_blank" rel="noopener"
+            >Відкрити в повному розмірі ↗</a
+          >
+        </figcaption>
+      </figure>
+    </section>
+    <section id="art-prayers" class="content-section">
+      <h2>Молитви та робота з предметом</h2>
+      <p>{{ item.prayers }}</p>
+      <p class="source-note">
+        Це огляд змісту та редакторських приміток видання. Історичні обіцянки надприродного здобуття
+        знань передано як уявлення тексту.
+      </p>
+    </section>
+    <section class="study-section">
+      <p class="eyebrow">ЩОБ КРАЩЕ ЗРОЗУМІТИ ПРЕДМЕТ</p>
+      <h2>Невелика навчальна вправа</h2>
+      <p>Сучасна редакційна вправа, яка ілюструє навичку цієї науки.</p>
+      <ol>
+        @for (step of item.exercise; track step) {
+          <li>{{ step }}</li>
+        }
+      </ol>
+    </section>
+    <section id="art-references" class="content-section">
+      <h2>Де читати в книзі</h2>
+      <p>
+        Stephen Skinner &amp; Daniel Clark (ред.),
+        <cite
+          >Ars Notoria: The Grimoire of Rapid Learning by Magic with the Golden Flowers of
+          Apollonius of Tyana</cite
+        >, Vol. I — Version A. Переклад Robert Turner. Golden Hoard Press, 2019.
+      </p>
+      <p>
+        Нижче окремо наведено друковані номери та номери сторінок PDF. Розділи історичного тексту
+        позначено знаком §; сучасні редакторські пояснення відділено від них.
+      </p>
+      <dl class="references">
+        @for (reference of item.references; track reference.label) {
+          <dt>{{ reference.label }}</dt>
+          <dd>{{ reference.purpose }}</dd>
+        }
+      </dl>
+      <p class="source-note">
+        Український текст — стислий редакційний переказ за наданим виданням. Навчальний приклад є
+        авторським доповненням.
+      </p>
+    </section>
+  </article>
+  <nav class="other-arts" aria-label="Інші вільні науки">
+    <h2>Інші науки</h2>
+    <div>
+      @for (other of related(); track other.id) {
+        <a [routerLink]="['/ars-notoria', other.id]">{{ other.title }} →</a>
+      }
+    </div>
+  </nav>
+} @else {
+  <section role="status">
+    <h1>Науку не знайдено</h1>
+    <p>Оберіть одну із семи наук у розділі Ars Notoria.</p>
+    <a routerLink="/ars-notoria" fragment="notoria-arts">До списку наук →</a>
+  </section>
+}

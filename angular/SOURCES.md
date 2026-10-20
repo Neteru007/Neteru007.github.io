@@ -55,3 +55,20 @@ Image license: https://creativecommons.org/licenses/by-sa/4.0/ . Attribution and
 - Noto Sans Runic, unmodified font, SIL OFL 1.1: https://github.com/notofonts/noto-fonts/tree/main/hinted/ttf/NotoSansRunic . License distributed in `public/fonts/NotoSansRunic-OFL.txt`.
 
 Rune guide symbols join the existing deck by symbol, keeping draw names and reflection questions consistent with the catalogue.
+
+
+## Seven Arts detail pages (uploaded book)
+
+`/#/ars-notoria/{grammar,logic,rhetoric,arithmetic,geometry,music,astronomy}` use the user-supplied *Ars Notoria: The Grimoire of Rapid Learning by Magic with the Golden Flowers of Apollonius of Tyana*, Vol. I — Version A, Robert Turner translation, edited and introduced by Stephen Skinner & Daniel Clark, Golden Hoard Press, 2019. The two supplied files, `ArsNotoria.pdf` and `ArsNotoria 2.pdf`, are byte-identical (SHA-256 2bfad979962f0429156f0c5d1c4aa6d912ae2359b4b4a9e3c8b983903b029c1a), so both identify one edition, not independent sources.
+
+Ukrainian subject descriptions, context, prayers summaries and notae explanations are original paraphrases. Modern learning exercises are explicitly editorial additions. Each detail page records printed and PDF references. General curriculum: printed pp. 13–14 (PDF 19–20); notae discussion: 87–92 (PDF 93–98); practical context/gaps: 117–126 (PDF 123–132); subject text: 194–208 (PDF 200–214). Music's incomplete procedural coverage and astronomy's attribution conflicts are preserved, rather than filled with invented rituals.
+
+Six page reproductions from the supplied scan in `public/artwork/ars-notoria/arts/`:
+- grammar.webp: printed 241 / PDF 247, Sloane MS 1712 f. 14v.
+- logic.webp: printed 244 / PDF 250, Sloane MS 1712 f. 16v.
+- rhetoric.webp: printed 246 / PDF 252, Sloane MS 1712 f. 18r.
+- geometry.webp: printed 248 / PDF 254, Sloane MS 1712 f. 19r, geometry figure b and rhetoric a.
+- arithmetic.webp: printed 249 / PDF 255, Sloane MS 1712 f. 19v, arithmetic a/b and philosophy c/d.
+- music-astronomy.webp: printed 278 / PDF 284, CLM 276 f. 17v, astronomy a, music b, other subjects c–e.
+
+Images are rendered at 2x and WebP-compressed; no diagrams are redrawn or relabeled. Shared pages retain neighboring figures, identified in the captions.

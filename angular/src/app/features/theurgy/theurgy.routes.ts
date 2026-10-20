@@ -15,6 +15,10 @@ export const theurgyRoutes: Routes = [
     title: 'Ars Notoria — magic_gallery',
     loadComponent: () => import('./pages/ars-notoria/ars-notoria.component'),
   },
+  {
+    path: 'ars-notoria/:artId',
+    loadComponent: () => import('./pages/ars-notoria/arts/art-detail.component'),
+  },
   { path: 'overview', redirectTo: 'theurgy', pathMatch: 'full' },
   {
     path: 'demonology',
