@@ -1,0 +1,224 @@
+<p class="eyebrow">ТЕУРГІЯ / МИСТЕЦТВО ПІЗНАННЯ</p>
+<h1>Ars Notoria</h1>
+<p class="intro">
+  Молитви, пам’ять і символічні фігури: вступ до ноторного мистецтва соломонівської традиції.
+</p>
+<nav class="contents" aria-label="Зміст Ars Notoria">
+  <a routerLink="/ars-notoria" fragment="notoria-basics">Основи</a>
+  <a routerLink="/ars-notoria" fragment="notoria-arts">Сім вільних наук</a>
+  <a routerLink="/ars-notoria" fragment="notoria-prayers">Молитви</a>
+  <a routerLink="/ars-notoria" fragment="notoria-figures">Ноти й фігури</a>
+  <a routerLink="/ars-notoria" fragment="notoria-reading">Як читати</a>
+  <a routerLink="/ars-notoria" fragment="notoria-sources">Джерела</a>
+</nav>
+<section id="notoria-basics" class="content-section">
+  <h2>Що таке Ars Notoria</h2>
+  <p>
+    Ars Notoria — традиція молитов, священних і ангельських імен та фігур, через які історичні
+    тексти обіцяють знання й розуміння. Приписування Соломонові належить до оповіді самої традиції;
+    рукописи є свідченнями її передавання. Наприклад, British Library датує Sloane MS 1712 XIII
+    століттям.
+  </p>
+  <div class="concepts-grid">
+    <article>
+      <p class="eyebrow">ORATIO</p>
+      <h3>Молитва</h3>
+      <p>
+        Словесне звернення з проханням про мудрість, пам’ять і красномовство. Поряд зі зрозумілими
+        молитвами трапляються послідовності сакральних імен.
+      </p>
+    </article>
+    <article>
+      <p class="eyebrow">NOTA / NOTAE</p>
+      <h3>Нота</h3>
+      <p>
+        Символічна фігура з геометрією, написами та знаками. Її розглядають у зв’язку з конкретною
+        наукою й текстом рукопису. Це не музична нота.
+      </p>
+    </article>
+    <article>
+      <p class="eyebrow">РЕДАКЦІЇ</p>
+      <h3>Кілька версій</h3>
+      <p>
+        Дослідники розрізняють редакції A, A2 і B. Фігури змінювалися: однакова назва науки не
+        означає однаковий малюнок у кожному списку.
+      </p>
+    </article>
+  </div>
+  <p class="source-note">
+    Джерела:
+    <a href="https://searcharchives.bl.uk/catalog/040-002114063" target="_blank" rel="noopener"
+      >Sloane MS 1712</a
+    >;
+    <a
+      href="https://www.matthiascastle.com/post/visual-guide-to-the-notory-art-figures-of-angelic-magic-part-i"
+      target="_blank"
+      rel="noopener"
+      >дослідження фігур Matthias Castle</a
+    >.
+  </p>
+</section>
+<section id="notoria-arts" class="content-section">
+  <h2>Сім вільних наук</h2>
+  <p>
+    Trivium об’єднує граматику, діалектику й риторику; Quadrivium — арифметику, геометрію, музику та
+    астрономію. Нижче — довідник дисциплін із конкретними рукописними прикладами там, де їх називає
+    каталог.
+  </p>
+  <div class="filters">
+    <label for="notoria-search"
+      >Пошук<input
+        id="notoria-search"
+        type="search"
+        [value]="query()"
+        (input)="query.set($any($event.target).value)"
+        placeholder="Наука або аркуш рукопису"
+    /></label>
+    <label for="notoria-group"
+      >Група<select
+        id="notoria-group"
+        [value]="group()"
+        (change)="group.set($any($event.target).value)"
+      >
+        <option value="">Усі науки</option>
+        <option value="Trivium">Trivium</option>
+        <option value="Quadrivium">Quadrivium</option>
+      </select></label
+    >
+  </div>
+  <p role="status">Знайдено: {{ arts().length }} із 7</p>
+  <div class="arts-grid">
+    @for (art of arts(); track art.id) {
+      <article class="art-card">
+        <p class="eyebrow">{{ art.group }}</p>
+        <h3>{{ art.title }}</h3>
+        <p>{{ art.description }}</p>
+        <p class="source-note">{{ art.witness }}</p>
+      </article>
+    } @empty {
+      <p>Збігів немає. Змініть пошук або групу.</p>
+    }
+  </div>
+  <p>
+    Теологія також представлена в рукописах, але не входить до цієї сімки. У Sloane MS 1712 її п’ята
+    фігура міститься на f. 22r.
+  </p>
+</section>
+<section id="notoria-prayers" class="content-section">
+  <h2>Молитви та звернення</h2>
+  <p>
+    Добірка для читання за виданням Robert Turner (1657). Інципіт — лише початкові слова для
+    впізнавання тексту. Українські пояснення є редакційним переказом; повні молитви відкриваються в
+    історичному джерелі.
+  </p>
+  @for (prayer of prayers; track prayer.id) {
+    <details class="prayer-card">
+      <summary>{{ prayer.title }}</summary>
+      <p class="eyebrow">{{ prayer.role }}</p>
+      <blockquote lang="{{ prayer.id === 'alpha' ? 'la' : 'en' }}">
+        {{ prayer.incipit }}…
+      </blockquote>
+      <p>{{ prayer.explanation }}</p>
+      <p class="source-note">{{ prayer.locator }}</p>
+      <a href="https://www.esotericarchives.com/notoria/notoria.htm" target="_blank" rel="noopener"
+        >Читати повний текст у джерелі ↗</a
+      >
+    </details>
+  }
+  <p class="source-note">
+    Текст Тернера й сучасні примітки редактора розрізняються. Нумерація тут — сторінки видання 1657
+    року, а не сторінки вебсайту.
+  </p>
+</section>
+<section id="notoria-figures" class="content-section">
+  <h2>Ноти й символічні фігури</h2>
+  <p>
+    Два приклади з різних рукописів. Це історичні відтворення, збережені без перемальовування. Кожен
+    має шифр рукопису та номер аркуша; вони не утворюють повний набір усіх нот.
+  </p>
+  <div class="figures-grid">
+    @for (figure of figures; track figure.id) {
+      <figure>
+        <figcaption>
+          <h3>{{ figure.title }}</h3>
+          <p class="manuscript">{{ figure.manuscript }}</p>
+        </figcaption>
+        @if (!failedImages().has(figure.id)) {
+          <a [href]="figure.image" target="_blank" rel="noopener"
+            ><img
+              [src]="figure.image"
+              [alt]="figure.title + ' — ' + figure.manuscript"
+              [width]="figure.width"
+              [height]="figure.height"
+              loading="lazy"
+              (error)="imageFailed(figure.id)"
+          /></a>
+        } @else {
+          <p role="status">
+            Зображення не завантажилось. Перегляньте його за посиланням на джерело нижче.
+          </p>
+        }
+        <p>{{ figure.description }}</p>
+        <p>
+          <a [href]="figure.image" target="_blank" rel="noopener">Відкрити зображення ↗</a> ·
+          <a [href]="figure.source" target="_blank" rel="noopener">Опис і походження ↗</a>
+        </p>
+        <p class="source-note">
+          {{ figure.credit }}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"
+            >CC BY-SA 4.0</a
+          >. Файли без змін.
+        </p>
+      </figure>
+    }
+  </div>
+  <p>
+    Приклад іншого свідчення: Harley MS 181, друга половина XVI століття. Каталог описує фігури
+    граматики на ff. 27r–27v та чотири спільні знаки мистецтв на f. 30v. Ілюстрації різних рукописів
+    слід читати з відповідними їм текстами.
+  </p>
+  <p class="source-note">
+    <a href="https://searcharchives.bl.uk/catalog/040-002046009" target="_blank" rel="noopener"
+      >British Library · Harley MS 181 ↗</a
+    >
+  </p>
+</section>
+<section id="notoria-reading" class="content-section">
+  <h2>Як читати матеріали</h2>
+  <ol>
+    <li><strong>Оберіть свідчення.</strong> Запишіть шифр рукопису чи рік друкованого видання.</li>
+    <li>
+      <strong>Перевірте підпис.</strong> Назва науки, номер фігури, аркуш і редакція допомагають
+      знайти правильний контекст.
+    </li>
+    <li>
+      <strong>Зіставте текст і зображення.</strong> У виданні Тернера немає повного комплекту
+      рукописних нот; випадкова фігура з інтернету не заповнює цю прогалину.
+    </li>
+    <li>
+      <strong>Ведіть нотатки.</strong> Відокремлюйте прочитаний текст, власний переклад і особисті
+      враження. Це редакційна рекомендація для дослідження, а не відтворений середньовічний ритуал.
+    </li>
+  </ol>
+  <p>
+    Цей розділ є вступом і добіркою джерел. Обіцянки надприродного здобуття знань передано як
+    твердження історичної традиції.
+  </p>
+</section>
+<section id="notoria-sources" class="content-section">
+  <h2>Джерела та рукописи</h2>
+  <div class="sources-list">
+    @for (source of sources; track source.id) {
+      <article>
+        <h3>
+          <a [href]="source.url" target="_blank" rel="noopener">{{ source.title }} ↗</a>
+        </h3>
+        <p>{{ source.description }}</p>
+      </article>
+    }
+  </div>
+  <p class="source-note">
+    Український текст — редакційний огляд. Зображення мають окремі посилання й атрибуцію під кожною
+    фігурою. Позначення r / v означають лицевий і зворотний боки аркуша.
+  </p>
+</section>

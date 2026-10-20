@@ -1,0 +1,118 @@
+:host {
+  display: block;
+}
+section {
+  scroll-margin-top: 30px;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin: 28px 0;
+}
+a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.concepts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.arts-grid,
+.figures-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.concepts-grid article,
+.art-card,
+.prayer-card,
+figure {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 24px;
+}
+figure {
+  margin: 0;
+  min-width: 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.prayer-card {
+  margin: 16px 0;
+}
+summary {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+blockquote {
+  border-left: 3px solid var(--red);
+  margin: 20px 0;
+  padding: 12px 20px;
+  font-family: Georgia, serif;
+  font-size: 21px;
+}
+.source-note {
+  font-size: 13px;
+  color: var(--muted);
+}
+.manuscript {
+  font-size: 14px;
+}
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  margin: 24px 0;
+}
+label {
+  display: grid;
+  gap: 8px;
+}
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  font: inherit;
+}
+summary:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 4px;
+}
+.sources-list article {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+li {
+  margin-bottom: 14px;
+}
+@media (max-width: 750px) {
+  .concepts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 650px) {
+  .arts-grid,
+  .figures-grid,
+  .filters {
+    grid-template-columns: 1fr;
+  }
+  .art-card,
+  .prayer-card,
+  figure,
+  .concepts-grid article {
+    padding: 18px;
+  }
+}

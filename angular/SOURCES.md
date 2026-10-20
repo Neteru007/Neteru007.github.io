@@ -27,3 +27,17 @@ No missing historical portraits or universally official enns have been invented.
 ## Enochian section
 
 `/#/enochian` uses the user-supplied scan of Gerald & Betty Schueler, *The Enochian Workbook: A Complete Guide to Angelic Magic*. The 19 English calls are from lesson 17, printed pp. 115–120; usage associations follow pp. 120–125. Ukrainian annotations are editorial summaries, not translations of the Enochian language. Five PNGs in `public/artwork/enochian/` reproduce figures 1–5, printed pp. 9–13 (PDF pp. 27–31), directly from the supplied scan. The Golden Dawn interpretation is identified separately from the original Dee/Kelley material.
+
+
+## Ars Notoria section
+
+`/#/ars-notoria` provides an editorial Ukrainian introduction, seven liberal arts, four prayer incipits with explanatory paraphrases and manuscript figures. It distinguishes manuscripts from Robert Turner's 1657 print and identifies the appended Ars Brevis material. Not a complete ritual edition.
+
+- British Library Sloane MS 1712, catalogue: https://searcharchives.bl.uk/catalog/040-002114063 (13th century; exact folios in the cards).
+- British Library Harley MS 181: https://searcharchives.bl.uk/catalog/040-002046009 (second half of 16th century).
+- Turner 1657, transcribed by Joseph H. Peterson: https://www.esotericarchives.com/notoria/notoria.htm (historical text and modern apparatus kept distinct; no modern commentary copied).
+- Matthias Castle, Visual Guide to the Notory Art Figures, Part I: https://www.matthiascastle.com/post/visual-guide-to-the-notory-art-figures-of-angelic-magic-part-i (research context for recension differences and Bodley 951 folio).
+- `grammar.jpg`: https://commons.wikimedia.org/wiki/File:The_first_figure_of_grammar.jpg — BnF Latin 9336, f. 18; reproduction attributed to Matthew Oser (EXIF), uploaded by Haplo1990; CC BY-SA 4.0, unchanged. No dating inferred from conflicting Commons metadata.
+- `logic.jpg`: https://commons.wikimedia.org/wiki/File:First-logic-version-b-bodley951-f.10v.jpg — Oxford Bodley 951, f. 10v; Haplo1990; CC BY-SA 4.0, unchanged.
+
+Image license: https://creativecommons.org/licenses/by-sa/4.0/ . Attribution and license links appear alongside each figure in the UI.

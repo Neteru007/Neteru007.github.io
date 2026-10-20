@@ -29,7 +29,7 @@ The root `app.component` contains only the shared layout, route outlet and navig
 
 - `/#/` — home and library; `/#/#library` links to the library section.
 - `/#/articles/intention` — article detail.
-- `/#/theurgy`, `/#/angelology`, `/#/demonology` — theurgy and catalogues.
+- `/#/theurgy`, `/#/angelology`, `/#/demonology`, `/#/enochian`, `/#/ars-notoria` — theurgy and catalogues.
 - `/#/angelology/1`, `/#/demonology/68` — individual records.
 - `/#/divination/tarot`, `/#/divination/runes` — independent divination components.
 - `/#/forum`, `/#/forum/<uuid>` — forum and topic.

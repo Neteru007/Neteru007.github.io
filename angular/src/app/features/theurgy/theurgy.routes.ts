@@ -10,6 +10,11 @@ export const theurgyRoutes: Routes = [
     title: 'Єнохіанська магія — magic_gallery',
     loadComponent: () => import('./pages/enochian/enochian.component'),
   },
+  {
+    path: 'ars-notoria',
+    title: 'Ars Notoria — magic_gallery',
+    loadComponent: () => import('./pages/ars-notoria/ars-notoria.component'),
+  },
   { path: 'overview', redirectTo: 'theurgy', pathMatch: 'full' },
   {
     path: 'demonology',
