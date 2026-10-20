@@ -1,0 +1,57 @@
+<p class="eyebrow">РОЗКЛАД НА ТРИ КАРТИ</p>
+<h2>Минуле · Теперішнє · Майбутнє</h2>
+<p class="small">78 карт · без перевернутих положень</p>
+<label class="question"
+  >Ваше запитання (за бажанням)<input
+    [(ngModel)]="question"
+    maxlength="250"
+    placeholder="Що мені варто зрозуміти про свою ситуацію?"
+/></label>
+<p class="small">Запитання залишається лише на цій сторінці та нікуди не надсилається.</p>
+<div class="cards">
+  @for (position of positions; track position; let i = $index) {
+    <mg-tarot-card
+      [position]="position"
+      [card]="spread()[i]"
+      [opened]="opened().has(i)"
+      (reveal)="reveal(i)"
+    />
+  }
+</div>
+<div class="actions">
+  <button class="primary" [disabled]="drawing()" (click)="draw()">
+    Перетасувати й витягнути три карти ✧
+  </button>
+  @if (spread().length) {
+    @if (opened().size < 3) {
+      <button (click)="revealAll()">Відкрити всі карти</button>
+    }
+    <button (click)="clear()">Прибрати розклад</button>
+  }
+</div>
+<p role="status" aria-live="polite">{{ status() }}</p>
+@if (opened().size) {
+  <section>
+    <p class="eyebrow">ВАШ РОЗКЛАД</p>
+    <h2>{{ readingTitle() }}</h2>
+    @for (card of spread(); track $index; let i = $index) {
+      @if (opened().has(i)) {
+        <article>
+          <p class="eyebrow">{{ positions[i] }} / {{ card.kind }}</p>
+          <h3>{{ card.name }}</h3>
+          <p>{{ readingText(card, i) }}</p>
+          <p>{{ card.advice }}</p>
+        </article>
+      }
+    }
+  </section>
+}
+<p class="small">
+  Ілюстрації: Pamela Colman Smith · Rider—Waite—Smith (1909).
+  <a
+    href="https://github.com/mixvlad/TarotCards/blob/840b84d012c6b74dc1634fa2d00d1b21f5b28093/tarot/rider-waite/metadata.json"
+    target="_blank"
+    rel="noopener noreferrer"
+    >Джерело зображень ↗</a
+  >
+</p>

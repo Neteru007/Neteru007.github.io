@@ -1,0 +1,34 @@
+main {
+  max-width: 1260px;
+  margin: auto;
+  padding: 30px 40px 80px;
+  min-height: 65vh;
+}
+main:focus {
+  outline: none;
+}
+.route-progress {
+  font-size: 11px;
+  color: var(--red);
+  border-top: 2px solid var(--red);
+  padding: 7px 0;
+}
+.skip-link {
+  position: absolute;
+  left: 20px;
+  top: -100px;
+  background: var(--panel);
+  padding: 10px;
+  z-index: 10;
+}
+.skip-link:focus {
+  top: 10px;
+}
+@media (max-width: 650px) {
+  main {
+    padding: 25px 22px 60px;
+  }
+}
+main {
+  max-width: 1260px;
+}

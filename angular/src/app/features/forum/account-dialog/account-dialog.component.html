@@ -1,0 +1,17 @@
+<mg-dialog (closed)="close()"
+  ><h2>{{ reset ? 'Новий пароль' : 'Ім’я на форумі' }}</h2>
+  <form #form="ngForm" (ngSubmit)="submit()">
+    <label
+      >{{ reset ? 'Щонайменше 10 символів' : 'Від 2 до 40 символів'
+      }}<input
+        name="value"
+        [(ngModel)]="value"
+        [type]="reset ? 'password' : 'text'"
+        [minlength]="reset ? 10 : 2"
+        [maxlength]="reset ? 128 : 40"
+        [attr.autocomplete]="reset ? 'new-password' : 'nickname'"
+        required /></label
+    ><button class="primary" [disabled]="busy() || form.invalid" type="submit">Зберегти</button>
+    <p role="status">{{ status() }}</p>
+  </form></mg-dialog
+>

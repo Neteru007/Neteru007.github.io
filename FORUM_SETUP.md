@@ -1,6 +1,6 @@
 # magic_gallery forum
 
-Frontend: `forum.html`, `forum.css`, `forum.js`. Hosted with GitHub Pages. Supabase project: `xvisvzpxxmidkvvemltu` (Frankfurt). The browser contains only the publishable API key; it is safe for public use with the deployed row-level security policies.
+Frontend source: `angular/src/app/features/forum/`, shared authentication in `angular/src/app/core/auth/`, and public configuration in `angular/src/app/core/config/public-config.ts`. `forum.html` remains a generated compatibility entry point. Hosted with GitHub Pages. Supabase project: `xvisvzpxxmidkvvemltu` (Frankfurt). The browser contains only the publishable API key; it is safe for public use with the deployed row-level security policies.
 
 ## Remaining owner setup
 
@@ -12,8 +12,13 @@ Frontend: `forum.html`, `forum.css`, `forum.js`. Hosted with GitHub Pages. Supab
 
 Anyone can read topics, replies and public nicknames. Authenticated, unbanned users can create a profile, start a topic and reply to open topics. Admins can delete topics/replies, close/reopen topics and manage timed or permanent posting bans. Banned users may still read. Admin membership cannot be changed from the client. Bans are checked in the database on each write, including with an existing session.
 
-User content is rendered with `textContent`, not injected HTML. Topics and replies have length limits, pagination and database-enforced posting intervals (30s/topics, 10s/replies). The Supabase JS dependency is pinned to 2.57.4. Schema snapshot: `database/forum-schema.sql`, already applied to the hosted project; do not run blindly on an existing database.
+User content is rendered through Angular text interpolation, never injected as HTML. Topics and replies have length limits, pagination and database-enforced posting intervals (30s/topics, 10s/replies). The Supabase JS dependency is pinned to 2.57.4. Schema snapshot: `database/forum-schema.sql`, already applied to the hosted project; do not run blindly on an existing database.
 
 ## Validation
 
+The component refactor adds strict Angular/TypeScript compilation, deterministic legacy-route and auth-callback ordering tests, architecture checks, and public read checks. It does not modify the database schema or admin membership. Full browser email/login/moderation verification was not available during this refactor.
+
+Previous setup verification:
+
 Database transaction tests verified ordinary profile/topic/reply creation, blocked admin self-promotion, admin ban/closure, and blocked posting eligibility after a ban. Test data was rolled back. Supabase security advisor reported no findings at initial setup. Full email delivery and owner moderation require the setup steps above.
+

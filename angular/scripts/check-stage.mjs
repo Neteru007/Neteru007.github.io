@@ -1,22 +1,36 @@
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
-import { Script } from 'node:vm';
 import path from 'node:path';
 const root = process.argv[2];
-assert(root, 'Pass the staged root directory');
-const index = await readFile(path.join(root, 'theurgy.html'), 'utf8');
-assert(index.includes('<mg-root>'));
-for (const match of index.matchAll(/(?:src|href)="(\/catalogues\/[^"?#]+)"/g)) await readFile(path.join(root, match[1]));
-const files = await readdir(path.join(root, 'catalogues'));
-assert(files.filter(f => /^chunk-.*\.js$/.test(f)).length >= 4);
-for (const [file, route] of [['goetia-spirit.html', 'demonology'], ['shem-angel.html', 'angelology']]) {
+assert(root, 'Pass staged directory');
+const entries = [
+  'index.html',
+  'theurgy.html',
+  'goetia-spirit.html',
+  'shem-angel.html',
+  'forum.html',
+  'divination.html',
+  'belial.html',
+  'article-attention.html',
+  'article-intention.html',
+  'article-journal.html',
+  'article-sources.html',
+  'article-symbols.html',
+];
+const canonical = await readFile(path.join(root, 'index.html'), 'utf8');
+for (const file of entries) {
   const html = await readFile(path.join(root, file), 'utf8');
-  const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
-  for (const id of ['1', '68', '72', '0', '73', '1x', '']) {
-    let destination = '';
-    new Script(script).runInNewContext({ URLSearchParams, location: { search: '?id=' + id, replace: value => { destination = value; } } });
-    const valid = /^\d{1,2}$/.test(id) && Number(id) >= 1 && Number(id) <= 72;
-    assert.equal(destination, '/theurgy.html#/' + route + (valid ? '/' + Number(id) : ''));
-  }
+  assert.equal(html, canonical);
+  assert(html.includes('<mg-root>'));
+  assert(!/<script>/.test(html));
+  for (const m of html.matchAll(/(?:src|href)="(\/catalogues\/[^"?#]+)"/g))
+    await readFile(path.join(root, m[1]));
 }
-console.log('Staged entry point, asset references, lazy chunks and legacy redirects pass.');
+const files = await readdir(path.join(root, 'catalogues'));
+assert(files.filter((f) => /^chunk-.*\.js$/.test(f)).length >= 15);
+for (const file of files.filter((f) => f.endsWith('.js'))) {
+  const js = await readFile(path.join(root, 'catalogues', file), 'utf8');
+  for (const match of js.matchAll(/["']\.\/(chunk-[\w-]+\.js)["']/g))
+    assert(files.includes(match[1]), 'Missing dynamic dependency ' + match[1]);
+}
+console.log('All 12 entry points and all compiled lazy-chunk dependencies pass.');

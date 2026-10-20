@@ -1,0 +1,68 @@
+<mg-dialog (closed)="store.dialog.set(null)"
+  ><h2>
+    {{
+      confirmation() ? 'Перевірте свою пошту' : registering() ? 'Створити акаунт' : 'Вхід до кола'
+    }}
+  </h2>
+  <p>Для дописів потрібен акаунт. Читати можна без реєстрації.</p>
+  @if (status()) {
+    <p class="feedback" role="status" aria-live="polite">{{ status() }}</p>
+  }
+  @if (confirmation()) {
+    <p>Відкрийте лист і натисніть посилання підтвердження. Перевірте також папку «Спам».</p>
+    <div class="actions">
+      <button [disabled]="busy()" (click)="resend()">Надіслати лист повторно</button
+      ><button
+        [disabled]="busy()"
+        (click)="confirmation.set(false); registering.set(false); status.set('')"
+      >
+        Перейти до входу
+      </button>
+    </div>
+  } @else {
+    <form #form="ngForm" (ngSubmit)="submit()" [attr.aria-busy]="busy()">
+      <label
+        >Email<input
+          name="email"
+          type="email"
+          [(ngModel)]="email"
+          autocomplete="email"
+          required
+          maxlength="254" /></label
+      ><label
+        >Пароль<input
+          name="password"
+          type="password"
+          [(ngModel)]="password"
+          [attr.autocomplete]="registering() ? 'new-password' : 'current-password'"
+          minlength="10"
+          maxlength="128"
+          required
+      /></label>
+      @if (registering()) {
+        <label
+          >Ім’я на форумі<input
+            name="nickname"
+            [(ngModel)]="nickname"
+            minlength="2"
+            maxlength="40"
+            autocomplete="nickname"
+            required
+        /></label>
+      }
+      <button class="primary" [disabled]="busy() || form.invalid" type="submit">
+        {{ busy() ? 'Зачекайте…' : registering() ? 'Зареєструватися' : 'Увійти' }}
+      </button>
+    </form>
+    <div class="actions">
+      <button [disabled]="busy()" (click)="toggle()">
+        {{ registering() ? 'Уже є акаунт? Увійти' : 'Немає акаунта? Зареєструватися' }}
+      </button>
+      @if (!registering()) {
+        <button [disabled]="busy() || !email.includes('@')" (click)="forgot()">
+          Забули пароль?
+        </button>
+      }
+    </div>
+  }
+</mg-dialog>

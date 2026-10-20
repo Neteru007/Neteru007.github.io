@@ -1,0 +1,42 @@
+form {
+  display: grid;
+  gap: 18px;
+}
+label {
+  display: grid;
+  gap: 7px;
+  font-size: 13px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 0;
+}
+textarea {
+  resize: vertical;
+}
+.primary {
+  background: var(--red);
+  color: var(--paper);
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.feedback {
+  padding: 12px;
+  border-left: 3px solid var(--red);
+  white-space: pre-line;
+}
+h2 {
+  padding-right: 25px;
+}
+.danger {
+  color: #8b2424;
+}

@@ -1,0 +1,16 @@
+<a routerLink="/" fragment="library" class="back-link">← До бібліотеки</a>
+@if (article(); as item) {
+  <article>
+    <p class="eyebrow">MAGIC_GALLERY / БІБЛІОТЕКА</p>
+    <h1>{{ item.title }}</h1>
+    @if (item.image) {
+      <img [src]="item.image" [alt]="item.alt" width="1000" height="750" />
+    }
+    @for (paragraph of item.paragraphs; track $index) {
+      <p>{{ paragraph }}</p>
+    }
+    <p class="small">Вступний редакційний матеріал magic_gallery.</p>
+  </article>
+} @else {
+  <h1>Матеріал не знайдено</h1>
+}

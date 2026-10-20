@@ -1,0 +1,28 @@
+<p class="position">{{ position() }}</p>
+<button
+  class="card"
+  [disabled]="!card()"
+  [attr.aria-label]="position() + ': ' + (opened() ? card()?.name : 'Відкрити карту')"
+  [attr.aria-expanded]="opened()"
+  (click)="reveal.emit()"
+>
+  @if (opened()) {
+    @if (!failed()) {
+      <img
+        [src]="image()"
+        [alt]="card()?.name"
+        width="720"
+        height="1200"
+        (error)="imageError()"
+        referrerpolicy="no-referrer"
+      />
+    } @else {
+      <span>{{ card()?.name }} · Не вдалося завантажити ілюстрацію.</span>
+    }
+  } @else {
+    <img src="/assets/tarot-back.svg" alt="" width="600" height="1000" />
+  }
+</button>
+<p class="hint">
+  {{ opened() ? card()?.name : card() ? 'Натисніть, щоб відкрити' : 'Очікує на запитання' }}
+</p>

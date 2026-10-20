@@ -1,0 +1,23 @@
+<div class="tag">ТАЄМНА ПРИЙМАЛЬНЯ НЕТЕРУ</div>
+<h1>Онлайн викликати<br /><em>Беліала</em></h1>
+<p>
+  Вірного помічника Нетеру.<br />Він майже готовий відповісти. Залишилося лише натиснути кнопку.
+</p>
+<div class="arena" #arena>
+  <div class="circle"></div>
+  <button
+    #button
+    [style.left]="position() ? position()!.x + 'px' : '50%'"
+    [style.top]="position() ? position()!.y + 'px' : '50%'"
+    [style.transform]="position() ? 'none' : 'translate(-50%,-50%)'"
+    (pointerenter)="enter($event)"
+    (focus)="move($event)"
+    (pointerdown)="move($event)"
+    (click)="move($event)"
+  >
+    Викликати Беліала ✧
+  </button>
+</div>
+<p class="status" aria-live="polite">{{ status() }}</p>
+<button class="reset" (click)="reset()">Спробувати спочатку ↻</button>
+<p class="fine">Жартівлива інтерактивна сторінка · Нетеру схвалює витівки свого помічника.</p>

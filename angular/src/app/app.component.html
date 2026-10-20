@@ -1,0 +1,14 @@
+<a class="skip-link" href="#main-content" (click)="focusMain($event)">До вмісту</a>
+<mg-site-header />
+<main id="main-content" tabindex="-1">
+  @if (navigating()) {
+    <p class="route-progress" role="status">Завантаження сторінки…</p>
+  }
+  @if (routeError()) {
+    <div class="notice" role="alert">
+      Не вдалося завантажити сторінку. <button (click)="reload()">Спробувати ще раз</button>
+    </div>
+  }
+  <router-outlet />
+</main>
+<mg-site-footer />

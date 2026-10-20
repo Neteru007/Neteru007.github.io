@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  min-width: 0;
+}
+.position {
+  text-align: center;
+  font: clamp(17px, 2.6vw, 28px) Georgia;
+}
+.card {
+  padding: 0;
+  width: 100%;
+  aspect-ratio: 3/5;
+  border: 1px solid #baa97e;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #e5dfce;
+  box-shadow: 0 12px 25px #292a231a;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.hint {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  min-height: 40px;
+}

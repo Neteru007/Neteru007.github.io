@@ -1,0 +1,36 @@
+<p class="eyebrow">ОДИН СИМВОЛ ДЛЯ РОЗДУМІВ</p>
+<h2>Руна дня</h2>
+<p class="small">24 руни · Старший футарк</p>
+<p class="intro">Якій темі сьогодні приділити увагу?</p>
+<div class="rune-stage">
+  <button
+    class="rune-token"
+    [disabled]="busy()"
+    (click)="draw()"
+    [attr.aria-label]="rune() ? rune()![1] + '. Витягнути іншу руну' : 'Витягнути руну'"
+  >
+    <img
+      [src]="rune() ? '/assets/rune-stone.svg' : '/assets/rune-back.svg?v=blank-stone-2'"
+      alt=""
+      width="400"
+      height="500"
+    />
+    @if (rune()) {
+      <span class="engraved-rune" aria-hidden="true">{{ rune()![0] }}</span>
+    }
+  </button>
+</div>
+<button class="primary" [disabled]="busy()" (click)="draw()">
+  {{ rune() ? 'Витягнути іншу руну' : 'Витягнути руну' }}
+</button>
+<div class="rune-reading" aria-live="polite">
+  @if (rune(); as item) {
+    <h2>{{ item[0] }} {{ item[1] }}</h2>
+    <p class="eyebrow">{{ item[2] }}</p>
+    <p>{{ item[3] }}</p>
+  } @else {
+    <p>
+      {{ busy() ? 'Обираємо камінчик…' : error() || 'Витягніть символ, щоб відкрити тему дня.' }}
+    </p>
+  }
+</div>

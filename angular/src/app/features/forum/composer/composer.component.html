@@ -1,0 +1,26 @@
+<mg-dialog (closed)="store.dialog.set(null)"
+  ><h2>Нова тема</h2>
+  <form #form="ngForm" (ngSubmit)="submit()">
+    <label
+      >Назва<input name="title" [(ngModel)]="title" minlength="3" maxlength="160" required /></label
+    ><label
+      >Розділ<select name="category" [(ngModel)]="category">
+        @for (item of categories; track item[0]) {
+          <option [value]="item[0]">{{ item[1] }}</option>
+        }
+      </select></label
+    ><label
+      >Ваш допис<textarea
+        name="body"
+        [(ngModel)]="body"
+        rows="7"
+        minlength="3"
+        maxlength="12000"
+        required
+      ></textarea></label
+    ><button class="primary" [disabled]="busy() || form.invalid" type="submit">
+      {{ busy() ? 'Публікуємо…' : 'Опублікувати' }}
+    </button>
+    <p role="status">{{ status() }}</p>
+  </form></mg-dialog
+>

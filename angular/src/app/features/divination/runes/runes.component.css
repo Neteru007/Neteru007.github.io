@@ -1,0 +1,43 @@
+:host {
+  display: block;
+}
+.rune-stage {
+  display: grid;
+  place-items: center;
+  padding: 35px 0;
+}
+.rune-token {
+  position: relative;
+  width: min(100%, 360px);
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.rune-token img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.engraved-rune {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 110px Georgia;
+  color: #3b3932;
+  text-shadow:
+    1px 2px 2px #f3ecd9,
+    -1px -2px 2px #0008;
+}
+.primary {
+  width: 100%;
+  background: var(--red);
+  color: var(--paper);
+  padding: 20px;
+}
+.rune-reading {
+  text-align: center;
+  margin: 35px 0;
+  padding: 25px;
+  border-top: 1px solid var(--line);
+}

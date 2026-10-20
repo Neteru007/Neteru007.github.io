@@ -1,37 +1,69 @@
-# magic_gallery — каталоги Angular
+# magic_gallery — Angular application
 
-Angular 22.2.3; standalone components, OnPush, lazy routes, signals and typed HttpClient services. Angular handles the Theurgy overview, Demonology, Angelology and all 144 detail pages. Existing home, articles, forum, divination and Belial pages remain independent pages and are linked from the shared header.
+The complete website uses Angular standalone components and lazy feature routes. TypeScript owns state and behavior; each component has its own `.component.html` template and `.component.css` stylesheet. Generated JavaScript lives in the published `catalogues/` directory, not alongside handwritten application code.
 
-## Development and publishing
+## Source ownership
 
-Use Node 24.15+ (the lockfile was generated with Node 24.19).
+| Directory | Responsibility |
+| --- | --- |
+| `src/app/core/auth/` | Supabase session lifecycle, registration, confirmation and password recovery |
+| `src/app/core/config/` | Public browser configuration; no secret/service-role keys |
+| `src/app/core/routing/` | Compatibility with old HTML URLs and auth callbacks |
+| `src/app/layout/` | Shared header, mobile navigation and footer |
+| `src/app/shared/` | Reusable native dialog and site-wide not-found page |
+| `src/app/features/home/` | Home page content |
+| `src/app/features/library/` | Library filters, data and reusable article card |
+| `src/app/features/articles/` | Article content and detail page |
+| `src/app/features/theurgy/` | Catalogues, detail views, catalogue data service and shared catalogue components |
+| `src/app/features/divination/` | Tarot and rune components, deck data and pure random-selection algorithms |
+| `src/app/features/forum/` | Topic list, thread, auth/account dialogs, composer, moderation, typed data service and feature state |
+| `src/app/features/belial/` | Interactive page, reply data and pure button-position algorithm |
+| `src/styles/` | Site tokens, base typography/reset and shared utilities only |
+| `public/data/`, `public/artwork/` | Reviewed catalogue data and attributed source images |
+| `tests/` | Deterministic tests for selection, coordinates, ban expiry, legacy routes and auth callback ordering |
+| `scripts/` | Data validation, architecture checks, versioning, build staging and artifact checks |
+
+The root `app.component` contains only the shared layout, route outlet and navigation/error state. Feature routes load asynchronously. Views use `OnPush` and signals; database calls live in services. Components never render pages by assigning `innerHTML` or installing global DOM event handlers.
+
+## Routes
+
+- `/#/` — home and library; `/#/#library` links to the library section.
+- `/#/articles/intention` — article detail.
+- `/#/theurgy`, `/#/angelology`, `/#/demonology` — theurgy and catalogues.
+- `/#/angelology/1`, `/#/demonology/68` — individual records.
+- `/#/divination/tarot`, `/#/divination/runes` — independent divination components.
+- `/#/forum`, `/#/forum/<uuid>` — forum and topic.
+- `/#/belial` — interactive page.
+
+The published HTML entry points remain available. A single bootstrap normalizes old article links, `#topic=…`, `#runes`, and catalogue query IDs. Email callback tokens are consumed by Supabase **before** the router changes the hash. The original `/forum.html` email redirect address is retained. Sessions use the same Supabase project and SDK storage as the previous site.
+
+## Data and authorization
+
+The two JSON catalogues contain 72 records each. Data is checked at runtime and cached within the current application. Build-generated SHA-256 version suffixes invalidate browser data caches when reviewed content changes. Image/source provenance is documented in `SOURCES.md`.
+
+The forum keeps its existing database schema and row-level security policies. UI checks are convenience only: Supabase RLS remains the authority for ownership, moderation and bans. No schema or admin-role migration is performed by this frontend refactor. Public configuration contains a publishable key, never a service-role key.
+
+Tarot uses unbiased bounded Web Crypto randomness and a Fisher–Yates shuffle, taking three distinct cards. Runes draw independently on each click. User questions remain local. Forum reads are paginated; stale topic searches are aborted, form submissions disable duplicate actions, and component subscriptions/timers are disposed when views close.
+
+## Development and validation
+
+Use Node 24 and the committed npm lockfile.
 
 ```sh
 npm ci
 npm run check:data
+npm run check:structure
+npm test
+npm run format:check
 npm run build
-npm run stage
+node scripts/stage.mjs /absolute/path/to/stage
+node scripts/check-stage.mjs /absolute/path/to/stage
 ```
 
-The checked-in source lives in `angular/`. `stage` copies the production output to the repository's `catalogues/` directory and updates `theurgy.html`, `goetia-spirit.html` and `shem-angel.html`. Commit both source and generated output; GitHub Pages continues to publish the existing main branch. Do not commit node_modules, dist, out-tsc or .angular.
+`npm run format` applies the committed Prettier configuration. Production compilation checks strict TypeScript, Angular templates, unused imports and the initial bundle budget. Runtime tests do not require browser automation.
 
-## Routing and data
+`stage.mjs` writes the same compiled app entry to all 12 supported HTML filenames, and copies build output into `catalogues/`. Existing root `assets/` are retained on GitHub Pages. Do not edit generated HTML or bundled JavaScript: update `src/` or `public/`, build, and stage again.
 
-Hash routing supports direct links and refreshes on GitHub Pages without server rewrites:
+## Verification boundary
 
-- `/theurgy.html#/demonology`
-- `/theurgy.html#/demonology/68`
-- `/theurgy.html#/angelology`
-- `/theurgy.html#/angelology/1`
-
-Legacy `theurgy.html#demonology`, `theurgy.html#angelology` and `*-spirit.html?id=N` / `shem-angel.html?id=N` links remain supported.
-
-The catalogues are separate asynchronous JSON requests. HttpClient responses are validated, cached with shareReplay, and canceled when the last consumer unsubscribes. Pages expose loading, retry and not-found states. Templates render text through Angular interpolation; no raw HTML injection or manual DOM rendering is used.
-
-Data files in `public/data` are the reviewed content source. Edit those files directly and keep source attribution with each entry. See SOURCES.md for historical limitations and traditions.
-
-## Verification
-
-`check:data` checks all entries, number uniqueness, source links, all 144 source-backed visual records (35 demon illustrations, 37 document excerpts and 72 modern Rosicrucian seals) and critical correspondence / verse cases. Production compilation performs strict TypeScript and Angular template checks and enforces an initial bundle size budget. Visual browser verification was unavailable in the editing environment.
-
-The Ukrainian section name is “Ангелологія”. The public route `angelology` remains unchanged for backwards compatibility. JSON requests include a content hash generated before each build, so updated catalogue data is not confused with an older browser cache.
+The refactor is covered by production compilation, deterministic algorithm/URL tests, data/architecture checks and staged dependency checks. Browser visual checks and a complete real email/login/moderation walkthrough require an available supported browser environment; they are not implied by a successful build.

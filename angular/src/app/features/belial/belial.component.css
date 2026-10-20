@@ -1,0 +1,106 @@
+:host {
+  display: block;
+  background: #171a17;
+  color: #f2eadb;
+  padding: 35px 24px;
+  text-align: center;
+  border-radius: 8px;
+}
+button:focus-visible {
+  outline: 2px solid #e2c58e;
+  outline-offset: 5px;
+}
+.tag {
+  color: #c3a976;
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+h1 {
+  font:
+    normal clamp(38px, 7vw, 65px) / 1.1 Georgia,
+    serif;
+  margin: 22px 0;
+}
+h1 em {
+  color: #c8ab7c;
+}
+p {
+  color: #bab7a9;
+  line-height: 1.8;
+}
+.arena {
+  position: relative;
+  height: 340px;
+  margin: 30px auto 20px;
+  border: 1px solid #b49c643d;
+  border-radius: 180px 180px 10px 10px;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 50%, #ba9e5b15, transparent 65%);
+}
+.circle {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  border: 1px solid #b59b6330;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.circle:before,
+.circle:after {
+  content: '';
+  position: absolute;
+  inset: 25px;
+  border: 1px solid #b59b6328;
+  transform: rotate(45deg);
+}
+.circle:after {
+  transform: rotate(15deg);
+  inset: 55px;
+}
+.arena button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 17px 22px;
+  background: #82463d;
+  color: #fff1d9;
+  border: 1px solid #b77d67;
+  border-radius: 3px;
+  font-size: 14px;
+  white-space: nowrap;
+  max-width: calc(100% - 20px);
+  touch-action: none;
+  z-index: 2;
+  box-shadow: 0 8px 35px #0005;
+}
+.status {
+  min-height: 50px;
+  color: #d0ba93;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+.reset {
+  background: transparent;
+  border: 1px solid #776d54;
+  color: #d2c3a3;
+  padding: 11px 18px;
+  margin: 8px;
+  cursor: pointer;
+}
+.fine {
+  font-size: 11px;
+  color: #8f9386;
+  margin: 28px 0;
+}
+@media (max-width: 500px) {
+  .arena {
+    height: 370px;
+  }
+  .status {
+    font-size: 18px;
+  }
+}
