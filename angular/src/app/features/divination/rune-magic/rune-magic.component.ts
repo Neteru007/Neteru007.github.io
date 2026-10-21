@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { bookRunes, bookChapters } from './rune-magic.data';
+import { bookRunes } from './rune-magic.data';
 @Component({
   standalone: true,
   imports: [RouterLink],
@@ -10,5 +10,4 @@ import { bookRunes, bookChapters } from './rune-magic.data';
 })
 export default class RuneMagicComponent {
   readonly runes = bookRunes;
-  readonly chapters = bookChapters;
 }
