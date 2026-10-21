@@ -7,6 +7,11 @@ export const divinationRoutes: Routes = [
     loadComponent: () => import('./tarot/tarot.component'),
   },
   {
+    path: 'runes/protective-magic',
+    title: 'Рунічна захисна магія — magic_gallery',
+    loadComponent: () => import('./rune-magic/rune-magic.component'),
+  },
+  {
     path: 'runes',
     title: 'Руни — magic_gallery',
     loadComponent: () => import('./runes/runes.component'),
