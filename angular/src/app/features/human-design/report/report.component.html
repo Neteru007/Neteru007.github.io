@@ -45,8 +45,24 @@
   </div>
   <section>
     <h2>01 / Ваш тип і стратегія</h2>
+    <p class="small">
+      Далі подано поняття та інтерпретації саме системи Human Design. Опис допомагає читати карту й
+      порівнювати її зі своїм досвідом.
+    </p>
     <h3>{{ types[chart().type].name }}</h3>
     <p>{{ types[chart().type].text }}</p>
+    <p><strong>Аура в термінології системи.</strong> {{ types[chart().type].aura }}</p>
+    <div class="reading-grid">
+      <div class="reading-card">
+        <h3>Ресурс типу</h3>
+        <p>{{ types[chart().type].strength }}</p>
+      </div>
+      <div class="reading-card">
+        <h3>Типове напруження</h3>
+        <p>{{ types[chart().type].pattern }}</p>
+      </div>
+    </div>
+    <p><strong>У взаємодії з людьми.</strong> {{ types[chart().type].relations }}</p>
     <p><strong>Практика спостереження.</strong> {{ types[chart().type].practice }}</p>
     <p class="small">
       «Підпис» та «не-я» — назви символічних тем у цій системі. Вони не є діагнозом і не означають,
@@ -57,6 +73,9 @@
     <h2>02 / Як читати свій авторитет</h2>
     <h3>{{ authorities[chart().authority].name }}</h3>
     <p>{{ authorities[chart().authority].text }}</p>
+    <p>
+      <strong>Як спостерігати цей процес.</strong> {{ authorities[chart().authority].practice }}
+    </p>
   </section>
   <section>
     <h2>03 / Профіль {{ chart().profile }}</h2>
@@ -64,6 +83,12 @@
       Перша цифра — лінія Сонця Особистості, друга — лінія Сонця Дизайну. Вони описують дві
       символічні теми взаємодії з досвідом.
     </p>
+    @if (profiles[chart().profile]; as reading) {
+      <div class="profile-reading">
+        <h3>{{ reading.name }}</h3>
+        <p>{{ reading.text }}</p>
+      </div>
+    }
     <h3>{{ profile()[0] }} · {{ lines[profile()[0]].name }} — Особистість</h3>
     <p>{{ lines[profile()[0]].text }}</p>
     <h3>{{ profile()[1] }} · {{ lines[profile()[1]].name }} — Дизайн</h3>
@@ -106,13 +131,14 @@
     <h2>05 / Дев’ять центрів</h2>
     <p>
       Центр визначений, якщо він входить хоча б в один завершений канал. Невизначений центр може
-      містити активовані ворота; повністю відкритий — не містить жодних активацій. Тут обидва
-      випадки позначені як невизначені.
+      містити активовані ворота; повністю відкритий — не містить жодних активацій. У картках нижче
+      ці стани розрізняються. Визначеність у системі описує сталість способу прояву, а не те,
+      наскільки «добре» працює центр.
     </p>
     <div class="center-grid">
       @for (c of centers; track c.id) {
         <div class="center-card">
-          <p class="eyebrow">{{ centerDefined(c.id) ? 'ВИЗНАЧЕНИЙ' : 'НЕВИЗНАЧЕНИЙ' }}</p>
+          <p class="eyebrow">{{ centerStatus(c.id) }}</p>
           <h3>{{ c.name }}</h3>
           <p>
             <strong>{{ c.theme }}</strong>
@@ -373,8 +399,25 @@
       професійною оцінкою.
     </p>
     <p class="small">
-      Джерела методу: jovianarchive.com/pages/human-design-dictionary ·
-      github.com/cosinekitty/astronomy. Авторські українські пояснення · magic_gallery.
+      Авторські українські пояснення · magic_gallery. Джерела термінології:
+      <a href="https://jovianarchive.com/pages/beginner" target="_blank" rel="noopener noreferrer"
+        >Jovian Archive: типи й авторитети</a
+      >,
+      <a
+        href="https://jovianarchive.com/pages/understanding-profile-in-human-design"
+        target="_blank"
+        rel="noopener noreferrer"
+        >профілі</a
+      >,
+      <a
+        href="https://jovianarchive.com/pages/the-nine-centers-of-the-bodygraph-in-human-design"
+        target="_blank"
+        rel="noopener noreferrer"
+        >центри</a
+      >. Український приклад і додатковий ресурс:
+      <a href="https://humandesign.com.ua/" target="_blank" rel="noopener noreferrer"
+        >humandesign.com.ua</a
+      >. Астрономічний метод: github.com/cosinekitty/astronomy.
     </p>
   </section>
 </article>

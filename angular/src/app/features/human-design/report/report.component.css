@@ -222,3 +222,35 @@ thead {
     break-inside: avoid;
   }
 }
+
+.reading-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin: 22px 0;
+}
+.reading-card,
+.profile-reading {
+  border: 1px solid var(--line);
+  padding: 20px;
+  background: var(--panel);
+}
+.reading-card h3,
+.profile-reading h3 {
+  margin-top: 0;
+}
+.reading-card p,
+.profile-reading p {
+  margin-bottom: 0;
+}
+@media (max-width: 650px) {
+  .reading-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media print {
+  .reading-card,
+  .profile-reading {
+    break-inside: avoid;
+  }
+}

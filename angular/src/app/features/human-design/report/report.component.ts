@@ -2,9 +2,9 @@ import { ChangeDetectionStrategy, Component, computed, input } from '@angular/co
 import { DatePipe, DecimalPipe } from '@angular/common';
 import { surroundings } from '../domain/connections';
 import { Chart } from '../domain/models';
-import { CENTER_INFO } from '../data/channels';
+import { CENTER_INFO, CHANNELS } from '../data/channels';
 import { GATES } from '../data/gates';
-import { TYPES, AUTHORITIES, LINES, DEFINITIONS } from '../data/interpretations';
+import { TYPES, AUTHORITIES, LINES, PROFILES, DEFINITIONS } from '../data/interpretations';
 import BodygraphComponent from '../bodygraph/bodygraph.component';
 @Component({
   selector: 'mg-design-report',
@@ -18,6 +18,7 @@ export default class ReportComponent {
   types = TYPES;
   authorities = AUTHORITIES;
   lines = LINES;
+  profiles = PROFILES;
   definitions = DEFINITIONS;
   gateInfo = GATES;
   centerInfo = CENTER_INFO;
@@ -26,6 +27,13 @@ export default class ReportComponent {
   profile = computed(() => this.chart().profile.split('/').map(Number));
   centerDefined(id: string) {
     return this.chart().centers.some((c) => c === id);
+  }
+  centerStatus(id: string) {
+    if (this.centerDefined(id)) return 'Визначений';
+    const activated = CHANNELS.some((c) =>
+      c.centers.some((center, i) => center === id && this.chart().gates.includes(c.gates[i])),
+    );
+    return activated ? 'Невизначений · з активаціями' : 'Повністю відкритий';
   }
   sourceOf(gate: number) {
     const p = this.chart().personality.some((a) => a.gate === gate),
