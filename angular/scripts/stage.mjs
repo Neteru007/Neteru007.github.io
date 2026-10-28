@@ -21,7 +21,8 @@ const index = await readFile(path.join(built, 'index.html'), 'utf8');
 await writeFile(path.join(outputRoot, 'index.html'), index);
 await rm(path.join(outputRoot, 'catalogues/index.html'), { force: true });
 for (const entry of await readdir(outputRoot)) {
-  if (entry.endsWith('.html') && entry !== 'index.html') {
+  // Search Console verification files must survive every deployment.
+  if (entry.endsWith('.html') && entry !== 'index.html' && !/^google[a-f0-9]+\.html$/.test(entry)) {
     await rm(path.join(outputRoot, entry));
   }
 }

@@ -3,6 +3,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { pages } from '../seo/pages.mjs';
 const root = process.argv[2];
+const existing = await readdir(new URL('../seo/existing/', import.meta.url));
 assert(root, 'Pass staged directory');
 async function htmlFiles(dir) {
   const result = [];
@@ -14,8 +15,12 @@ async function htmlFiles(dir) {
   return result;
 }
 assert.deepEqual(
-  (await htmlFiles(root)).sort(),
-  ['index.html', ...pages.map((page) => page.slug + '/index.html')].sort(),
+  (await htmlFiles(root)).filter((file) => !/^google[a-f0-9]+\.html$/.test(file)).sort(),
+  [
+    'index.html',
+    ...pages.map((page) => page.slug + '/index.html'),
+    ...existing.map((slug) => slug + '/index.html'),
+  ].sort(),
   'Only the application entry and generated SEO guides are allowed',
 );
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
@@ -35,6 +40,10 @@ console.log('Application entry, generated SEO guides and compiled dependencies p
 const canonicals = new Set();
 for (const file of await htmlFiles(root)) {
   const source = await readFile(path.join(root, file), 'utf8');
+  if (/^google[a-f0-9]+\.html$/.test(file)) {
+    assert.equal(source.trim(), 'google-site-verification: ' + file);
+    continue;
+  }
   const expected =
     'https://neteru007.github.io/' +
     (file === 'index.html' ? '' : file.replace(/index\.html$/, ''));
@@ -50,7 +59,7 @@ for (const file of await htmlFiles(root)) {
     /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
   )) {
     const data = JSON.parse(script[1]);
-    assert.equal(data.url, expected);
+    assert.equal(data.url || data.mainEntityOfPage, expected);
     assert.equal(data.inLanguage, 'uk');
   }
   for (const match of source.matchAll(/(?:href|src)="(\/[^"?#]*)[^"\s]*"/g)) {

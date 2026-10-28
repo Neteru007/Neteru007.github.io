@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { origin, pages } from '../seo/pages.mjs';
@@ -28,11 +28,18 @@ export async function generateSeo(outputRoot) {
       name: page.heading,
       description: page.description,
       inLanguage: 'uk',
+      breadcrumb: {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Головна', item: origin + '/' },
+          { '@type': 'ListItem', position: 2, name: page.heading, item: url },
+        ],
+      },
       isPartOf: {
         '@type': 'WebSite',
         '@id': origin + '/#website',
         url: origin + '/',
-        name: 'magic_gallery',
+        name: 'Neteru Theurgy',
       },
     }).replaceAll('<', '\\u003c');
     const values = {
@@ -64,7 +71,17 @@ export async function generateSeo(outputRoot) {
     await mkdir(path.join(outputRoot, page.slug), { recursive: true });
     await writeFile(path.join(outputRoot, page.slug, 'index.html'), html);
   }
-  const urls = [origin + '/', ...pages.map((page) => `${origin}/${page.slug}/`)];
+  // Retain reviewed guides that predate the shared page template.
+  const existingRoot = path.join(project, 'seo/existing');
+  const existing = await readdir(existingRoot);
+  for (const slug of existing) {
+    await cp(path.join(existingRoot, slug), path.join(outputRoot, slug), { recursive: true });
+  }
+  const urls = [
+    origin + '/',
+    ...pages.map((page) => `${origin}/${page.slug}/`),
+    ...existing.map((slug) => `${origin}/${slug}/`),
+  ];
   await writeFile(
     path.join(outputRoot, 'sitemap.xml'),
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((url) => `  <url><loc>${url}</loc></url>`).join('\n')}\n</urlset>\n`,

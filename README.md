@@ -29,3 +29,9 @@ The Ukrainian report includes a nine-center SVG, Type, Strategy, Authority, Prof
 ## Search visibility
 
 The homepage and standalone guides have Ukrainian titles/descriptions, canonical URLs, Open Graph tags and WebSite/WebPage JSON-LD. The sitemap lists only real canonical HTML pages, never hash routes. Interactive tools retain their existing hash URLs; their guide pages provide search entrances. Submit `https://neteru007.github.io/sitemap.xml` in Google Search Console after verifying site ownership. Indexing and rankings are determined by Google and are not guaranteed.
+
+## Kyiv search guide
+
+`/vidma-kyiv/` is a static Ukrainian guide for the query «відьма Київ». Its editable content is `angular/seo/kyiv.mjs`; links from the application home page and generated guides make it discoverable. It describes the actual online tools and does not claim an unverified appointment service, business address, credentials, or reviews. To publish a personal service profile, supply confirmed public service details and contact information first.
+
+Five earlier standalone guides are preserved in `angular/seo/existing/` and included in every staged sitemap. Search Console HTML verification files at the site root survive staging. Validate in a separate staging directory using the commands in `angular/README.md`.
