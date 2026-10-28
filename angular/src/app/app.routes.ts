@@ -14,6 +14,11 @@ export const routes: Routes = [
       import('./features/divination/divination.routes').then((m) => m.divinationRoutes),
   },
   {
+    path: 'human-design',
+    title: 'Дизайн людини — magic_gallery',
+    loadComponent: () => import('./features/human-design/human-design.component'),
+  },
+  {
     path: 'forum',
     title: 'Форум — magic_gallery',
     loadComponent: () => import('./features/forum/forum.component'),

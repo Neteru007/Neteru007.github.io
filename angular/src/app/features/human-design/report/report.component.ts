@@ -1,0 +1,39 @@
+import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
+import { DatePipe, DecimalPipe } from '@angular/common';
+import { Chart } from '../domain/models';
+import { CENTER_INFO } from '../data/channels';
+import { GATES } from '../data/gates';
+import { TYPES, AUTHORITIES, LINES, DEFINITIONS } from '../data/interpretations';
+import BodygraphComponent from '../bodygraph/bodygraph.component';
+@Component({
+  selector: 'mg-design-report',
+  imports: [DatePipe, DecimalPipe, BodygraphComponent],
+  templateUrl: './report.component.html',
+  styleUrl: './report.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export default class ReportComponent {
+  chart = input.required<Chart>();
+  types = TYPES;
+  authorities = AUTHORITIES;
+  lines = LINES;
+  definitions = DEFINITIONS;
+  gateInfo = GATES;
+  centerInfo = CENTER_INFO;
+  centers = Object.entries(CENTER_INFO).map(([id, info]) => ({ id, ...info }));
+  profile = computed(() => this.chart().profile.split('/').map(Number));
+  centerDefined(id: string) {
+    return this.chart().centers.some((c) => c === id);
+  }
+  sourceOf(gate: number) {
+    const p = this.chart().personality.some((a) => a.gate === gate),
+      d = this.chart().design.some((a) => a.gate === gate);
+    return p && d ? 'Особистість + Дизайн' : p ? 'Особистість' : 'Дизайн';
+  }
+  isHanging(gate: number) {
+    return !this.chart().channels.some((c) => c.gates.includes(gate));
+  }
+  print() {
+    window.print();
+  }
+}

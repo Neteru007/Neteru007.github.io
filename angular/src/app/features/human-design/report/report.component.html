@@ -1,0 +1,226 @@
+<article class="report" aria-label="Персональний звіт Human Design">
+  <div class="report-heading">
+    <div>
+      <p class="eyebrow">HUMAN DESIGN / ОСОБИСТИЙ ЗВІТ</p>
+      <h2>{{ chart().birth.name || 'Ваш дизайн людини' }}</h2>
+    </div>
+    <button class="screen-only" (click)="print()">Роздрукувати / Зберегти PDF ↗</button>
+  </div>
+  <p>
+    {{ chart().birth.date.split('-').reverse().join('.') }} · {{ chart().birth.time }} ·
+    {{ chart().birth.place }}
+  </p>
+  <p class="small">
+    {{
+      chart().birth.offset
+        ? 'Заданий зсув UTC: ' + chart().birth.offset
+        : 'Часовий пояс: ' + chart().birth.zone
+    }}. Народження UTC: {{ chart().utc | date: 'dd.MM.yyyy HH:mm:ss' : 'UTC' }}. Дата Дизайну UTC:
+    {{ chart().designUtc | date: 'dd.MM.yyyy HH:mm:ss' : 'UTC' }}.
+  </p>
+  <div class="screen-only print-tip small">
+    У вікні друку оберіть принтер або «Зберегти як PDF». Звіт містить усі пояснення; для найкращого
+    вигляду увімкніть друк фонової графіки.
+  </div>
+  <div class="chart-summary">
+    <mg-bodygraph [chart]="chart()" />
+    <dl>
+      <dt>Тип</dt>
+      <dd>{{ types[chart().type].name }}</dd>
+      <dt>Стратегія</dt>
+      <dd>{{ types[chart().type].strategy }}</dd>
+      <dt>Авторитет</dt>
+      <dd>{{ authorities[chart().authority].name }}</dd>
+      <dt>Профіль</dt>
+      <dd>
+        {{ chart().profile }} · {{ lines[profile()[0]].name }} / {{ lines[profile()[1]].name }}
+      </dd>
+      <dt>Визначеність</dt>
+      <dd>{{ definitions[chart().groups.length] }}</dd>
+      <dt>Підпис типу</dt>
+      <dd>{{ types[chart().type].signature }}</dd>
+      <dt>Тема «не-я»</dt>
+      <dd>{{ types[chart().type].shadow }}</dd>
+    </dl>
+  </div>
+  <section>
+    <h2>01 / Ваш тип і стратегія</h2>
+    <h3>{{ types[chart().type].name }}</h3>
+    <p>{{ types[chart().type].text }}</p>
+    <p><strong>Практика спостереження.</strong> {{ types[chart().type].practice }}</p>
+    <p class="small">
+      «Підпис» та «не-я» — назви символічних тем у цій системі. Вони не є діагнозом і не означають,
+      що певні емоції вам заборонені.
+    </p>
+  </section>
+  <section>
+    <h2>02 / Як читати свій авторитет</h2>
+    <h3>{{ authorities[chart().authority].name }}</h3>
+    <p>{{ authorities[chart().authority].text }}</p>
+  </section>
+  <section>
+    <h2>03 / Профіль {{ chart().profile }}</h2>
+    <p>
+      Перша цифра — лінія Сонця Особистості, друга — лінія Сонця Дизайну. Вони описують дві
+      символічні теми взаємодії з досвідом.
+    </p>
+    <h3>{{ profile()[0] }} · {{ lines[profile()[0]].name }} — Особистість</h3>
+    <p>{{ lines[profile()[0]].text }}</p>
+    <h3>{{ profile()[1] }} · {{ lines[profile()[1]].name }} — Дизайн</h3>
+    <p>{{ lines[profile()[1]].text }}</p>
+    <p>
+      Зіставте ці теми: що ви впізнаєте свідомо, а що помічаєте лише після конкретних подій?
+      Невідповідність опису вашому досвіду не потребує пошуку «помилки» в собі.
+    </p>
+  </section>
+  <section>
+    <h2>04 / Визначеність</h2>
+    <h3>{{ definitions[chart().groups.length] }}</h3>
+    @if (chart().groups.length === 0) {
+      <p>
+        У карті немає завершених каналів. Активовані ворота при цьому є — невизначені центри не
+        означають відсутності особистих якостей.
+      </p>
+    } @else if (chart().groups.length === 1) {
+      <p>
+        Усі визначені центри з’єднані в одну мережу. У Human Design це інтерпретують як цілісний
+        спосіб внутрішньої взаємодії; це не робить людину незалежною від підтримки інших.
+      </p>
+    } @else {
+      <p>
+        Визначені центри утворюють {{ chart().groups.length }} окремі мережі. У системі це
+        пов’язують із різними способами інтеграції досвіду через взаємодію та середовище. Це не
+        свідчить про внутрішню неповноцінність і не визначає сумісність із партнером.
+      </p>
+    }
+    @for (group of chart().groups; track $index) {
+      <p>
+        <strong>Мережа {{ $index + 1 }}:</strong>
+        @for (c of group; track c) {
+          <span>{{ centerInfo[c].name }}{{ $last ? '' : ', ' }}</span>
+        }
+      </p>
+    }
+  </section>
+  <section>
+    <h2>05 / Дев’ять центрів</h2>
+    <p>
+      Центр визначений, якщо він входить хоча б в один завершений канал. Невизначений центр може
+      містити активовані ворота; повністю відкритий — не містить жодних активацій. Тут обидва
+      випадки позначені як невизначені.
+    </p>
+    <div class="center-grid">
+      @for (c of centers; track c.id) {
+        <div class="center-card">
+          <p class="eyebrow">{{ centerDefined(c.id) ? 'ВИЗНАЧЕНИЙ' : 'НЕВИЗНАЧЕНИЙ' }}</p>
+          <h3>{{ c.name }}</h3>
+          <p>
+            <strong>{{ c.theme }}</strong>
+          </p>
+          <p>{{ centerDefined(c.id) ? c.defined : c.open }}</p>
+        </div>
+      }
+    </div>
+  </section>
+  <section>
+    <h2>06 / Визначені канали · {{ chart().channels.length }}</h2>
+    <p>
+      Канал визначений, коли активовані обидва його ворота в будь-якому з двох наборів. Один набір
+      може доповнювати інший.
+    </p>
+    @for (c of chart().channels; track c.name) {
+      <div class="entry">
+        <h3>{{ c.gates.join('–') }} · {{ c.name }}</h3>
+        <p>{{ c.text }}</p>
+        <p class="small">
+          {{ centerInfo[c.centers[0]].name }} ↔ {{ centerInfo[c.centers[1]].name }}
+        </p>
+      </div>
+    } @empty {
+      <p>Завершених каналів немає. Окремі активовані ворота наведені нижче.</p>
+    }
+  </section>
+  <section>
+    <h2>07 / Активовані ворота · {{ chart().gates.length }}</h2>
+    <p>
+      Нижче — теми лише тих воріт, які присутні у вашій карті. «Висячі» ворота мають активацію, але
+      не утворюють завершеного каналу. Це не недолік, який потрібно виправляти.
+    </p>
+    @for (g of chart().gates; track g) {
+      <div class="entry">
+        <h3>{{ g }} · {{ gateInfo[g][0] }}</h3>
+        <p>{{ gateInfo[g][1] }}</p>
+        <p class="small">
+          {{ sourceOf(g) }} · {{ isHanging(g) ? 'Висячі ворота' : 'У визначеному каналі' }}
+        </p>
+      </div>
+    }
+  </section>
+  <section>
+    <h2>08 / Планетарні активації</h2>
+    <p>
+      Запис «ворота.лінія» показує сектор мандали та його шосту частину. Чорний набір належить
+      моменту народження, червоний — даті Дизайну.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <caption>
+          Положення на дві розрахункові дати
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Точка</th>
+            <th scope="col">Особистість</th>
+            <th scope="col">Довгота</th>
+            <th scope="col">Дизайн</th>
+            <th scope="col">Довгота</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (a of chart().personality; track a.planet; let i = $index) {
+            <tr>
+              <th scope="row">{{ a.planet }}</th>
+              <td>{{ a.gate }}.{{ a.line }}</td>
+              <td>{{ a.longitude | number: '1.4-4' }}°</td>
+              <td class="design-value">
+                {{ chart().design[i].gate }}.{{ chart().design[i].line }}
+              </td>
+              <td>{{ chart().design[i].longitude | number: '1.4-4' }}°</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="small">
+      Сонце й Земля: основні теми двох наборів; Місяць: символічний рушій; вузли: контекст і напрям
+      досвіду; Меркурій: комунікація; Венера: цінності; Марс: навчання через дію; Юпітер:
+      розширення; Сатурн: обмеження й відповідальність; Уран: незвичність; Нептун: невизначеність;
+      Плутон: глибинні зміни. Це езотеричні відповідності, а не виміряні впливи планет на характер.
+    </p>
+  </section>
+  <section>
+    <h2>09 / Як користуватися звітом</h2>
+    <ol>
+      <li>Оберіть одну тему, яка вам цікава, і спостерігайте за нею протягом тижня.</li>
+      <li>
+        Записуйте конкретну ситуацію, свою реакцію та результат. Помічайте як збіги, так і
+        невідповідності опису.
+      </li>
+      <li>
+        Не підганяйте себе чи інших під тип. Власний досвід і факти важливіші за символічний опис.
+      </li>
+    </ol>
+    <p class="small">
+      Незалежний розрахунок: Astronomy Engine 2.1.19; тропічні геоцентричні довготи, осцилюючий
+      істинний вузол, сонячна дуга 88°. Похибка часу народження або близькість до межі воріт чи
+      лінії може змінити результат. Історичні часові пояси залежать від бази браузера; зсув UTC,
+      введений вручну, має пріоритет. Human Design не має наукового підтвердження як модель
+      особистості. Текст є матеріалом для саморефлексії, а не медичною, психологічною чи іншою
+      професійною оцінкою.
+    </p>
+    <p class="small">
+      Джерела методу: jovianarchive.com/pages/human-design-dictionary ·
+      github.com/cosinekitty/astronomy. Авторські українські пояснення · magic_gallery.
+    </p>
+  </section>
+</article>

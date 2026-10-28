@@ -1,0 +1,68 @@
+:host {
+  display: block;
+}
+figure {
+  margin: 0;
+}
+svg {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: visible;
+}
+path {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+.inactive {
+  stroke: #d8d1c2;
+}
+.personality {
+  stroke: #272626;
+}
+.design {
+  stroke: #9a3434;
+}
+.both {
+  stroke: #775282;
+}
+polygon {
+  fill: #fffdf7;
+  stroke: #8f7b52;
+  stroke-width: 1.5;
+}
+.defined {
+  fill: #d6c493;
+}
+text {
+  font:
+    9px Arial,
+    sans-serif;
+  fill: #272626;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: #fffdf7;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+figcaption {
+  font-size: 11px;
+  line-height: 1.8;
+  max-width: 380px;
+  margin: 12px auto;
+  color: var(--muted);
+}
+@media print {
+  figure {
+    break-inside: avoid;
+  }
+  svg {
+    max-height: 125mm;
+  }
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

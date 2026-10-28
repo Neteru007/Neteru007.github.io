@@ -1,0 +1,135 @@
+<div class="screen-only">
+  <p class="eyebrow">САМОПІЗНАННЯ / HUMAN DESIGN</p>
+  <h1>Дизайн людини</h1>
+  <p class="intro">
+    Ваша карта, розгорнуте пояснення українською та особистий звіт, який можна роздрукувати або
+    зберегти як PDF.
+  </p>
+  <p class="small">
+    Human Design — езотерична система для символічного самопізнання, яка не має наукового
+    підтвердження як модель особистості.
+  </p>
+  <form (ngSubmit)="submit()" (input)="changed()" (change)="changed()">
+    <h2>Дані народження</h2>
+    <p id="privacy" class="small">
+      Розрахунок відбувається у вашому браузері. Ця форма не передає дані на сервер і не зберігає
+      їх. Населений пункт потрібен для підпису звіту; часовий пояс оберіть самостійно.
+    </p>
+    <div class="fields">
+      <label
+        >Ім’я для звіту <span class="small">(необов’язково)</span
+        ><input name="name" [(ngModel)]="input.name" maxlength="100" autocomplete="off"
+      /></label>
+      <label
+        >Місто / населений пункт і країна<input
+          name="place"
+          [(ngModel)]="input.place"
+          required
+          maxlength="160"
+          placeholder="Наприклад: Київ, Україна"
+          autocomplete="off"
+      /></label>
+      <label
+        >Дата народження<input
+          type="date"
+          name="date"
+          [(ngModel)]="input.date"
+          min="1900-01-01"
+          [max]="maxDate"
+          required
+      /></label>
+      <label
+        >Точний місцевий час<input
+          type="time"
+          name="time"
+          [(ngModel)]="input.time"
+          required
+          aria-describedby="time-help"
+      /></label>
+      <label class="wide"
+        >Часовий пояс місця народження<input
+          name="zone"
+          [(ngModel)]="input.zone"
+          list="timezones"
+          required
+          aria-describedby="zone-help"
+          autocomplete="off" /><datalist id="timezones">
+          @for (zone of zones; track zone) {
+            <option [value]="zone"></option>
+          }
+          <option value="Europe/Kyiv"></option>
+          <option value="UTC"></option></datalist
+      ></label>
+    </div>
+    <p id="zone-help" class="small">
+      Для України зазвичай Europe/Kyiv (також відомий як Europe/Kiev). Для інших країн оберіть
+      відповідний пояс, наприклад Europe/Warsaw або America/New_York. Історичний літній час
+      враховується за базою часового поясу вашого браузера.
+    </p>
+    <p id="time-help" class="small">
+      Використовуйте час із запису про народження. Якщо час невідомий, точний персональний
+      розрахунок неможливий — не підставляйте довільний час.
+    </p>
+    <details>
+      <summary>Додатково: відомий зсув UTC</summary>
+      <label
+        >Зсув саме на дату народження<input
+          name="offset"
+          [(ngModel)]="input.offset"
+          placeholder="+03:00"
+          pattern="[+-][0-9]{2}:[0-9]{2}"
+      /></label>
+      <p class="small">
+        Залиште порожнім для автоматичного визначення. Заповнений зсув має пріоритет над часовим
+        поясом; використовуйте його лише коли він підтверджений, зокрема для повторного часу під час
+        переведення годинника.
+      </p>
+    </details>
+    <div class="actions">
+      <button type="submit" [disabled]="busy()">
+        {{ busy() ? 'Розраховуємо…' : 'Розрахувати мій дизайн ↗' }}</button
+      ><button type="button" (click)="clear()" [disabled]="busy()">Очистити дані</button>
+    </div>
+    @if (error()) {
+      <p class="error" role="alert">{{ error() }}</p>
+    }
+    @if (busy()) {
+      <p role="status">Завантаження астрономічного модуля та обчислення карти…</p>
+    }
+  </form>
+</div>
+@if (chart(); as result) {
+  @if (stale()) {
+    <p class="notice screen-only" role="status">
+      Дані змінено. Натисніть «Розрахувати мій дизайн», щоб оновити звіт.
+    </p>
+  }
+  <mg-design-report [chart]="result" />
+}
+<section class="method screen-only">
+  <h2>Як отримуємо карту</h2>
+  <p>
+    Два набори положень: на момент народження («Особистість») і на момент, коли Сонце було на 88°
+    раніше («Дизайн»). Це сонячна дуга, а не віднімання 88 календарних днів. Довготи переносяться на
+    64 ворота, а завершені канали визначають центри, тип та авторитет.
+  </p>
+  <p class="small">
+    Метод: Astronomy Engine 2.1.19, тропічні геоцентричні довготи, істинний осцилюючий місячний
+    вузол. Це незалежна реалізація; поблизу меж воріт і ліній можливі відмінності з іншими
+    калькуляторами. Результат не є сертифікованим аналізом. Опис — авторські українські матеріали
+    для роздумів.
+  </p>
+  <p class="small">
+    Джерела методу:
+    <a
+      href="https://jovianarchive.com/pages/human-design-dictionary"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Jovian Archive: принцип розрахунку</a
+    >
+    ·
+    <a href="https://github.com/cosinekitty/astronomy" target="_blank" rel="noopener noreferrer"
+      >Astronomy Engine: астрономічні обчислення</a
+    >.
+  </p>
+</section>

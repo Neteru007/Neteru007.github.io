@@ -26,7 +26,7 @@ const files = await readdir(path.join(root, 'catalogues'));
 assert(files.filter((f) => /^chunk-.*\.js$/.test(f)).length >= 15);
 for (const file of files.filter((f) => f.endsWith('.js'))) {
   const js = await readFile(path.join(root, 'catalogues', file), 'utf8');
-  for (const match of js.matchAll(/["']\.\/(chunk-[\w-]+\.js)["']/g))
+  for (const match of js.matchAll(/["'`]\.\/(chunk-[\w-]+\.js)["'`]/g))
     assert(files.includes(match[1]), 'Missing dynamic dependency ' + match[1]);
 }
 console.log('Single index.html entry point and all compiled lazy-chunk dependencies pass.');

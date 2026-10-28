@@ -16,6 +16,7 @@ The complete website uses Angular standalone components and lazy feature routes.
 | `src/app/features/articles/` | Article content and detail page |
 | `src/app/features/theurgy/` | Catalogues, detail views, catalogue data service and shared catalogue components |
 | `src/app/features/divination/` | Tarot and rune components, deck data and pure random-selection algorithms |
+| `src/app/features/human-design/` | Birth-time conversion, astronomical/domain calculations, original Ukrainian texts, bodygraph and print report components |
 | `src/app/features/forum/` | Topic list, thread, auth/account dialogs, composer, moderation, typed data service and feature state |
 | `src/app/features/belial/` | Interactive page, reply data and pure button-position algorithm |
 | `src/styles/` | Site tokens, base typography/reset and shared utilities only |
@@ -32,6 +33,7 @@ The root `app.component` contains only the shared layout, route outlet and navig
 - `/#/theurgy`, `/#/angelology`, `/#/demonology`, `/#/enochian`, `/#/ars-notoria` — theurgy and catalogues.
 - `/#/angelology/1`, `/#/demonology/68` — individual records.
 - `/#/divination/tarot`, `/#/divination/runes` — independent divination components.
+- `/#/human-design` — local birth-chart calculation and printable Ukrainian report.
 - `/#/forum`, `/#/forum/<uuid>` — forum and topic.
 - `/#/belial` — interactive page.
 

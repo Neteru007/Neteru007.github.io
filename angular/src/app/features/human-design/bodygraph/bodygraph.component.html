@@ -1,0 +1,39 @@
+<figure>
+  <svg viewBox="0 0 400 550" role="img" aria-labelledby="bodygraph-title bodygraph-desc">
+    <title id="bodygraph-title">Ваш бодіграф — схема дев’яти центрів</title>
+    <desc id="bodygraph-desc">
+      Зафарбовані центри визначені завершеними каналами. Чорні половини каналів належать
+      Особистості, червоні — Дизайну, фіолетові — обом. Повний текстовий перелік наведено у звіті.
+    </desc>
+    @for (p of paths(); track p.id) {
+      <g>
+        <title>{{ p.label }}</title>
+        <path [attr.d]="p.first" [attr.class]="p.a" />
+        <path [attr.d]="p.second" [attr.class]="p.b" />
+      </g>
+    }
+    @for (c of centers; track c.id) {
+      <g>
+        <title>
+          {{ c.name }}: {{ chart().centers.includes(c.id) ? 'визначений' : 'невизначений' }}
+        </title>
+        <polygon [attr.points]="c.shape" [class.defined]="chart().centers.includes(c.id)" />
+        <text [attr.x]="c.x" [attr.y]="c.y + 4">
+          {{
+            c.name === 'Сонячне сплетіння'
+              ? 'Емоції'
+              : c.name === 'Серцевий / Его'
+                ? 'Его'
+                : c.name === 'G-центр'
+                  ? 'G'
+                  : c.name
+          }}
+        </text>
+      </g>
+    }
+  </svg>
+  <figcaption>
+    Чорний — Особистість · Червоний — Дизайн · Фіолетовий — обидва. Золотистий центр — визначений;
+    світлий — невизначений.
+  </figcaption>
+</figure>
