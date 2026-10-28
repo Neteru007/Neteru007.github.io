@@ -37,7 +37,7 @@ The root `app.component` contains only the shared layout, route outlet and navig
 - `/#/forum`, `/#/forum/<uuid>` — forum and topic.
 - `/#/belial` — interactive page.
 
-`index.html` is the only deployed HTML document. Every section is a lazy Angular route; component HTML files are source templates compiled into JavaScript, not separate published pages. Email callback tokens are consumed by Supabase **before** the router changes the hash. Confirmation and password-reset links return to the site root. Sessions use the same Supabase project and SDK storage as the previous site.
+`index.html` boots the interactive Angular application. Seven standalone Ukrainian guides at `/magichni-poslugy/`, `/tarot-online/`, `/runy-online/`, `/dyzain-liudyny/`, `/demonolohiia/`, `/anhelolohiia/` and `/mahiia-ta-praktyky/` provide crawlable HTML without JavaScript. They link to the existing tools; no paid consultation or ritual booking is implied. Every section is a lazy Angular route; component HTML files are source templates compiled into JavaScript, not separate published pages. Email callback tokens are consumed by Supabase **before** the router changes the hash. Confirmation and password-reset links return to the site root. Sessions use the same Supabase project and SDK storage as the previous site.
 
 ## Data and authorization
 
@@ -64,7 +64,7 @@ node scripts/check-stage.mjs /absolute/path/to/stage
 
 `npm run format` applies the committed Prettier configuration. Production compilation checks strict TypeScript, Angular templates, unused imports and the initial bundle budget. Runtime tests do not require browser automation.
 
-`stage.mjs` writes only the root `index.html`, removes duplicate page documents (including the copied build index), and copies JavaScript/CSS/data assets into `catalogues/`. Existing root `assets/` are retained on GitHub Pages. Do not edit generated HTML or bundled JavaScript: update `src/` or `public/`, build, and stage again.
+`stage.mjs` writes the application entry, copies JavaScript/CSS/data assets into `catalogues/`, and generates SEO guides, `robots.txt` and `sitemap.xml`. Guide content lives in `seo/pages.mjs`, its template in `seo/page.html` and styling in `public/seo.css`. Existing root `assets/` are retained on GitHub Pages. Do not edit generated HTML or bundled JavaScript: update `src/` or `public/`, build, and stage again.
 
 ## Verification boundary
 
@@ -75,3 +75,7 @@ The refactor is covered by production compilation, deterministic algorithm/URL t
 Bootstrap 5.3.8 and Angular Material/CDK 22.2.4 are installed with pinned versions, compatible with Angular 22.2.3. Global styles load Bootstrap CSS modules, the Material 3 light theme, then site styles. `src/styles/bootstrap.scss` selects grid, responsive utilities, native forms, buttons, tables and alerts without Reboot or Bootstrap DOM plugins. Angular continues to own interactions. `src/styles/material-theme.scss` uses the current `mat.theme`/`mat.theme-overrides` APIs with the user-requested soft pink palette. Legacy site tokens alias Material system tokens, so custom components share the same colors. The v17 theming guide is historical; no Angular downgrade or mixed-major packages are used.
 
 Human Design inputs/buttons, report print action, library filters/search and catalogue filters use actual Angular Material components. Human Design field layout uses the Bootstrap responsive grid. Native date/time controls and timezone datalist remain available, with labels supplied by `mat-form-field`. No Google Fonts or CSS/JS CDN is needed. Both frameworks are bundled locally; Bootstrap's MIT notice is served under `catalogues/licenses/bootstrap.txt`.
+
+## Search visibility
+
+The homepage and standalone guides have Ukrainian titles/descriptions, canonical URLs, Open Graph tags and WebSite/WebPage JSON-LD. The sitemap lists only real canonical HTML pages, never hash routes. Interactive tools retain their existing hash URLs; their guide pages provide search entrances. Submit `https://neteru007.github.io/sitemap.xml` in Google Search Console after verifying site ownership. Indexing and rankings are determined by Google and are not guaranteed.

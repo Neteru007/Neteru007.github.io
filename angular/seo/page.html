@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#fff1f6" />
+    <title>{{title}} — magic_gallery</title>
+    <meta name="description" content="{{description}}" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="{{url}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="uk_UA" />
+    <meta property="og:site_name" content="magic_gallery" />
+    <meta property="og:title" content="{{title}}" />
+    <meta property="og:description" content="{{description}}" />
+    <meta property="og:url" content="{{url}}" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="/catalogues/seo.css" />
+    <script type="application/ld+json">
+      {{schema}}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#content">До змісту</a>
+    <header>
+      <a class="brand" href="/">magic_gallery<span>Галерея магічного мистецтва</span></a>
+      <nav aria-label="Навігація">{{navigation}}</nav>
+    </header>
+    <main id="content">
+      <p class="eyebrow">Символи · Практика · Самопізнання</p>
+      <h1>{{heading}}</h1>
+      <p class="intro">{{intro}}</p>
+      <a class="button" href="{{href}}">{{action}} <span aria-hidden="true">↗</span></a>
+      <div class="content">{{sections}}</div>
+      <section class="faq">
+        <p class="eyebrow">Запитання та відповіді</p>
+        <h2>Перед початком</h2>
+        {{faqs}}
+      </section>
+      <aside>
+        <h2>Інші напрями</h2>
+        <ul>
+          {{related}}
+        </ul>
+        <a href="/#/#library">Бібліотека символів і традицій →</a>
+      </aside>
+    </main>
+    <footer>
+      magic_gallery · Україномовний простір магічних традицій · <a href="/">На головну</a>
+    </footer>
+  </body>
+</html>

@@ -3,7 +3,7 @@ export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    title: 'magic_gallery — Галерея магічного мистецтва',
+    title: 'Таро онлайн, руни та Дизайн людини — magic_gallery',
     loadComponent: () => import('./features/home/home.component'),
   },
   { path: 'articles/:slug', loadComponent: () => import('./features/articles/article.component') },
