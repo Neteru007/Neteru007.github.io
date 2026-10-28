@@ -207,3 +207,18 @@ thead {
     -webkit-print-color-adjust: exact;
   }
 }
+
+.bridge-card {
+  border-left: 3px solid var(--red);
+  padding: 12px 18px;
+  background: var(--panel);
+  margin: 12px 0;
+}
+.bridge-card p {
+  margin: 5px 0 0;
+}
+@media print {
+  .bridge-card {
+    break-inside: avoid;
+  }
+}

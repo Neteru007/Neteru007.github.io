@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { DatePipe, DecimalPipe } from '@angular/common';
+import { surroundings } from '../domain/connections';
 import { Chart } from '../domain/models';
 import { CENTER_INFO } from '../data/channels';
 import { GATES } from '../data/gates';
@@ -21,6 +22,7 @@ export default class ReportComponent {
   gateInfo = GATES;
   centerInfo = CENTER_INFO;
   centers = Object.entries(CENTER_INFO).map(([id, info]) => ({ id, ...info }));
+  surroundings = computed(() => surroundings(this.chart().gates, this.chart().groups));
   profile = computed(() => this.chart().profile.split('/').map(Number));
   centerDefined(id: string) {
     return this.chart().centers.some((c) => c === id);

@@ -78,3 +78,37 @@ details label {
     max-width: none;
   }
 }
+
+.design-hero {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  align-items: center;
+  gap: 35px;
+  margin: 12px 0 35px;
+}
+.hero-illustration {
+  margin: 0;
+}
+.hero-illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+}
+.hero-illustration figcaption {
+  font:
+    italic 12px Georgia,
+    serif;
+  color: var(--muted);
+  padding-top: 10px;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  .design-hero {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .hero-illustration {
+    max-width: 600px;
+  }
+}

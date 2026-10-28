@@ -25,6 +25,7 @@ const {
   calculate,
   activations,
 } = require('./domain/calculate.js');
+const { surroundings } = require('./domain/connections.js');
 const { birthInstant } = require('./domain/birth-time.js');
 const { CHANNELS } = require('./data/channels.js');
 const { GATES } = require('./data/gates.js');
@@ -144,4 +145,47 @@ test('full chart is deterministic and snapshots the input; no future birth accep
   assert.notEqual(a.birth, birth);
   assert.match(a.profile, /^[1-6]\/[1-6]$/);
   assert.throws(() => calculate({ ...birth, date: '2100-01-01' }), /майбутньому/);
+});
+
+test('complements require exactly one natal gate; no invented completion for absent pairs', () => {
+  const result = surroundings([15, 13, 33], [['g', 'throat']]);
+  assert(result.complements.some((c) => c.ownGate === 15 && c.otherGate === 5));
+  assert(
+    !result.complements.some((c) => c.channel.gates.includes(13) && c.channel.gates.includes(33)),
+  );
+  assert(!result.complements.some((c) => c.channel.gates.includes(61)));
+  assert.equal(result.singles.length, 0);
+  assert.equal(result.doubles.length, 0);
+  assert.equal(surroundings([], []).complements.length, 0);
+});
+test('bridge must connect existing networks, not merely complete any channel', () => {
+  const result = surroundings(
+    [13, 33, 42, 53, 15, 61],
+    [
+      ['g', 'throat'],
+      ['sacral', 'root'],
+    ],
+  );
+  assert(
+    result.singles.some((b) => b.gates[0] === 5 && b.links.some((p) => p[0] === 1 && p[1] === 2)),
+  );
+  assert(!result.singles.some((b) => b.gates[0] === 24));
+});
+test('two-gate bridges require both activations and exclude redundant supersets', () => {
+  const groups = [
+    ['head', 'ajna'],
+    ['g', 'throat'],
+  ];
+  const result = surroundings([61, 24, 13, 33], groups);
+  assert.equal(result.singles.length, 0);
+  assert(result.doubles.some((b) => b.gates.includes(17) && b.gates.includes(62)));
+  for (const bridge of result.doubles) {
+    const full = definition([61, 24, 13, 33, ...bridge.gates]);
+    assert.equal(full.groups.length, 1);
+    for (const gate of bridge.gates)
+      assert.equal(definition([61, 24, 13, 33, gate]).groups.length, 2);
+  }
+  const narrow = surroundings([61, 24, 13, 33, 17], groups);
+  assert(narrow.singles.some((b) => b.gates[0] === 62));
+  assert(!narrow.doubles.some((b) => b.gates.includes(62)));
 });

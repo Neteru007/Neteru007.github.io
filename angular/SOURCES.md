@@ -72,3 +72,9 @@ Six page reproductions from the supplied scan in `public/artwork/ars-notoria/art
 - music-astronomy.webp: printed 278 / PDF 284, CLM 276 f. 17v, astronomy a, music b, other subjects c–e.
 
 Images are rendered at 2x and WebP-compressed; no diagrams are redrawn or relabeled. Shared pages retain neighboring figures, identified in the captions.
+
+## Human Design decorative illustration
+
+`public/artwork/human-design-celestial.webp` is original AI-generated decorative artwork, produced with the built-in image generation tool on 2026-10-28, then resized to 1200×800 WebP. It depicts an astrolabe, Sun, Moon and stars, not a technical bodygraph. Prompt: antique astronomical astrolabe and celestial compass, fine gold engraving on warm ivory parchment, restrained burgundy accents, sun/moon/orbits, spacious 3:2 composition, no people, labels, logos or text.
+
+The surroundings report uses each natal gate's unactivated channel counterpart and computes one- and two-gate bridges between existing definition groups. It does not infer interpersonal compatibility from Type, alter natal activations, or promise permanent changes through contact. Method context: https://jovianarchive.com/pages/human-design-dictionary and https://jovianarchive.com/blogs/chart-interpretations-components/split-definition-and-bridges .
