@@ -1,9 +1,11 @@
+import { aboutPage } from './about.mjs';
 import { kyivGuide } from './kyiv.mjs';
 import { traditions } from './traditions.mjs';
 export const origin = 'https://neteru007.github.io';
 export const pages = [
   ...traditions,
   kyivGuide,
+  aboutPage,
   {
     slug: 'magichni-poslugy',
     title: 'Магічні онлайн-сервіси: Таро, руни, Дизайн людини',
