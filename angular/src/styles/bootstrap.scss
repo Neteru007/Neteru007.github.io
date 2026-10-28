@@ -1,0 +1,41 @@
+@use 'sass:map';
+
+// Only CSS components are needed; Angular owns interactive state and navigation.
+@import 'bootstrap/scss/functions';
+$primary: #a52b69;
+$secondary: #79516b;
+$body-bg: #fff1f6;
+$body-color: #432d3c;
+$border-color: #e6ccd9;
+$font-family-sans-serif: Arial, sans-serif;
+$enable-dark-mode: false;
+$border-radius: 0.5rem;
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/images';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/tables';
+@import 'bootstrap/scss/alert';
+@import 'bootstrap/scss/helpers/visually-hidden';
+
+// Export the layout utilities used by this site without duplicating every component style.
+$utilities: (
+  'display': map.get($utilities, 'display'),
+  'flex': map.get($utilities, 'flex'),
+  'flex-direction': map.get($utilities, 'flex-direction'),
+  'flex-wrap': map.get($utilities, 'flex-wrap'),
+  'justify-content': map.get($utilities, 'justify-content'),
+  'align-items': map.get($utilities, 'align-items'),
+  'gap': map.get($utilities, 'gap'),
+  'width': map.get($utilities, 'width'),
+  'margin-top': map.get($utilities, 'margin-top'),
+  'margin-bottom': map.get($utilities, 'margin-bottom'),
+);
+@import 'bootstrap/scss/utilities/api';

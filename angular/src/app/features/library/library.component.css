@@ -24,20 +24,6 @@ section {
   gap: 10px;
   flex-wrap: wrap;
 }
-.filters button {
-  border-color: transparent;
-  color: var(--muted);
-}
-.filters .active {
-  border-color: var(--ink);
-  color: var(--ink);
-}
-input {
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid var(--line);
-  padding: 12px;
-}
 .books {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -52,4 +38,10 @@ input {
   .books {
     grid-template-columns: 1fr;
   }
+}
+
+.library-search {
+  width: 285px;
+  max-width: 100%;
+  flex-shrink: 0;
 }

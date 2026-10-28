@@ -1,10 +1,13 @@
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BirthInput, Chart } from './domain/models';
 import ReportComponent from './report/report.component';
 @Component({
   selector: 'mg-human-design',
-  imports: [FormsModule, ReportComponent],
+  imports: [MatButtonModule, MatFormFieldModule, MatInputModule, FormsModule, ReportComponent],
   templateUrl: './human-design.component.html',
   styleUrl: './human-design.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

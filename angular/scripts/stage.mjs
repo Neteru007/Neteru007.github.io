@@ -7,9 +7,13 @@ const built = path.join(project, 'dist/catalogues/browser');
 await mkdir(outputRoot, { recursive: true });
 await rm(path.join(outputRoot, 'catalogues'), { recursive: true, force: true });
 await cp(built, path.join(outputRoot, 'catalogues'), { recursive: true });
-await cp(
-  path.join(project, 'dist/catalogues/3rdpartylicenses.txt'),
+const licenses = await readFile(path.join(project, 'dist/catalogues/3rdpartylicenses.txt'), 'utf8');
+await writeFile(
   path.join(outputRoot, 'catalogues/3rdpartylicenses.txt'),
+  licenses
+    .split(/\r?\n/)
+    .map((line) => line.trimEnd())
+    .join('\n'),
 );
 const index = await readFile(path.join(built, 'index.html'), 'utf8');
 // A single HTML document boots every feature through Angular routes.

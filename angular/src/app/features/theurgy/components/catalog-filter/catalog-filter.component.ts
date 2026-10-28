@@ -1,7 +1,10 @@
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { ChangeDetectionStrategy, Component, input, model } from '@angular/core';
 @Component({
   selector: 'mg-catalog-filter',
   standalone: true,
+  imports: [MatFormFieldModule, MatInputModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './catalog-filter.component.html',
   styleUrl: './catalog-filter.component.css',

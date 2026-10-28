@@ -10,6 +10,7 @@
     <div class="filters" role="group" aria-label="Теми бібліотеки">
       @for (item of categories; track item[0]) {
         <button
+          [matButton]="category() === item[0] ? 'filled' : 'outlined'"
           [class.active]="category() === item[0]"
           [attr.aria-pressed]="category() === item[0]"
           (click)="category.set(item[0])"
@@ -18,16 +19,16 @@
         </button>
       }
     </div>
-    <label
-      >⌕
-      <input
+    <mat-form-field appearance="outline" subscriptSizing="dynamic" class="library-search"
+      ><mat-label>Пошук у бібліотеці</mat-label
+      ><input
+        matInput
         #search
         type="search"
         [value]="query()"
         (input)="query.set(search.value)"
-        aria-label="Пошук у бібліотеці"
         placeholder="Знайти матеріал"
-    /></label>
+    /></mat-form-field>
   </div>
   <div class="books">
     @for (card of cards(); track card.slug) {

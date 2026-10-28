@@ -30,51 +30,70 @@
       Розрахунок відбувається у вашому браузері. Ця форма не передає дані на сервер і не зберігає
       їх. Населений пункт потрібен для підпису звіту; часовий пояс оберіть самостійно.
     </p>
-    <div class="fields">
-      <label
-        >Ім’я для звіту <span class="small">(необов’язково)</span
-        ><input name="name" [(ngModel)]="input.name" maxlength="100" autocomplete="off"
-      /></label>
-      <label
-        >Місто / населений пункт і країна<input
-          name="place"
-          [(ngModel)]="input.place"
-          required
-          maxlength="160"
-          placeholder="Наприклад: Київ, Україна"
-          autocomplete="off"
-      /></label>
-      <label
-        >Дата народження<input
-          type="date"
-          name="date"
-          [(ngModel)]="input.date"
-          min="1900-01-01"
-          [max]="maxDate"
-          required
-      /></label>
-      <label
-        >Точний місцевий час<input
-          type="time"
-          name="time"
-          [(ngModel)]="input.time"
-          required
-          aria-describedby="time-help"
-      /></label>
-      <label class="wide"
-        >Часовий пояс місця народження<input
-          name="zone"
-          [(ngModel)]="input.zone"
-          list="timezones"
-          required
-          aria-describedby="zone-help"
-          autocomplete="off" /><datalist id="timezones">
+    <div class="row g-3">
+      <div class="col-12 col-md-6">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic" class="w-100"
+          ><mat-label>Ім’я для звіту (необов’язково)</mat-label
+          ><input matInput name="name" [(ngModel)]="input.name" maxlength="100" autocomplete="off"
+        /></mat-form-field>
+      </div>
+      <div class="col-12 col-md-6">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic" class="w-100"
+          ><mat-label>Місто / населений пункт і країна</mat-label
+          ><input
+            matInput
+            name="place"
+            [(ngModel)]="input.place"
+            required
+            maxlength="160"
+            placeholder="Наприклад: Київ, Україна"
+            autocomplete="off"
+        /></mat-form-field>
+      </div>
+      <div class="col-12 col-md-6">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic" class="w-100"
+          ><mat-label>Дата народження</mat-label
+          ><input
+            matInput
+            type="date"
+            name="date"
+            [(ngModel)]="input.date"
+            min="1900-01-01"
+            [max]="maxDate"
+            required
+        /></mat-form-field>
+      </div>
+      <div class="col-12 col-md-6">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic" class="w-100"
+          ><mat-label>Точний місцевий час</mat-label
+          ><input
+            matInput
+            type="time"
+            name="time"
+            [(ngModel)]="input.time"
+            required
+            aria-describedby="time-help"
+        /></mat-form-field>
+      </div>
+      <div class="col-12">
+        <mat-form-field appearance="outline" subscriptSizing="dynamic" class="w-100"
+          ><mat-label>Часовий пояс місця народження</mat-label
+          ><input
+            matInput
+            name="zone"
+            [(ngModel)]="input.zone"
+            list="timezones"
+            required
+            aria-describedby="zone-help"
+            autocomplete="off" /></mat-form-field
+        ><datalist id="timezones">
           @for (zone of zones; track zone) {
             <option [value]="zone"></option>
           }
           <option value="Europe/Kyiv"></option>
-          <option value="UTC"></option></datalist
-      ></label>
+          <option value="UTC"></option>
+        </datalist>
+      </div>
     </div>
     <p id="zone-help" class="small">
       Для України зазвичай Europe/Kyiv (також відомий як Europe/Kiev). Для інших країн оберіть
@@ -89,6 +108,7 @@
       <summary>Додатково: відомий зсув UTC</summary>
       <label
         >Зсув саме на дату народження<input
+          class="form-control"
           name="offset"
           [(ngModel)]="input.offset"
           placeholder="+03:00"
@@ -101,12 +121,14 @@
       </p>
     </details>
     <div class="actions">
-      <button type="submit" [disabled]="busy()">
+      <button matButton="filled" type="submit" [disabled]="busy()">
         {{ busy() ? 'Розраховуємо…' : 'Розрахувати мій дизайн ↗' }}</button
-      ><button type="button" (click)="clear()" [disabled]="busy()">Очистити дані</button>
+      ><button matButton="outlined" type="button" (click)="clear()" [disabled]="busy()">
+        Очистити дані
+      </button>
     </div>
     @if (error()) {
-      <p class="error" role="alert">{{ error() }}</p>
+      <p class="error alert alert-danger mt-3" role="alert">{{ error() }}</p>
     }
     @if (busy()) {
       <p role="status">Завантаження астрономічного модуля та обчислення карти…</p>

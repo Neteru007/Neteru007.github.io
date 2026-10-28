@@ -20,8 +20,22 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.css"],
-            "deployUrl": "/catalogues/"
+            "styles": [
+              "src/styles/bootstrap.scss",
+              "src/styles/material-theme.scss",
+              "src/styles.css"
+            ],
+            "deployUrl": "/catalogues/",
+            "stylePreprocessorOptions": {
+              "sass": {
+                "silenceDeprecations": [
+                  "import",
+                  "global-builtin",
+                  "color-functions",
+                  "if-function"
+                ]
+              }
+            }
           },
           "configurations": {
             "production": {

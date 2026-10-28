@@ -1,0 +1,55 @@
+@use '@angular/material' as mat;
+
+// Material 3 light theme in the user's requested soft pink palette.
+html {
+  color-scheme: light;
+  @include mat.theme(
+    (
+      color: (
+        primary: mat.$rose-palette,
+        tertiary: mat.$rose-palette,
+        theme-type: light,
+      ),
+      typography: (
+        plain-family: Arial,
+        brand-family: Georgia,
+        bold-weight: 700,
+        medium-weight: 500,
+        regular-weight: 400,
+      ),
+      density: 0,
+    )
+  );
+  @include mat.theme-overrides(
+    (
+      primary: #a52b69,
+      on-primary: #ffffff,
+      primary-container: #ffd8e9,
+      on-primary-container: #3c0d28,
+      secondary: #79516b,
+      on-secondary: #ffffff,
+      tertiary: #87517b,
+      surface: #fff1f6,
+      on-surface: #432d3c,
+      on-surface-variant: #725966,
+      surface-container: #fff9fc,
+      surface-container-low: #fff9fc,
+      surface-container-high: #f8e3ee,
+      outline: #a78396,
+      outline-variant: #e6ccd9,
+      error: #ac2941,
+    )
+  );
+  @include mat.button-overrides(
+    (
+      filled-container-shape: 8px,
+      outlined-container-shape: 8px,
+      text-container-shape: 8px,
+    )
+  );
+  @include mat.form-field-overrides(
+    (
+      outlined-container-shape: 8px,
+    )
+  );
+}

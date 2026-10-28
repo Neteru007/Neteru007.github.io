@@ -1,10 +1,10 @@
 :root {
   color-scheme: only light;
-  --paper: #f3efe6;
-  --panel: #faf7ef;
-  --ink: #292a23;
-  --muted: #7b7b6f;
-  --red: #783f36;
-  --line: #d4cfc2;
-  --olive: #394237;
+  --paper: var(--mat-sys-surface, #fff1f6);
+  --panel: var(--mat-sys-surface-container-low, #fff9fc);
+  --ink: var(--mat-sys-on-surface, #432d3c);
+  --muted: var(--mat-sys-on-surface-variant, #725966);
+  --red: var(--mat-sys-primary, #a52b69);
+  --line: var(--mat-sys-outline-variant, #e6ccd9);
+  --olive: var(--mat-sys-secondary, #79516b);
 }

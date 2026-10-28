@@ -69,3 +69,9 @@ node scripts/check-stage.mjs /absolute/path/to/stage
 ## Verification boundary
 
 The refactor is covered by production compilation, deterministic algorithm/URL tests, data/architecture checks and staged dependency checks. Browser visual checks and a complete real email/login/moderation walkthrough require an available supported browser environment; they are not implied by a successful build.
+
+## UI frameworks and light theme
+
+Bootstrap 5.3.8 and Angular Material/CDK 22.2.4 are installed with pinned versions, compatible with Angular 22.2.3. Global styles load Bootstrap CSS modules, the Material 3 light theme, then site styles. `src/styles/bootstrap.scss` selects grid, responsive utilities, native forms, buttons, tables and alerts without Reboot or Bootstrap DOM plugins. Angular continues to own interactions. `src/styles/material-theme.scss` uses the current `mat.theme`/`mat.theme-overrides` APIs with the user-requested soft pink palette. Legacy site tokens alias Material system tokens, so custom components share the same colors. The v17 theming guide is historical; no Angular downgrade or mixed-major packages are used.
+
+Human Design inputs/buttons, report print action, library filters/search and catalogue filters use actual Angular Material components. Human Design field layout uses the Bootstrap responsive grid. Native date/time controls and timezone datalist remain available, with labels supplied by `mat-form-field`. No Google Fonts or CSS/JS CDN is needed. Both frameworks are bundled locally; Bootstrap's MIT notice is served under `catalogues/licenses/bootstrap.txt`.

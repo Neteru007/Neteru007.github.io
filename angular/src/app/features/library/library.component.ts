@@ -1,10 +1,13 @@
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { Component, ChangeDetectionStrategy, computed, signal } from '@angular/core';
 import { libraryCards } from './data/library.data';
 import { LibraryCardComponent } from './library-card/library-card.component';
 @Component({
   selector: 'mg-library',
   standalone: true,
-  imports: [LibraryCardComponent],
+  imports: [MatButtonModule, MatFormFieldModule, MatInputModule, LibraryCardComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './library.component.html',
   styleUrl: './library.component.css',

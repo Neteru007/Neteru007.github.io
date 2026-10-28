@@ -4,7 +4,9 @@
       <p class="eyebrow">HUMAN DESIGN / ОСОБИСТИЙ ЗВІТ</p>
       <h2>{{ chart().birth.name || 'Ваш дизайн людини' }}</h2>
     </div>
-    <button class="screen-only" (click)="print()">Роздрукувати / Зберегти PDF ↗</button>
+    <button matButton="outlined" class="screen-only" (click)="print()">
+      Роздрукувати / Зберегти PDF ↗
+    </button>
   </div>
   <p>
     {{ chart().birth.date.split('-').reverse().join('.') }} · {{ chart().birth.time }} ·

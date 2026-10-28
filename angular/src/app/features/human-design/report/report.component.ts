@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material/button';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { DatePipe, DecimalPipe } from '@angular/common';
 import { surroundings } from '../domain/connections';
@@ -8,7 +9,7 @@ import { TYPES, AUTHORITIES, LINES, PROFILES, DEFINITIONS } from '../data/interp
 import BodygraphComponent from '../bodygraph/bodygraph.component';
 @Component({
   selector: 'mg-design-report',
-  imports: [DatePipe, DecimalPipe, BodygraphComponent],
+  imports: [MatButtonModule, DatePipe, DecimalPipe, BodygraphComponent],
   templateUrl: './report.component.html',
   styleUrl: './report.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,

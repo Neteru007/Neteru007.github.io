@@ -20,19 +20,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
-button {
+button:not([matButton]):not([matIconButton]) {
   font: inherit;
   color: inherit;
 }
-input {
+input:not([matInput]) {
   font: inherit;
   color: inherit;
 }
-select {
+select:not([matNativeControl]) {
   font: inherit;
   color: inherit;
 }
-button {
+button:not([matButton]):not([matIconButton]) {
   cursor: pointer;
 }
 a:focus-visible {
@@ -43,11 +43,11 @@ button:focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 4px;
 }
-input:focus-visible {
+input:not([matInput]):focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 4px;
 }
-select:focus-visible {
+select:not([matNativeControl]):focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 4px;
 }
@@ -79,7 +79,7 @@ h2 {
   font-size: 33px;
   margin: 20px 0;
 }
-button {
+button:not([matButton]):not([matIconButton]) {
   background: transparent;
   border: 1px solid var(--red);
   padding: 10px 17px;
@@ -93,7 +93,7 @@ textarea {
   font: inherit;
   color: inherit;
 }
-button:disabled {
+button:not([matButton]):not([matIconButton]):disabled {
   cursor: wait;
   opacity: 0.6;
 }

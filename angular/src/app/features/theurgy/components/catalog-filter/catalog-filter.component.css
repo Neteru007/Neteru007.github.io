@@ -5,56 +5,25 @@
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: start;
   margin: 30px 0 10px;
 }
-.catalog-filters label {
-  display: grid;
-  gap: 7px;
+.catalog-filters mat-form-field {
   flex: 1;
   min-width: 150px;
-  font-size: 11px;
 }
-.catalog-filters label:first-child {
+.catalog-filters mat-form-field:first-child {
   flex: 2;
   min-width: 230px;
-}
-.catalog-filters input[type='search'] {
-  width: 100%;
-  padding: 12px;
-  background: transparent;
-  border: 1px solid var(--line);
-  min-height: 46px;
-  border-radius: 0;
-}
-.catalog-filters select {
-  width: 100%;
-  padding: 12px;
-  background: transparent;
-  border: 1px solid var(--line);
-  min-height: 46px;
-  border-radius: 0;
-}
-.catalog-filters .check {
-  flex-basis: 100%;
-  display: flex;
-  gap: 9px;
-  align-items: center;
-  margin-top: 5px;
-}
-.catalog-filters .check input {
-  accent-color: var(--red);
-  width: 16px;
-  height: 16px;
 }
 @media (max-width: 650px) {
   .catalog-filters {
     gap: 12px;
   }
-  .catalog-filters label:first-child {
+  .catalog-filters mat-form-field:first-child {
     flex-basis: 100%;
   }
-  .catalog-filters label {
-    min-width: 110px;
+  .catalog-filters mat-form-field {
+    min-width: 130px;
   }
 }
