@@ -21,12 +21,24 @@ test('Kyiv guide renders without JavaScript and keeps all published guide URLs i
     assert.equal(schema.breadcrumb.itemListElement[1].item, schema.url);
     const sitemap = await readFile(path.join(output, 'sitemap.xml'), 'utf8');
     const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
-    assert.equal(urls.length, 15);
+    assert.equal(urls.length, 16);
     assert.equal(new Set(urls).size, urls.length);
     for (const url of urls.filter((url) => url !== 'https://neteru007.github.io/')) {
       await readFile(path.join(output, new URL(url).pathname, 'index.html'));
     }
     assert(!sitemap.includes('#/'));
+    const services = await readFile(path.join(output, 'poslugy/index.html'), 'utf8');
+    assert.match(services, /<h1>Послуги: теургія та магічна практика<\/h1>/);
+    assert.match(services, /href="https:\/\/wa\.me\/380634916141"/);
+    assert.match(services, /href="https:\/\/www\.instagram\.com\/p\/C6WlzbIMAxP\/"/);
+    assert(!services.includes('vrfl='));
+    assert(!/\d+\s*(?:грн|₴|EUR|USD)/.test(services));
+    assert.match(html, /href="\/poslugy\/"/);
+    assert(
+      !html.includes(
+        'контакти для запису й адреса особистого прийому на цій сторінці не зазначені',
+      ),
+    );
   } finally {
     await rm(output, { recursive: true, force: true });
   }

@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { serviceContacts } from '../seo/services.mjs';
 import { origin, pages } from '../seo/pages.mjs';
 const project = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const escape = (text) =>
@@ -47,6 +48,9 @@ export async function generateSeo(outputRoot) {
       url,
       sections,
       schema,
+      contacts: page.contacts
+        ? `<section class="contact-panel" aria-label="Зв’язатися зі мною"><h2>Обговорімо ваш запит</h2><p>Напишіть у WhatsApp або перейдіть до моєї публікації в Instagram. Деталі роботи узгодимо особисто.</p><div class="contact-actions"><a class="button" href="${escape(serviceContacts.whatsapp)}" target="_blank" rel="noopener noreferrer">Написати у WhatsApp ↗</a><a class="button secondary" href="${escape(serviceContacts.instagram)}" target="_blank" rel="noopener noreferrer">Відкрити Instagram ↗</a></div></section>`
+        : '',
       navigation: pages
         .map(
           (other) =>
@@ -64,7 +68,7 @@ export async function generateSeo(outputRoot) {
         .map((other) => `<li>${link('/' + other.slug + '/', other.heading)}</li>`)
         .join(''),
     };
-    const raw = new Set(['sections', 'schema', 'navigation', 'faqs', 'related']);
+    const raw = new Set(['sections', 'schema', 'navigation', 'faqs', 'related', 'contacts']);
     const html = template.replace(/\{\{(\w+)\}\}/g, (_, key) =>
       raw.has(key) ? values[key] : escape(values[key]),
     );

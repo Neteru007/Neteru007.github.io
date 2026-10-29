@@ -374,3 +374,7 @@ h2 {
   color: var(--red);
   font-size: 13px;
 }
+
+#services .actions {
+  flex-wrap: wrap;
+}

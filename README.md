@@ -32,6 +32,10 @@ The homepage and standalone guides have Ukrainian titles/descriptions, canonical
 
 ## Kyiv search guide
 
-`/vidma-kyiv/` is a static Ukrainian guide for the query «відьма Київ». Its editable content is `angular/seo/kyiv.mjs`; links from the application home page and generated guides make it discoverable. It describes the actual online tools and does not claim an unverified appointment service, business address, credentials, or reviews. To publish a personal service profile, supply confirmed public service details and contact information first.
+`/vidma-kyiv/` is a static Ukrainian guide for the query «відьма Київ». Its editable content is `angular/seo/kyiv.mjs`; links from the application home page and generated guides make it discoverable. It describes the online tools and links to the owner’s services and contact page. No unverified business address, credentials, or reviews are claimed.
 
 Five earlier standalone guides are preserved in `angular/seo/existing/` and included in every staged sitemap. Search Console HTML verification files at the site root survive staging. Validate in a separate staging directory using the commands in `angular/README.md`.
+
+## Services and contact
+
+`/poslugy/` presents the owner-confirmed theurgy and general magic practice without prices. Source: `angular/seo/services.mjs`. The WhatsApp button uses the supplied public number; the Instagram button opens the supplied post (not an invented profile or direct-message URL). Home, About, Kyiv, and guide navigation link to services. Specific additional services require the owner’s descriptions.
