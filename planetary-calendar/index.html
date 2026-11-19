@@ -16,9 +16,9 @@
 <div class="panel"><h2>Фаза Місяця сьогодні</h2><p class="muted">Розрахунок автоматично оновлюється. Дата визначається за часовим поясом обраного міста.</p><div class="moon-grid"><div><div id="moon-symbol" class="moon-emoji" aria-hidden="true">🌙</div><div id="moon-phase-name" class="moon-value">—</div><p id="moon-date"></p></div><div><p>Освітленість диска</p><div id="moon-lit" class="moon-value">—</div><p>Вік Місяця (приблизно)</p><div id="moon-age" class="moon-value">—</div><p id="moon-growth"></p></div></div></div>
 <div class="panel"><h2>Фаза на обрану дату</h2><label for="moon-select-date">Дата</label><input type="date" id="moon-select-date"><button type="button" id="moon-today" style="margin-top:10px">Сьогодні</button><p id="moon-selected-result" role="status"></p></div>
 </section><section id="degrees-tab" role="tabpanel" aria-labelledby="tab-degrees" hidden>
-<div class="panel"><h2>Коли планета буде в обраному знаку?</h2><p>Вибери планету, знак і період. Знайдемо найближчі дати входу та виходу зі знака, включно з ретроградними поверненнями, і аспекти на момент входу.</p>
-<div class="controls"><div><label for="degree-planet">Планета</label><select id="degree-planet"></select></div><div><label for="degree-sign">Знак зодіаку</label><select id="degree-sign"></select></div><div><label for="degree-years">Період пошуку</label><select id="degree-years"><option value="1">1 рік</option><option value="3" selected>3 роки</option><option value="10">10 років</option><option value="30">30 років</option></select></div></div>
-<button type="button" id="degree-search" style="margin-top:14px">Знайти найближчі дати</button>
+<div class="panel"><h2>Коли планета буде в обраному знаку?</h2><p>Вибери планету, знак і період. Градус необов’язковий: без нього знайдемо найближчі періоди у знаку та аспекти, а з ним — точні дати проходження цього градуса.</p>
+<div class="controls"><div><label for="degree-planet">Планета</label><select id="degree-planet"></select></div><div><label for="degree-sign">Знак зодіаку</label><select id="degree-sign"></select></div><div><label for="degree-value">Градус у знаку (необов’язково)</label><input type="number" id="degree-value" min="0" max="29.999" step="0.001" placeholder="Залиш порожнім для пошуку за знаком"></div><div><label for="degree-years">Період пошуку</label><select id="degree-years"><option value="1">1 рік</option><option value="3" selected>3 роки</option><option value="10">10 років</option><option value="30">30 років</option></select></div></div>
+<button type="button" id="degree-search" style="margin-top:14px">Знайти найближчі дати й аспекти</button>
 <p class="degree-note">Пошук від поточного моменту. Дати показані в часовому поясі обраного міста. Час входу та виходу уточнюється до хвилини.</p><p id="degree-status" role="status"></p><div id="degree-results"></div></div>
 </section><footer>Астрономічні розрахунки: Astronomy Engine і SunCalc. Астрологічні трактування належать до традиційної езотеричної практики та не є науково підтвердженими впливами. У полярних широтах, де немає сходу чи заходу Сонця, розрахунок планетарних годин недоступний.</footer></main>
 <script type="module">
@@ -77,12 +77,52 @@ function boundaryTime(body,start,end,initialSign){
  return new Date(high);
 }
 function escapeText(value){return String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+// Find every crossing of an exact ecliptic longitude, including retrograde passes.
+function targetCrossing(body,target,start,end){
+ const a=start.getTime(),b=end.getTime(),initial=longitude(body,start);
+ const movement=((longitude(body,end)-initial+540)%360)-180;
+ const offset=((target-initial+540)%360)-180;
+ if(Math.abs(movement)<1e-10||Math.abs(offset)>Math.abs(movement)||Math.sign(offset)!==Math.sign(movement))return null;
+ let low=a,high=b;
+ for(let i=0;i<35;i++){
+  const mid=(low+high)/2;
+  const travelled=((longitude(body,new Date(mid))-initial+540)%360)-180;
+  if((movement>0&&travelled>=offset)||(movement<0&&travelled<=offset))high=mid;else low=mid;
+ }
+ return new Date((low+high)/2);
+}
+async function searchExactDegree(body,sign,degree,years,loc,status,results){
+ const now=Date.now(),end=now+years*365.2425*86400000,target=sign*30+degree;
+ const step=body==='Moon'?2*3600000:body==='Mercury'||body==='Venus'?6*3600000:24*3600000;
+ let previous=new Date(now),found=[];
+ for(let t=now+step;t<=end+step;t+=step){
+  const current=new Date(Math.min(t,end));
+  const hit=targetCrossing(body,target,previous,current);
+  if(hit&&hit.getTime()>=now&&!found.some(x=>Math.abs(x.getTime()-hit.getTime())<60000))found.push(hit);
+  previous=current;
+  if(t%(step*250)===0)await new Promise(resolve=>setTimeout(resolve,0));
+ }
+ const formatter=new Intl.DateTimeFormat('uk-UA',{timeZone:loc.tz,year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'});
+ status.textContent=found.length?'Знайдено точних проходжень: '+found.length+' · '+loc.tz:'Проходжень цього градуса за вибраний період немає.';
+ for(const date of found){
+  const data=planetData(date),planet=data.find(x=>x.body===body);
+  const aspects=aspectData(data).filter(x=>x.a.body===body||x.b.body===body);
+  const card=document.createElement('div');card.className='degree-result';
+  card.innerHTML='<strong>'+escapeText(formatter.format(date))+'</strong><p>'+escapeText(name(body)[1]+' · '+signs[sign]+' · '+degree.toFixed(3)+'° · '+(planet.retro?'ретроградний':'прямий')+' рух')+'</p><p><b>Аспекти:</b><br>'+ (aspects.length?aspects.map(x=>escapeText(x.a.label+' '+x.label+' '+x.b.label+' (орбіс '+x.orb.toFixed(2)+'°)')).join('<br>'):'Основних аспектів у межах орбісу немає.')+'</p>';
+  const open=document.createElement('button');open.type='button';open.textContent='Показати всі аспекти й години';
+  open.addEventListener('click',async()=>{showTab('planets');$('mode').value='manual';$('date').value=localInput(date,loc.tz);await render();window.scrollTo({top:0,behavior:'smooth'});});
+  card.append(open);results.append(card);
+ }
+}
 async function searchDegrees(){
  const status=$('degree-status'),results=$('degree-results'),button=$('degree-search');
  const body=$('degree-planet').value,sign=Number($('degree-sign').value),years=Number($('degree-years').value);
+ const degreeRaw=$('degree-value').value.trim();const degree=degreeRaw===''?null:Number(degreeRaw);
+ if(degree!==null&&(!Number.isFinite(degree)||degree<0||degree>=30)){status.textContent='Градус має бути від 0 до 29,999 або поле можна залишити порожнім.';return;}
  button.disabled=true;status.textContent='Шукаємо найближчі періоди…';results.replaceChildren();
  try{
   const loc=await resolveCity(),now=Date.now(),end=now+years*365.2425*86400000;
+  if(degree!==null){await searchExactDegree(body,sign,degree,years,loc,status,results);return;}
   const step=body==='Moon'?2*3600000:body==='Mercury'||body==='Venus'?6*3600000:body==='Sun'?12*3600000:24*3600000;
   let previous=new Date(now),previousSign=signAt(body,previous),open=previousSign===sign?previous:null;
   const periods=[];
