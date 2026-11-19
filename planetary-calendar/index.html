@@ -3,11 +3,11 @@
 <title>Планетарний календар — Neteru Theurgy</title><meta name="description" content="Планетарні години, знаки зодіаку, аспекти та ретроградність семи планет за обраним містом.">
 <style>
 :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#39283b;background:#fff5fa}*{box-sizing:border-box}body{margin:0}header{background:#fff;border-bottom:1px solid #efd7e6;padding:18px max(20px,calc((100vw - 1100px)/2))}a{color:#a32970}main{max-width:1100px;margin:auto;padding:28px 18px 65px}h1{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 8px}h2{font-size:1.25rem}p{line-height:1.6}.muted{color:#756579}.controls,.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.panel{background:white;border:1px solid #eed5e5;border-radius:16px;padding:19px;margin:16px 0;box-shadow:0 5px 22px #6f2a5310}label{display:block;font-weight:600;margin-bottom:7px}input,select,button{font:inherit;border-radius:9px;padding:10px 12px;border:1px solid #dcb9cf;width:100%;background:white}button{background:#aa3278;color:white;cursor:pointer;border:0;font-weight:600}button:hover{background:#88215d}.big{font-size:1.7rem;font-weight:700;color:#952669}.symbol{font-size:1.6rem;color:#a32970}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 9px;border-bottom:1px solid #f0e0e9}th{color:#6d4960}table{display:block;overflow-x:auto}.hour{padding:9px;border-radius:10px;border:1px solid #f1dbe8}.hour.current{background:#f9d8ec;border-color:#b43c83;font-weight:700}.hours{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:8px}.aspect{padding:11px;border-bottom:1px solid #f2e3eb}.error{color:#a51b43}.pill{display:inline-block;background:#f9e2ef;border-radius:100px;padding:4px 10px;font-size:.85rem}footer{font-size:.9rem;color:#756579;margin-top:24px}
- .tabs{display:flex;gap:10px;margin:18px 0}.tabs button{width:auto;flex:1}.tabs button[aria-selected=false]{background:#fff;color:#a32970;border:1px solid #dcb9cf}.moon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.moon-emoji{font-size:5rem;line-height:1.3}.moon-value{font-size:1.5rem;font-weight:700;color:#952669} [hidden]{display:none!important}
+ .tabs{display:flex;gap:10px;margin:18px 0}.tabs button{width:auto;flex:1}.tabs button[aria-selected=false]{background:#fff;color:#a32970;border:1px solid #dcb9cf}.moon-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.moon-emoji{font-size:5rem;line-height:1.3}.moon-value{font-size:1.5rem;font-weight:700;color:#952669}.degree-result{padding:14px 0;border-bottom:1px solid #f0e0e9}.degree-result button{width:auto;margin-top:8px}.degree-result strong{color:#952669}.degree-result p{margin:6px 0}.degree-note{font-size:.9rem;color:#756579} [hidden]{display:none!important}
 </style></head><body>
 <header><a href="/">← Neteru Theurgy</a> · <strong>Планетарний календар</strong></header>
 <main><h1>✦ Планетарний календар</h1><p>Планетарні години, знаки зодіаку та аспекти в реальному часі. Тропічний зодіак, геоцентричні положення.</p>
-<div class="tabs" role="tablist" aria-label="Календар"><button type="button" id="tab-planets" role="tab" aria-controls="planet-tab" aria-selected="true">Планетарний календар</button><button type="button" id="tab-moon" role="tab" aria-controls="moon-tab" aria-selected="false">Фази Місяця</button></div><div id="planet-tab" role="tabpanel" aria-labelledby="tab-planets"><section class="panel"><div class="controls"><div><label for="city">Місто</label><input id="city" list="cities" value="Київ" placeholder="Введіть місто"><datalist id="cities"><option value="Київ"><option value="Львів"><option value="Варшава"><option value="Лондон"><option value="Нью-Йорк"></datalist></div><div><label for="date">Дата та час (місцеві)</label><input id="date" type="datetime-local"></div><div><label for="mode">Час розрахунку</label><select id="mode"><option value="now">Зараз (оновлюється щохвилини)</option><option value="manual">Обрана дата і час</option></select></div><div style="align-self:end"><button id="calc">Розрахувати</button></div></div><p id="location" class="muted"></p><p id="status" role="status"></p></section>
+<div class="tabs" role="tablist" aria-label="Календар"><button type="button" id="tab-planets" role="tab" aria-controls="planet-tab" aria-selected="true">Планетарний календар</button><button type="button" id="tab-moon" role="tab" aria-controls="moon-tab" aria-selected="false">Фази Місяця</button><button type="button" id="tab-degrees" role="tab" aria-controls="degrees-tab" aria-selected="false">Пошук за градусами</button></div><div id="planet-tab" role="tabpanel" aria-labelledby="tab-planets"><section class="panel"><div class="controls"><div><label for="city">Місто</label><input id="city" list="cities" value="Київ" placeholder="Введіть місто"><datalist id="cities"><option value="Київ"><option value="Львів"><option value="Варшава"><option value="Лондон"><option value="Нью-Йорк"></datalist></div><div><label for="date">Дата та час (місцеві)</label><input id="date" type="datetime-local"></div><div><label for="mode">Час розрахунку</label><select id="mode"><option value="now">Зараз (оновлюється щохвилини)</option><option value="manual">Обрана дата і час</option></select></div><div style="align-self:end"><button id="calc">Розрахувати</button></div></div><p id="location" class="muted"></p><p id="status" role="status"></p></section>
 <section class="cards"><div class="panel"><h2>Планетарна година</h2><div id="currentHour" class="big">—</div><p id="hourRange"></p></div><div class="panel"><h2>Сонце у знаку</h2><div id="sunSign" class="big">—</div><p id="sunDetails"></p></div><div class="panel"><h2>Планетарний день</h2><div id="planetDay" class="big">—</div><p id="solarTimes"></p></div></section>
 <section class="panel"><h2>Положення семи планет</h2><table><thead><tr><th>Планета</th><th>Знак</th><th>Градус у знаку</th><th>Рух</th></tr></thead><tbody id="positions"></tbody></table></section>
 <section class="panel"><h2>Аспекти планет</h2><p class="muted">Орбіс: ±6° для з'єднання, опозиції, трина й квадрата; ±4° для секстиля. Показано лише аспекти в межах орбісу.</p><div id="aspects">—</div></section>
@@ -15,6 +15,11 @@
 </div><section id="moon-tab" role="tabpanel" aria-labelledby="tab-moon" hidden>
 <div class="panel"><h2>Фаза Місяця сьогодні</h2><p class="muted">Розрахунок автоматично оновлюється. Дата визначається за часовим поясом обраного міста.</p><div class="moon-grid"><div><div id="moon-symbol" class="moon-emoji" aria-hidden="true">🌙</div><div id="moon-phase-name" class="moon-value">—</div><p id="moon-date"></p></div><div><p>Освітленість диска</p><div id="moon-lit" class="moon-value">—</div><p>Вік Місяця (приблизно)</p><div id="moon-age" class="moon-value">—</div><p id="moon-growth"></p></div></div></div>
 <div class="panel"><h2>Фаза на обрану дату</h2><label for="moon-select-date">Дата</label><input type="date" id="moon-select-date"><button type="button" id="moon-today" style="margin-top:10px">Сьогодні</button><p id="moon-selected-result" role="status"></p></div>
+</section><section id="degrees-tab" role="tabpanel" aria-labelledby="tab-degrees" hidden>
+<div class="panel"><h2>Коли планета буде в потрібному градусі?</h2><p>Вибери планету, знак і градус від 0° до 29,999°. Знайдемо наступні точні проходження, включно з ретроградними, та аспекти на ці моменти.</p>
+<div class="controls"><div><label for="degree-planet">Планета</label><select id="degree-planet"></select></div><div><label for="degree-sign">Знак зодіаку</label><select id="degree-sign"></select></div><div><label for="degree-value">Градус у знаку</label><input type="number" id="degree-value" min="0" max="29.999" step="0.01" value="15"></div><div><label for="degree-years">Період пошуку</label><select id="degree-years"><option value="1">1 рік</option><option value="3" selected>3 роки</option><option value="10">10 років</option><option value="30">30 років</option></select></div></div>
+<button type="button" id="degree-search" style="margin-top:14px">Знайти дати й аспекти</button>
+<p class="degree-note">Пошук від поточного моменту. Дати показані в часовому поясі обраного міста. Точність часу орієнтовно до хвилини.</p><p id="degree-status" role="status"></p><div id="degree-results"></div></div>
 </section><footer>Астрономічні розрахунки: Astronomy Engine і SunCalc. Астрологічні трактування належать до традиційної езотеричної практики та не є науково підтвердженими впливами. У полярних широтах, де немає сходу чи заходу Сонця, розрахунок планетарних годин недоступний.</footer></main>
 <script type="module">
 import * as Astronomy from 'https://cdn.jsdelivr.net/npm/astronomy-engine/+esm';
@@ -32,9 +37,18 @@ function moonRender(){
  const value=$('moon-select-date').value;const at=fromLocal(value+'T12:00',tz);if(!Number.isFinite(at.getTime()))return;
  const selectedMoon=moonData(at);$('moon-selected-result').textContent=selectedMoon.symbol+' '+selectedMoon.name+' · освітленість '+selectedMoon.lit+' · вік '+selectedMoon.age;
 }
-function showTab(moon){$('planet-tab').hidden=moon;$('moon-tab').hidden=!moon;$('tab-moon').setAttribute('aria-selected',String(moon));$('tab-planets').setAttribute('aria-selected',String(!moon));if(moon)moonRender();}
-$('tab-moon').addEventListener('click',()=>showTab(true));$('tab-planets').addEventListener('click',()=>showTab(false));
-$('moon-select-date').addEventListener('change',moonRender);$('moon-today').addEventListener('click',()=>{$('moon-select-date').value='';moonRender();});
+function showTab(tab){
+ for(const id of ['planets','moon','degrees']){
+  $(id==='planets'?'planet-tab':id+'-tab').hidden=id!==tab;
+  $('tab-'+id).setAttribute('aria-selected',String(id===tab));
+ }
+ if(tab==='moon')moonRender();
+}
+$('tab-moon').addEventListener('click',()=>showTab('moon'));
+$('tab-planets').addEventListener('click',()=>showTab('planets'));
+$('tab-degrees').addEventListener('click',()=>showTab('degrees'));
+$('moon-select-date').addEventListener('change',moonRender);
+$('moon-today').addEventListener('click',()=>{$('moon-select-date').value='';moonRender();});
 
 const planets=[['Sun','Сонце','☉'],['Moon','Місяць','☽'],['Mercury','Меркурій','☿'],['Venus','Венера','♀'],['Mars','Марс','♂'],['Jupiter','Юпітер','♃'],['Saturn','Сатурн','♄']];
 const signs=['Овен','Телець','Близнюки','Рак','Лев','Діва','Терези','Скорпіон','Стрілець','Козоріг','Водолій','Риби'];
@@ -52,6 +66,65 @@ function fromLocal(s,tz){const target=new Date(s+':00Z');let guess=target.getTim
 function longitude(body,d){return wrap(Astronomy.Ecliptic(Astronomy.GeoVector(body,d,true)).elon)}
 function planetData(d){return planets.map(([body,label,symbol])=>{let lon=longitude(body,d);let next=longitude(body,new Date(d.getTime()+6*3600000));let diff=((next-lon+540)%360)-180;return {body,label,symbol,lon,sign:Math.floor(lon/30),degree:lon%30,retro:diff < -0.00001}})}
 function aspectData(data){const defs=[['З’єднання','☌',0,6],['Секстиль','⚹',60,4],['Квадрат','□',90,6],['Трин','△',120,6],['Опозиція','☍',180,6]];let out=[];for(let i=0;i<data.length;i++)for(let j=i+1;j<data.length;j++){let sep=Math.abs(data[i].lon-data[j].lon);sep=Math.min(sep,360-sep);for(let [label,symbol,angle,orb] of defs)if(Math.abs(sep-angle)<=orb)out.push({a:data[i],b:data[j],label,symbol,orb:Math.abs(sep-angle)});}return out.sort((a,b)=>a.orb-b.orb)}
+// Search longitude crossings with an adaptive step and refine each crossing by bisection.
+function degreeCrossing(body,target,from,to){
+ let a=from.getTime(),b=to.getTime();
+ let la=longitude(body,new Date(a));
+ let delta=((longitude(body,new Date(b))-la+540)%360)-180;
+ let offset=((target-la+540)%360)-180;
+ if(Math.abs(delta)<1e-9||Math.sign(delta)!==Math.sign(offset)||Math.abs(offset)>Math.abs(delta))return null;
+ const increasing=delta>0;
+ for(let i=0;i<32;i++){
+  const mid=(a+b)/2;
+  const lm=longitude(body,new Date(mid));
+  const travelled=((lm-la+540)%360)-180;
+  if((increasing&&travelled>=offset)||(!increasing&&travelled<=offset))b=mid;
+  else a=mid;
+ }
+ return new Date((a+b)/2);
+}
+function escapeText(value){return String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+async function searchDegrees(){
+ const status=$('degree-status'),results=$('degree-results'),button=$('degree-search');
+ const body=$('degree-planet').value,sign=Number($('degree-sign').value),degree=Number($('degree-value').value),years=Number($('degree-years').value);
+ if(!Number.isFinite(degree)||degree<0||degree>=30){status.textContent='Вкажіть градус від 0 до 29,999.';return;}
+ button.disabled=true;status.textContent='Шукаємо проходження…';results.replaceChildren();
+ try{
+  const loc=await resolveCity();const target=sign*30+degree,now=Date.now();
+  const end=now+years*365.2425*86400000;
+  // Moon moves rapidly; Saturn and Jupiter need longer search horizons.
+  const step=body==='Moon'?3*3600000:body==='Mercury'||body==='Venus'?12*3600000:24*3600000;
+  let previous=new Date(now),found=[];
+  for(let t=now+step;t<=end+step&&found.length<20;t+=step){
+   const current=new Date(Math.min(t,end));
+   const hit=degreeCrossing(body,target,previous,current);
+   if(hit&&hit.getTime()>=now&&!found.some(x=>Math.abs(x.getTime()-hit.getTime())<3600000))found.push(hit);
+   previous=current;
+   if(t% (step*300)===0)await new Promise(resolve=>setTimeout(resolve,0));
+  }
+  if(!found.length){status.textContent='У вибраному періоді проходжень не знайдено. Збільш період пошуку.';return;}
+  status.textContent='Знайдено проходжень: '+found.length+'. Час указано для '+loc.tz+'.';
+  const formatter=new Intl.DateTimeFormat('uk-UA',{timeZone:loc.tz,year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit'});
+  for(const date of found){
+   const positions=planetData(date),selectedPlanet=positions.find(p=>p.body===body);
+   const relevant=aspectData(positions).filter(a=>a.a.body===body||a.b.body===body);
+   const card=document.createElement('div');card.className='degree-result';
+   const aspectHtml=relevant.length?relevant.map(a=>escapeText(a.a.symbol+' '+a.a.label+' '+a.symbol+' '+a.label+' '+a.b.symbol+' '+a.b.label+' (орбіс '+a.orb.toFixed(2)+'°)')).join('<br>'):'Немає основних аспектів у вибраних орбісах.';
+   card.innerHTML='<strong>'+escapeText(formatter.format(date))+'</strong><p>'+escapeText(name(body)[2]+' '+name(body)[1]+' — '+glyphs[sign]+' '+signs[sign]+' '+degree.toFixed(3)+'° · '+(selectedPlanet.retro?'ретроградний рух':'прямий рух'))+'</p><p><b>Аспекти цієї планети:</b><br>'+aspectHtml+'</p>';
+   const open=document.createElement('button');open.type='button';open.textContent='Показати всі аспекти й години на цю дату';
+   open.addEventListener('click',async()=>{showTab('planets');$('mode').value='manual';$('date').value=localInput(date,loc.tz);await render();window.scrollTo({top:0,behavior:'smooth'});});
+   card.append(open);results.append(card);
+  }
+ }catch(e){status.textContent='Помилка пошуку: '+String(e.message||e);}
+ finally{button.disabled=false;}
+}
+function initDegrees(){
+ $('degree-planet').innerHTML=planets.map(p=>'<option value="'+p[0]+'">'+p[2]+' '+p[1]+'</option>').join('');
+ $('degree-sign').innerHTML=signs.map((s,i)=>'<option value="'+i+'">'+glyphs[i]+' '+s+'</option>').join('');
+ $('degree-planet').value='Mars';$('degree-sign').value='7';
+ $('degree-search').addEventListener('click',searchDegrees);
+}
+initDegrees();
 async function resolveCity(){const city=$('city').value.trim();if(!city)throw Error('Вкажіть місто');if(city===lastCity)return selected;if(presets[city]){lastCity=city;return selected=presets[city]}const url='https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(city)+'&count=1&language=uk&format=json';const r=await fetch(url);if(!r.ok)throw Error('Не вдалося знайти місто');const json=await r.json();if(!json.results?.length)throw Error('Місто не знайдено. Спробуйте іншу назву.');const p=json.results[0];selected={lat:p.latitude,lon:p.longitude,tz:p.timezone};lastCity=city;return selected}
 function hoursFor(d,loc){const p=localParts(d,loc.tz);const localNoon=fromLocal(p.year+'-'+p.month+'-'+p.day+'T12:00',loc.tz);const yesterday=new Date(localNoon.getTime()-86400000);const tomorrow=new Date(localNoon.getTime()+86400000);const day=SunCalc.getTimes(localNoon,loc.lat,loc.lon);const prev=SunCalc.getTimes(yesterday,loc.lat,loc.lon);const next=SunCalc.getTimes(tomorrow,loc.lat,loc.lon);let base,start,end,ruler;
 if(d>=day.sunrise&&d<day.sunset){base=day.sunrise;start=day.sunrise;end=day.sunset;ruler=dayRulers[new Date(Date.UTC(+p.year,+p.month-1,+p.day)).getUTCDay()]}else if(d>=day.sunset){base=day.sunset;start=day.sunset;end=next.sunrise;const wd=new Date(Date.UTC(+p.year,+p.month-1,+p.day)).getUTCDay();ruler=chaldean[(chaldean.indexOf(dayRulers[wd])+12)%7]}else{base=prev.sunset;start=prev.sunset;end=day.sunrise;const wd=new Date(Date.UTC(+p.year,+p.month-1,+p.day-1)).getUTCDay();ruler=chaldean[(chaldean.indexOf(dayRulers[wd])+12)%7]}
