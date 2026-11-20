@@ -1,0 +1,4 @@
+.natal { max-width: 850px; margin: 2rem auto; padding: 1rem; }
+.natal-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.natal-form label { display: grid; gap: .4rem; }
+.natal-form button { align-self: end; }
