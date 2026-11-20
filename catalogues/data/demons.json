@@ -17,7 +17,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/01-bael-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-01.webp",
+      "src": "/assets/goetia/portrait-01.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Bael.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bael.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -111,7 +111,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/02-agares-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-02.webp",
+      "src": "/assets/goetia/portrait-02.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Agares.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Agares.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -205,13 +205,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/03-vassago-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-03.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27",
-      "caption": "Початок запису № 3 · електронне перевидання тексту Goetia (1904), PDF-сторінка 27",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 198
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/03-vassago-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Князь",
     "legions": 26,
@@ -302,13 +302,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/04-samigina-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-04.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=27",
-      "caption": "Початок запису № 4 · електронне перевидання тексту Goetia (1904), PDF-сторінка 27",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 268
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/04-samigina-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -399,13 +399,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/05-marbas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-05.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28",
-      "caption": "Початок запису № 5 · електронне перевидання тексту Goetia (1904), PDF-сторінка 28",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 291
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/05-marbas-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент",
     "legions": 36,
@@ -496,13 +496,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/06-valefor-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-06.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=28",
-      "caption": "Початок запису № 6 · електронне перевидання тексту Goetia (1904), PDF-сторінка 28",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 199
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/06-valefor-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 10,
@@ -593,7 +593,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/07-amon-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-07.webp",
+      "src": "/assets/goetia/portrait-07.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Aamon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Aamon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -687,7 +687,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/08-barbatos-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-08.webp",
+      "src": "/assets/goetia/portrait-08.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0093-79_barbatos.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ill_dict_infernal_p0093-79_barbatos.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -781,7 +781,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/09-paimon-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-09.webp",
+      "src": "/assets/goetia/portrait-09.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0537_paymon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Ill_dict_infernal_p0537_paymon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -875,7 +875,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/10-buer-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-10.webp",
+      "src": "/assets/goetia/portrait-10.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0139-123_buer.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ill_dict_infernal_p0139-123_buer.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -969,13 +969,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/11-gusion-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-11.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
-      "caption": "Початок запису № 11 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 257
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/11-gusion-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 40,
@@ -1066,13 +1066,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/12-sitri-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-12.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
-      "caption": "Початок запису № 12 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 291
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/12-sitri-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Князь",
     "legions": 60,
@@ -1163,13 +1163,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/13-beleth-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-13.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=30",
-      "caption": "Початок запису № 13 · електронне перевидання тексту Goetia (1904), PDF-сторінка 30",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 693
+      "kind": "portrait",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Byleth.png",
+      "page": "https://commons.wikimedia.org/wiki/File:Byleth.png",
+      "caption": "Білет (Beleth / Byleth) · Dictionnaire Infernal (1863) · історична ілюстрація · суспільне надбання",
+      "note": "Історичне зображення з Dictionnaire Infernal, не авторський портрет Goetia.",
+      "width": 874,
+      "height": 1398
     },
     "rank": "Король",
     "legions": 85,
@@ -1260,13 +1260,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/14-leraje-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-14.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
-      "caption": "Початок запису № 14 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 426
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/14-leraje-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -1357,7 +1357,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/15-eligos-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-15.webp",
+      "src": "/assets/goetia/portrait-15.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Abigor.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Abigor.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -1451,13 +1451,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/16-zepar-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-16.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
-      "caption": "Початок запису № 16 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 222
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/16-zepar-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 26,
@@ -1549,13 +1549,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/17-botis-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-17.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=31",
-      "caption": "Початок запису № 17 · електронне перевидання тексту Goetia (1904), PDF-сторінка 31",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 219
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/17-botis-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент / Граф",
     "legions": 60,
@@ -1647,13 +1647,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/18-bathin-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-18.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32",
-      "caption": "Початок запису № 18 · електронне перевидання тексту Goetia (1904), PDF-сторінка 32",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 425
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/18-bathin-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 30,
@@ -1744,7 +1744,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/19-sallos-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-19.webp",
+      "src": "/assets/goetia/portrait-19.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Zaebos.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Zaebos.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -1838,13 +1838,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/20-purson-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-20.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=32",
-      "caption": "Початок запису № 20 · електронне перевидання тексту Goetia (1904), PDF-сторінка 32",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 593
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/20-purson-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Король",
     "legions": 22,
@@ -1936,13 +1936,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/21-marax-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-21.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=33",
-      "caption": "Початок запису № 21 · електронне перевидання тексту Goetia (1904), PDF-сторінка 33",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 312
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/21-marax-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Граф / Президент",
     "legions": 30,
@@ -2035,7 +2035,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/22-ipos-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-22.webp",
+      "src": "/assets/goetia/portrait-22.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ip%C3%A8s.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ip%C3%A8s.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2130,7 +2130,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/23-aim-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-23.webp",
+      "src": "/assets/goetia/portrait-23.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0333-317_haborym_demon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ill_dict_infernal_p0333-317_haborym_demon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2224,7 +2224,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/24-naberius-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-24.webp",
+      "src": "/assets/goetia/portrait-24.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0165-149_cerbere.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ill_dict_infernal_p0165-149_cerbere.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2319,7 +2319,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/25-glasya-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-25.webp",
+      "src": "/assets/goetia/portrait-25.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Caacrinolaas.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Caacrinolaas.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2414,13 +2414,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/26-bune-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-26.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=34",
-      "caption": "Початок запису № 26 · електронне перевидання тексту Goetia (1904), PDF-сторінка 34",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 437
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/26-bune-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 30,
@@ -2512,7 +2512,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/27-ronove-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-27.webp",
+      "src": "/assets/goetia/portrait-27.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ronwe.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ronwe.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2607,7 +2607,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/28-berith-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-28.webp",
+      "src": "/assets/goetia/portrait-28.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0110-94_berith.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ill_dict_infernal_p0110-94_berith.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2701,7 +2701,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/29-astaroth-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-29.webp",
+      "src": "/assets/goetia/portrait-29.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Astaroth.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Astaroth.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -2795,13 +2795,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/30-forneus-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-30.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35",
-      "caption": "Початок запису № 30 · електронне перевидання тексту Goetia (1904), PDF-сторінка 35",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 324
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/30-forneus-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 29,
@@ -2892,13 +2892,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/31-foras-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-31.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=35",
-      "caption": "Початок запису № 31 · електронне перевидання тексту Goetia (1904), PDF-сторінка 35",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 222
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/31-foras-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент",
     "legions": 29,
@@ -2989,7 +2989,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/32-asmodeo-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-32.webp",
+      "src": "/assets/goetia/portrait-32.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Asmodeus.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Asmodeus.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3084,7 +3084,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/33-gaap-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-33.webp",
+      "src": "/assets/goetia/portrait-33.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Gaap.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaap.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3178,7 +3178,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/34-furfur-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-34.webp",
+      "src": "/assets/goetia/portrait-34.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0306-290_furfur_demon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ill_dict_infernal_p0306-290_furfur_demon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3273,7 +3273,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/35-marchosias-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-35.webp",
+      "src": "/assets/goetia/portrait-35.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0461_marchocias.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ill_dict_infernal_p0461_marchocias.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3367,7 +3367,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/36-stolas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-36.webp",
+      "src": "/assets/goetia/portrait-36.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0651_stolas.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ill_dict_infernal_p0651_stolas.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3461,13 +3461,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/37-phenex-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-37.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38",
-      "caption": "Початок запису № 37 · електронне перевидання тексту Goetia (1904), PDF-сторінка 38",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 393
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/37-phenex-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 20,
@@ -3558,13 +3558,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/38-halphas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-38.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=38",
-      "caption": "Початок запису № 38 · електронне перевидання тексту Goetia (1904), PDF-сторінка 38",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 257
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/38-halphas-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Граф",
     "legions": 26,
@@ -3656,7 +3656,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/39-malphas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-39.webp",
+      "src": "/assets/goetia/portrait-39.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0455_malphas.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ill_dict_infernal_p0455_malphas.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -3750,13 +3750,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/40-raum-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-40.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
-      "caption": "Початок запису № 40 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 359
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/40-raum-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Граф",
     "legions": 30,
@@ -3848,13 +3848,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/41-focalor-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-41.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
-      "caption": "Початок запису № 41 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 359
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/41-focalor-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 30,
@@ -3945,13 +3945,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/42-vepar-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-42.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=39",
-      "caption": "Початок запису № 42 · електронне перевидання тексту Goetia (1904), PDF-сторінка 39",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 523
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/42-vepar-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 29,
@@ -4042,13 +4042,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/43-sabnock-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-43.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40",
-      "caption": "Початок запису № 43 · електронне перевидання тексту Goetia (1904), PDF-сторінка 40",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 359
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/43-sabnock-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 50,
@@ -4139,7 +4139,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/44-shax-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-44.webp",
+      "src": "/assets/goetia/portrait-44.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0617_scox.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ill_dict_infernal_p0617_scox.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4234,13 +4234,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/45-vine-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-45.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=40",
-      "caption": "Початок запису № 45 · електронне перевидання тексту Goetia (1904), PDF-сторінка 40",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 387
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/45-vine-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Король / Граф",
     "legions": 36,
@@ -4332,7 +4332,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/46-bifrons-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-46.webp",
+      "src": "/assets/goetia/portrait-46.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0114-98_bifrons.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ill_dict_infernal_p0114-98_bifrons.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4427,7 +4427,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/47-vual-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-47.webp",
+      "src": "/assets/goetia/portrait-47.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Wall_%28Dictionnaire_infernal%29.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Wall_%28Dictionnaire_infernal%29.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4521,13 +4521,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/48-haagenti-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-48.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=41",
-      "caption": "Початок запису № 48 · електронне перевидання тексту Goetia (1904), PDF-сторінка 41",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 409
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/48-haagenti-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент",
     "legions": 33,
@@ -4618,13 +4618,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/49-crocell-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-49.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=42",
-      "caption": "Початок запису № 49 · електронне перевидання тексту Goetia (1904), PDF-сторінка 42",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 359
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/49-crocell-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 48,
@@ -4715,7 +4715,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/50-furcas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-50.webp",
+      "src": "/assets/goetia/portrait-50.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0296-280_forcas_demon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ill_dict_infernal_p0296-280_forcas_demon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4810,7 +4810,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/51-balam-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-51.webp",
+      "src": "/assets/goetia/portrait-51.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Balan_%28Demon%29.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Balan_%28Demon%29.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4904,7 +4904,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/52-alloces-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-52.webp",
+      "src": "/assets/goetia/portrait-52.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Alloces.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Alloces.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -4998,7 +4998,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/53-camio-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-53.webp",
+      "src": "/assets/goetia/portrait-53.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0163-147_caym_1.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ill_dict_infernal_p0163-147_caym_1.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -5093,13 +5093,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/54-murmur-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-54.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=43",
-      "caption": "Початок запису № 54 · електронне перевидання тексту Goetia (1904), PDF-сторінка 43",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 393
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/54-murmur-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог / Граф",
     "legions": 30,
@@ -5191,7 +5191,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/55-orobas-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-55.webp",
+      "src": "/assets/goetia/portrait-55.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Orobas.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Orobas.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -5285,7 +5285,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/56-gremory-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-56.webp",
+      "src": "/assets/goetia/portrait-56.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0323-307_gomory_demon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ill_dict_infernal_p0323-307_gomory_demon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -5379,13 +5379,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/57-ose-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-57.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
-      "caption": "Початок запису № 57 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 359
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/57-ose-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент",
     "legions": 30,
@@ -5476,13 +5476,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/58-amy-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-58.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
-      "caption": "Початок запису № 58 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 257
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/58-amy-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Президент",
     "legions": 36,
@@ -5573,13 +5573,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/59-orias-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-59.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=44",
-      "caption": "Початок запису № 59 · електронне перевидання тексту Goetia (1904), PDF-сторінка 44",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 319
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/59-orias-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -5670,13 +5670,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/60-vapula-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-60.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45",
-      "caption": "Початок запису № 60 · електронне перевидання тексту Goetia (1904), PDF-сторінка 45",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 257
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/60-vapula-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 36,
@@ -5768,13 +5768,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/61-zagan-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-61.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=45",
-      "caption": "Початок запису № 61 · електронне перевидання тексту Goetia (1904), PDF-сторінка 45",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 291
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/61-zagan-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Король / Президент",
     "legions": 33,
@@ -5865,7 +5865,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/62-valac-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-62.webp",
+      "src": "/assets/goetia/portrait-62.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Volac.png",
       "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Volac.png",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -5959,7 +5959,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/63-andras-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-63.webp",
+      "src": "/assets/goetia/portrait-63.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Andras%28demon%29.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/5/52/Andras%28demon%29.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -6053,7 +6053,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/64-haures-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-64.webp",
+      "src": "/assets/goetia/portrait-64.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Ill_dict_infernal_p0294-278_flauros_demon.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Ill_dict_infernal_p0294-278_flauros_demon.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -6147,13 +6147,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/65-andrealphus-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-65.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46",
-      "caption": "Початок запису № 65 · електронне перевидання тексту Goetia (1904), PDF-сторінка 46",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 291
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/65-andrealphus-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -6244,13 +6244,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/66-cimeies-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-66.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=46",
-      "caption": "Початок запису № 66 · електронне перевидання тексту Goetia (1904), PDF-сторінка 46",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 353
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/66-cimeies-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 20,
@@ -6341,7 +6341,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/67-amdusias-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-67.webp",
+      "src": "/assets/goetia/portrait-67.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Amduscias.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Amduscias.jpg",
       "caption": "Dictionnaire infernal (1863) · Louis Le Breton / M. Jarrault · суспільне надбання",
@@ -6435,7 +6435,7 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/68-belial-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "src": "assets/goetia/portrait-68.webp",
+      "src": "/assets/goetia/portrait-68.webp",
       "page": "https://commons.wikimedia.org/wiki/File:Belial.jpg",
       "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Belial.jpg",
       "caption": "Buch Belial (1473) · історична ксилографія · суспільне надбання",
@@ -6534,13 +6534,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/69-decarabia-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-69.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=47",
-      "caption": "Початок запису № 69 · електронне перевидання тексту Goetia (1904), PDF-сторінка 47",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 387
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/69-decarabia-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Маркіз",
     "legions": 30,
@@ -6631,13 +6631,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/70-seere-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-70.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
-      "caption": "Початок запису № 70 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 461
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/70-seere-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Князь",
     "legions": 26,
@@ -6728,13 +6728,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/71-dantalion-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-71.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
-      "caption": "Початок запису № 71 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 394
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/71-dantalion-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Герцог",
     "legions": 36,
@@ -6825,13 +6825,13 @@
     "symbol": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/72-andromalius-sigilo-ars-goetia.svg",
     "symbolCaption": "Сигіл Goetia (1904) · Grimorium · CC0",
     "illustration": {
-      "kind": "document",
-      "src": "/catalogues/artwork/goetia-record-72.svg",
-      "page": "https://biglevi.com/wp-content/uploads/2022/03/The-Book-Of-The-Goetia-Of-Solomon-The-King-A-Crowley-1904.pdf#page=48",
-      "caption": "Початок запису № 72 · електронне перевидання тексту Goetia (1904), PDF-сторінка 48",
-      "note": "Це зображення уривка тексту з електронного перевидання, а не портрет духа чи скан сторінки оригінального друкованого видання. Перевіреного історичного портрета в цій добірці немає; повний опис наведено нижче.",
-      "width": 984,
-      "height": 386
+      "kind": "seal",
+      "src": "https://cdn.jsdelivr.net/gh/kvgrimorium/ars-goetia-svg-sigils@1edfedbbb014ec03dc6760cce80d9205c08adcc4/svg/72-andromalius-sigilo-ars-goetia.svg",
+      "page": "https://commons.wikimedia.org/wiki/Category:Drawings_of_demons_from_Dictionnaire_Infernal,_6th_edition",
+      "caption": "Сигіл Ars Goetia · візуальне позначення замість непідтвердженого портрета",
+      "note": "Підтвердженого історичного портрета цього духа у вибраній відкритій добірці немає. Замість фрагмента книги показано сигіл. Історичні зображення інших духів не підставляємо.",
+      "width": 600,
+      "height": 600
     },
     "rank": "Граф",
     "legions": 36,
