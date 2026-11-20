@@ -40,7 +40,12 @@ export async function calculate(b:Birth):Promise<Chart>{
   const jd=swe.dateToJulianDay(utc);
   const houses=swe.calculateHouses(jd,b.latitude,b.longitude,HouseSystem.Placidus);
   const raw=houses.cusps,cusps=raw.length===13?raw.slice(1):raw.slice();
-  if(cusps.length!==12||cusps.some(x=>!Number.isFinite(x)))throw Error('Плацидус недоступний для цієї широти');
+  if(cusps.length!==12||cusps.some(x=>!Number.isFinite(x))||!Number.isFinite(houses.ascendant)||!Number.isFinite(houses.mc))throw Error('Плацидус недоступний для цієї широти');
+  // In Placidus, the first cusp must equal ASC and the tenth cusp must equal MC.
+  const angularDistance=(a:number,c:number)=>Math.min(norm(a-c),norm(c-a));
+  if(angularDistance(cusps[0],houses.ascendant)>0.01||angularDistance(cusps[9],houses.mc)>0.01){
+   throw Error('Помилка розрахунку осей ASC/MC: перевірте дані народження та ефемериди');
+  }
   const ids:[string,Planet][]=[['Сонце',Planet.Sun],['Місяць',Planet.Moon],['Меркурій',Planet.Mercury],['Венера',Planet.Venus],['Марс',Planet.Mars],['Юпітер',Planet.Jupiter],['Сатурн',Planet.Saturn],['Уран',Planet.Uranus],['Нептун',Planet.Neptune],['Плутон',Planet.Pluto]];
   const bodies=ids.map(([name,id])=>{
    const pos=swe.calculatePosition(jd,id,CalculationFlag.SwissEphemeris);

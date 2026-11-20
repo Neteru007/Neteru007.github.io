@@ -8,7 +8,13 @@ import { fetchAstroContent } from './astroapi-content';
  changeDetection:ChangeDetectionStrategy.OnPush,
 })
 export default class NatalChartComponent {
- input={date:'',time:'',timezone:'Europe/Kyiv',latitude:null as number|null,longitude:null as number|null};
+ input={date:'',time:'20:00',timezone:'Europe/Kyiv',latitude:null as number|null,longitude:null as number|null};
+ readonly hours=Array.from({length:24},(_,i)=>String(i).padStart(2,'0'));
+ readonly minutes=Array.from({length:60},(_,i)=>String(i).padStart(2,'0'));
+ get birthHour():string{return this.input.time.split(':')[0]||'20';}
+ get birthMinute():string{return this.input.time.split(':')[1]||'00';}
+ setBirthHour(value:string):void{this.input.time=value+':'+this.birthMinute;}
+ setBirthMinute(value:string):void{this.input.time=this.birthHour+':'+value;}
  readonly zones=Intl.supportedValuesOf('timeZone');
  readonly contentBusy=signal(false);readonly contentError=signal('');readonly contentCount=signal<number|null>(null);
  async checkContent():Promise<void>{
