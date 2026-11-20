@@ -24,7 +24,7 @@ function ascendant(date,lat,lon){
  const epsilon=(23.439291-.0130042*T)*Math.PI/180,phi=lat*Math.PI/180;
  // Ecliptic and eastern horizon intersection; choose the rising intersection.
  const east=Math.atan2(-Math.cos(theta),Math.sin(theta)*Math.cos(epsilon)+Math.tan(phi)*Math.sin(epsilon));
- return mod(east*180/Math.PI+180,360);
+ return mod(east*180/Math.PI,360);
 }
 function compute(date,lat,lon){const asc=ascendant(date,lat,lon),ascSign=Math.floor(asc/30);
  const positions=bodies.map(([id,label,symbol])=>{const deg=longitude(id,date),previous=longitude(id,new Date(date.getTime()-3600000));return{id,label,symbol,deg,sign:Math.floor(deg/30),within:deg%30,house:mod(Math.floor(deg/30)-ascSign,12)+1,retro:mod(deg-previous+180,360)-180<0};});
