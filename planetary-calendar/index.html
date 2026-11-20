@@ -21,6 +21,19 @@ input,select,button{max-width:100%;min-width:0}
  .big{font-size:1.45rem}
  input[type=datetime-local]{width:100%;min-width:0}
 }
+
+/* iOS Safari datetime-local has an intrinsic min-content width that can overflow grid cells. */
+.controls{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.controls>div{min-width:0;max-width:100%;overflow-wrap:anywhere}
+input[type="datetime-local"]{display:block;box-sizing:border-box;width:100%;max-width:100%;min-width:0;-webkit-appearance:none;appearance:none;font-size:16px}
+input[type="datetime-local"]::-webkit-date-and-time-value{text-align:left;min-width:0}
+input[type="datetime-local"]::-webkit-datetime-edit{min-width:0;max-width:100%;overflow:hidden}
+@media(max-width:640px){
+ .panel{max-width:100%;min-width:0}
+ .controls{display:grid;grid-template-columns:minmax(0,1fr)}
+ .controls>div{width:100%;min-width:0;max-width:100%}
+ .controls input,.controls select,.controls button{display:block;width:100%;min-width:0;max-width:100%;box-sizing:border-box}
+}
 </style></head><body>
 <header><a href="/">← Neteru Theurgy</a> · <strong>Планетарний календар</strong></header>
 <main><h1>✦ Планетарний календар</h1><p>Планетарні години, знаки зодіаку та аспекти в реальному часі. Тропічний зодіак, геоцентричні положення.</p>
