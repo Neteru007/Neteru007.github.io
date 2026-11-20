@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
 import { SwissEphemeris, Planet, HouseSystem, CalculationFlag } from '@swisseph/browser';
 
 // Independently calculated with pyswisseph 2.10.03, swe.calc_ut and swe.houses_ex(..., b'P').
@@ -17,6 +18,16 @@ const references = [
 ];
 const difference=(a,b)=>Math.min(Math.abs(a-b)%360,360-Math.abs(a-b)%360);
 test('Swiss Ephemeris WASM numerical natal reference fixtures (0.02° tolerance)',async()=>{
+ // Node fetch cannot read file:// URLs. Serve the bundled WASM as a Response in tests.
+ const nativeFetch=globalThis.fetch;
+ globalThis.fetch=async(input,init)=>{
+  const url=String(input instanceof Request?input.url:input);
+  if(url.endsWith('.wasm')){
+   const bytes=await readFile(new URL('../node_modules/@swisseph/browser/dist/swisseph.wasm',import.meta.url));
+   return new Response(bytes,{status:200,headers:{'content-type':'application/wasm'}});
+  }
+  return nativeFetch(input,init);
+ };
  const swe=new SwissEphemeris();
  await swe.init();
  try {
@@ -31,5 +42,5 @@ test('Swiss Ephemeris WASM numerical natal reference fixtures (0.02° tolerance)
    }
    cusps.forEach((c,i)=>assert.ok(difference(c,fixture.cusps[i])<0.02,fixture.name+' cusp '+(i+1)));
   }
- } finally {swe.close();}
+ } finally {swe.close();globalThis.fetch=nativeFetch;}
 });
