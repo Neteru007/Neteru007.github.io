@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { calculate, Chart } from './natal-engine';
+import { fetchAstroContent } from './astroapi-content';
 @Component({
  selector:'mg-natal-chart',standalone:true,imports:[FormsModule],
  templateUrl:'./natal-chart.component.html',styleUrl:'./natal-chart.component.css',
@@ -9,6 +10,13 @@ import { calculate, Chart } from './natal-engine';
 export default class NatalChartComponent {
  input={date:'',time:'',timezone:'Europe/Kyiv',latitude:null as number|null,longitude:null as number|null};
  readonly zones=Intl.supportedValuesOf('timeZone');
+ readonly contentBusy=signal(false);readonly contentError=signal('');readonly contentCount=signal<number|null>(null);
+ async checkContent():Promise<void>{
+  this.contentError.set('');this.contentCount.set(null);this.contentBusy.set(true);
+  try { const result=await fetchAstroContent('planet-in-sign');this.contentCount.set(result.data.length); }
+  catch(e){this.contentError.set(e instanceof Error?e.message:'Помилка отримання тлумачень');}
+  finally {this.contentBusy.set(false);}
+ }
  readonly error=signal('');readonly busy=signal(false);readonly chart=signal<Chart|null>(null);
  async submit():Promise<void>{
   this.error.set('');this.chart.set(null);
