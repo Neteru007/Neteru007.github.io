@@ -1,0 +1,39 @@
+name: Natal chart verification
+on:
+  push:
+    branches: [feature/natal-chart-swiss-ephemeris]
+  pull_request:
+    paths:
+      - 'angular/**'
+      - '.github/workflows/natal-chart-verify.yml'
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: angular/package-lock.json
+      - name: Verify lockfile matches package manifest
+        working-directory: angular
+        run: |
+          npm install --package-lock-only --ignore-scripts
+          git diff --exit-code -- package-lock.json
+      - name: Install dependencies
+        working-directory: angular
+        run: npm ci
+      - name: Check tests and production compilation
+        working-directory: angular
+        run: |
+          npm run check:structure
+          npm test
+          npm run build
+      - name: Check WASM assets
+        working-directory: angular
+        run: |
+          find node_modules/@swisseph/browser -iname '*.wasm' -print
+          find dist -iname '*.wasm' -print
