@@ -1,0 +1,22 @@
+<section class="natal">
+  <p class="eyebrow">Астрологія · Натальна карта</p>
+  <h1>Натальна карта</h1>
+  <p>Підготовка розрахунку за Swiss Ephemeris і системою домів Плацидуса.</p>
+  <p class="small">Астрологічні інтерпретації є традиційною символічною практикою, а не науково підтвердженим методом прогнозування.</p>
+  <form (ngSubmit)="validate()" class="natal-form">
+    <label>Дата народження <input class="form-control" type="date" name="date" [(ngModel)]="input.date" required /></label>
+    <label>Точний місцевий час <input class="form-control" type="time" name="time" [(ngModel)]="input.time" required /></label>
+    <label>Часовий пояс IANA
+      <input class="form-control" name="timezone" [(ngModel)]="input.timezone" list="natal-zones" required />
+      <datalist id="natal-zones">@for (zone of zones; track zone) { <option [value]="zone"></option> }</datalist>
+    </label>
+    <label>Широта (північ +) <input class="form-control" type="number" name="latitude" [(ngModel)]="input.latitude" min="-90" max="90" step="any" required /></label>
+    <label>Довгота (схід +) <input class="form-control" type="number" name="longitude" [(ngModel)]="input.longitude" min="-180" max="180" step="any" required /></label>
+    <button class="btn btn-primary" type="submit">Перевірити дані</button>
+  </form>
+  @if (error()) { <p role="alert" class="alert alert-danger">{{ error() }}</p> }
+  @if (ready()) {
+    <p role="status" class="alert alert-info">Дані коректні. Обчислювальний модуль Swiss Ephemeris ще не підключений: карта, доми й аспекти поки не розраховуються. Жодні дані не надсилаються на сервер.</p>
+  }
+  <p class="small">Для точних ASC, DSC, MC, IC і 12 домів потрібні координати місця народження. Не підміняємо систему Плацидуса іншою системою або приблизними результатами.</p>
+</section>
