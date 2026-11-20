@@ -1,0 +1,52 @@
+name: Publish Angular site
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'angular/src/**'
+      - 'angular/public/**'
+      - 'angular/package.json'
+      - 'angular/package-lock.json'
+      - 'angular/scripts/**'
+      - '.github/workflows/publish-angular.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-angular-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: angular/package-lock.json
+      - name: Install and validate
+        working-directory: angular
+        run: |
+          npm ci
+          npm run check:structure
+          npm test
+          npm run build
+      - name: Stage site
+        working-directory: angular
+        run: |
+          node scripts/stage.mjs ..
+          node scripts/check-stage.mjs ..
+      - name: Commit generated GitHub Pages assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A index.html catalogues .nojekyll robots.txt sitemap.xml
+          git add -A -- '*.html' || true
+          if ! git diff --cached --quiet; then
+            git commit -m "build: publish Angular natal chart site"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
