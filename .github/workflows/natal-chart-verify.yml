@@ -40,8 +40,10 @@ jobs:
           npm run check:structure
           npm test
           npm run build
-      - name: Check WASM assets
+      - name: Check deployed WASM assets
         working-directory: angular
         run: |
-          find node_modules/@swisseph/browser -iname '*.wasm' -print
-          find dist -iname '*.wasm' -print
+          node scripts/stage.mjs /tmp/natal-stage
+          test -s /tmp/natal-stage/catalogues/swisseph.wasm
+          node scripts/check-stage.mjs /tmp/natal-stage
+
