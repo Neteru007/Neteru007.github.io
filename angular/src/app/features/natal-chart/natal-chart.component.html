@@ -35,6 +35,16 @@
       <button class="btn btn-outline-primary screen-only" type="button" (click)="print()">Зберегти як PDF / друк</button>
     </article>
   }
+  <section class="natal-report" aria-label="AstroAPI Content">
+    <h2>Астрологічні тлумачення · AstroAPI</h2>
+    <p>Тлумачення завантажуються через захищений серверний посередник Supabase. Ключ AstroAPI не передається браузеру.</p>
+    <button class="btn btn-outline-primary" type="button" [disabled]="contentBusy()" (click)="checkContent()">{{ contentBusy() ? 'Перевірка…' : 'Перевірити доступність тлумачень' }}</button>
+    @if (contentError()) { <p role="alert" class="alert alert-danger">{{ contentError() }}</p> }
+    @if (contentCount() !== null) {
+      @if (contentCount() === 0) { <p role="status" class="alert alert-warning">AstroAPI повернув порожній список тлумачень. Дані не підмінюються вигаданими текстами.</p> }
+      @else { <p role="status" class="alert alert-success">AstroAPI повернув {{ contentCount() }} записів. Автоматичне зіставлення з натальною картою потребує перевірки формату даних.</p> }
+    }
+  </section>
   <p class="small">Розрахунки: Swiss Ephemeris © Astrodienst AG та інші правовласники. Програмне забезпечення поширюється за <a href="https://github.com/Neteru007/Neteru007.github.io/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">GNU AGPL-3.0</a>. <a href="https://github.com/Neteru007/Neteru007.github.io" target="_blank" rel="noopener noreferrer">Вихідний код і інструкції зі збірки</a>.</p>
   <p class="small">Для точних ASC, DSC, MC, IC і 12 домів потрібні координати місця народження. Не підміняємо систему Плацидуса іншою системою або приблизними результатами.</p>
 </section>
