@@ -24,6 +24,8 @@ await writeFile(
 const index = await readFile(path.join(built, 'index.html'), 'utf8');
 // The application keeps one entry point; standalone guides are generated below.
 await writeFile(path.join(outputRoot, 'index.html'), index);
+// GitHub Pages serves 404.html for direct SPA routes; Angular resolves the requested URL.
+await writeFile(path.join(outputRoot, '404.html'), index);
 await rm(path.join(outputRoot, 'catalogues/index.html'), { force: true });
 for (const entry of await readdir(outputRoot)) {
   // Search Console verification files must survive every deployment.
