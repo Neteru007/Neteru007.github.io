@@ -1,0 +1,39 @@
+<section class="natal">
+  <p class="eyebrow">Астрологія · Натальна карта</p>
+  <h1>Натальна карта</h1>
+  <p>Підготовка розрахунку за Swiss Ephemeris і системою домів Плацидуса.</p>
+  <p class="small">Астрологічні інтерпретації є традиційною символічною практикою, а не науково підтвердженим методом прогнозування.</p>
+  <form (ngSubmit)="submit()" class="natal-form">
+    <label>Дата народження <input class="form-control" type="date" name="date" [(ngModel)]="input.date" required /></label>
+    <label>Точний місцевий час <input class="form-control" type="time" name="time" [(ngModel)]="input.time" required /></label>
+    <label>Часовий пояс IANA
+      <input class="form-control" name="timezone" [(ngModel)]="input.timezone" list="natal-zones" required />
+      <datalist id="natal-zones">@for (zone of zones; track zone) { <option [value]="zone"></option> }</datalist>
+    </label>
+    <label>Широта (північ +) <input class="form-control" type="number" name="latitude" [(ngModel)]="input.latitude" min="-90" max="90" step="any" required /></label>
+    <label>Довгота (схід +) <input class="form-control" type="number" name="longitude" [(ngModel)]="input.longitude" min="-180" max="180" step="any" required /></label>
+    <button class="btn btn-primary" type="submit">Розрахувати натальну карту</button>
+  </form>
+  @if (error()) { <p role="alert" class="alert alert-danger">{{ error() }}</p> }
+  @if (chart(); as result) {
+    <p role="status" class="alert alert-info">Натальна карта розрахована за Swiss Ephemeris. UTC: {{ result.utc }}</p>
+  }
+  @if (chart(); as result) {
+    <article class="natal-report">
+      <h2>Натальна карта · Плацидус</h2>
+      <p>ASC: {{ sign(result.asc) }} {{ degree(result.asc) }} · DSC: {{ sign((result.asc + 180) % 360) }} {{ degree((result.asc + 180) % 360) }} · MC: {{ sign(result.mc) }} {{ degree(result.mc) }} · IC: {{ sign((result.mc + 180) % 360) }} {{ degree((result.mc + 180) % 360) }}</p>
+      <h3>Планети</h3>
+      <table class="table"><thead><tr><th>Планета</th><th>Знак</th><th>Градус</th><th>Дім</th><th>Рух</th></tr></thead><tbody>
+      @for (body of result.bodies; track body.name) { <tr><td>{{ body.name }}</td><td>{{ sign(body.longitude) }}</td><td>{{ degree(body.longitude) }}</td><td>{{ body.house }}</td><td>{{ body.retrograde ? '℞' : 'Прямий' }}</td></tr> }
+      </tbody></table>
+      <h3>Доми</h3>
+      <div class="cusps">@for (cusp of result.cusps; track $index) { <p>Дім {{ $index + 1 }}: {{ sign(cusp) }} {{ degree(cusp) }}</p> }</div>
+      <h3>Аспекти</h3>
+      <table class="table"><thead><tr><th>Планети</th><th>Аспект</th><th>Орб</th></tr></thead><tbody>
+      @for (aspect of result.aspects; track aspect.a + aspect.b) { <tr><td>{{ aspect.a }} — {{ aspect.b }}</td><td>{{ aspect.name }}</td><td>{{ aspect.orb.toFixed(2) }}°</td></tr> }
+      </tbody></table>
+      <button class="btn btn-outline-primary screen-only" type="button" (click)="print()">Зберегти як PDF / друк</button>
+    </article>
+  }
+  <p class="small">Для точних ASC, DSC, MC, IC і 12 домів потрібні координати місця народження. Не підміняємо систему Плацидуса іншою системою або приблизними результатами.</p>
+</section>
