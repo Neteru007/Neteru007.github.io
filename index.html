@@ -44,7 +44,7 @@
         <a href="/mahiia-ta-praktyky/">Магічні практики</a> ·
         <a href="/magichni-poslugy/">Магічні онлайн-сервіси</a> ·
         <a href="/tarot-online/">Таро онлайн</a> · <a href="/runy-online/">Руна дня</a> ·
-        <details class="occult-astro-menu" data-occult-astrology="true"><summary>Астрологія окультна</summary><div class="occult-astro-items"><a href="/dyzain-liudyny/">Дизайн людини</a><a href="/planetary-calendar/">Планетарний календар</a><a href="/natal-chart/">Натальна карта</a></div></details> ·
+        <a href="/occult-astrology/">Астрологія окультна</a> ·
           <a href="https://www.instagram.com/p/C6WlzbIMAxP/">Відкрити Instagram</a>
         </p>
       </section>
@@ -52,64 +52,36 @@
     </mg-root>
     <noscript>Для інтерактивних розкладів увімкніть JavaScript. Сторінки з поясненнями доступні за
       посиланнями вище.</noscript>
-  <style>
-    /* Accessible occult astrology navigation, including touch devices. */
-    .occult-astro-menu{display:inline-flex;flex-direction:column;position:relative;vertical-align:middle;max-width:100%}
-    .occult-astro-menu>summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:.35em;padding:.35em .65em;border-radius:9px;font-weight:650;color:inherit}
-    .occult-astro-menu>summary::-webkit-details-marker{display:none}
-    .occult-astro-menu>summary::after{content:'▾';font-size:.8em}
-    .occult-astro-menu[open]>summary{background:#fce6f3;color:#85245e}
-    .occult-astro-items{display:flex;flex-direction:column;gap:4px;min-width:210px;max-width:min(90vw,300px);padding:10px;border:1px solid #e9c9db;border-radius:12px;background:#fff;box-shadow:0 10px 30px #3c19342b;z-index:9999}
-    .occult-astro-items a{display:block;padding:9px 11px;border-radius:8px;color:#712354;text-decoration:none;white-space:normal}
-    .occult-astro-items a:hover,.occult-astro-items a:focus{background:#fbe7f3}
-    mg-root nav .occult-astro-menu .occult-astro-items{position:absolute;top:100%;left:0}
-    @media(max-width:650px){mg-root nav .occult-astro-menu .occult-astro-items{left:auto;right:0;max-width:80vw}}
-  </style>
   <script>
-    // Group the three existing tools into one accessible navigation section.
+    // Replace the three navigation entries with a single section link.
     (() => {
-      const links = [
-        ['/dyzain-liudyny/', 'Дизайн людини'],
-        ['/planetary-calendar/', 'Планетарний календар'],
-        ['/natal-chart/', 'Натальна карта']
-      ];
-      function makeMenu() {
-        const details = document.createElement('details');
-        details.className = 'occult-astro-menu';
-        details.setAttribute('data-occult-astrology', 'true');
-        const summary = document.createElement('summary');
-        summary.textContent = 'Астрологія окультна';
-        const items = document.createElement('div');
-        items.className = 'occult-astro-items';
-        for (const [href, label] of links) {
-          const anchor = document.createElement('a');
-          anchor.href = href;
-          anchor.textContent = label;
-          items.append(anchor);
-        }
-        details.append(summary, items);
-        return details;
-      }
       function updateNavigation() {
         for (const nav of document.querySelectorAll('mg-root nav')) {
-          if (nav.querySelector('[data-occult-astrology]')) continue;
           const anchors = Array.from(nav.querySelectorAll('a'));
           const design = anchors.find(a => a.textContent.trim() === 'Дизайн людини');
-          if (!design) continue;
-          const menu = makeMenu();
-          design.replaceWith(menu);
+          const existing = nav.querySelector('[data-occult-astrology]');
+          const group = existing || design;
+          if (!group) continue;
+          if (!existing) {
+            const link = document.createElement('a');
+            link.href = '/occult-astrology/';
+            link.textContent = 'Астрологія окультна';
+            link.setAttribute('data-occult-astrology', 'true');
+            group.replaceWith(link);
+          } else if (existing.tagName !== 'A') {
+            const link = document.createElement('a');
+            link.href = '/occult-astrology/';
+            link.textContent = 'Астрологія окультна';
+            link.setAttribute('data-occult-astrology', 'true');
+            existing.replaceWith(link);
+          }
           for (const anchor of anchors) {
-            if (anchor !== design && (anchor.dataset.planetaryCalendar || anchor.dataset.natalChart || anchor.textContent.trim() === 'Планетарний календар' || anchor.textContent.trim() === 'Натальна карта')) anchor.remove();
+            if (anchor !== design && (anchor.textContent.trim() === 'Планетарний календар' || anchor.textContent.trim() === 'Натальна карта')) anchor.remove();
           }
         }
       }
       new MutationObserver(updateNavigation).observe(document.documentElement, {childList:true,subtree:true});
       document.addEventListener('DOMContentLoaded', updateNavigation);
-      document.addEventListener('click', event => {
-        for (const menu of document.querySelectorAll('details[data-occult-astrology][open]')) {
-          if (!menu.contains(event.target)) menu.open = false;
-        }
-      });
     })();
   </script>
   <link rel="modulepreload" href="/catalogues/chunk-CC-0UoeF.js"><link rel="modulepreload" href="/catalogues/chunk-DmnXf2rX.js"><link rel="modulepreload" href="/catalogues/chunk-DAQKme_9.js"><script src="/catalogues/main-CB2SOWO4.js" type="module"></script></body>
