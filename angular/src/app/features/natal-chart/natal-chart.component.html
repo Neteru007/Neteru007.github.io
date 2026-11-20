@@ -5,7 +5,22 @@
   <p class="small">Астрологічні інтерпретації є традиційною символічною практикою, а не науково підтвердженим методом прогнозування.</p>
   <form (ngSubmit)="submit()" class="natal-form">
     <label>Дата народження <input class="form-control" type="date" name="date" [(ngModel)]="input.date" required /></label>
-    <label>Точний місцевий час <input class="form-control" type="time" name="time" [(ngModel)]="input.time" required /></label>
+    <fieldset class="natal-time-field">
+      <legend>Точний місцевий час (24-годинний формат)</legend>
+      <div class="natal-time-selects">
+        <label>Години
+          <select class="form-control" name="birthHour" [ngModel]="birthHour" (ngModelChange)="setBirthHour($event)" required>
+            @for (hour of hours; track hour) { <option [value]="hour">{{ hour }}</option> }
+          </select>
+        </label>
+        <label>Хвилини
+          <select class="form-control" name="birthMinute" [ngModel]="birthMinute" (ngModelChange)="setBirthMinute($event)" required>
+            @for (minute of minutes; track minute) { <option [value]="minute">{{ minute }}</option> }
+          </select>
+        </label>
+      </div>
+      <p class="small">Вибраний час: {{ input.time }} (20:00 = 8 вечора)</p>
+    </fieldset>
     <label>Часовий пояс IANA
       <input class="form-control" name="timezone" [(ngModel)]="input.timezone" list="natal-zones" required />
       <datalist id="natal-zones">@for (zone of zones; track zone) { <option [value]="zone"></option> }</datalist>
