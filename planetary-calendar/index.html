@@ -111,10 +111,17 @@ async function suggestCities(){
   showCityOptions(results.slice(0,9),results.length?'':'Місто не знайдено');
  }catch(error){if(request===cityRequest)showCityOptions(local,local.length?'':'Пошук недоступний. Спробуйте ще раз.');}
 }
-cityInput.addEventListener('input',()=>{pendingCity=null;clearTimeout(cityTimer);cityTimer=setTimeout(suggestCities,250);});
+cityInput.addEventListener('input',()=>{
+ pendingCity=null;clearTimeout(cityTimer);
+ // Show preset matches immediately, without waiting for a network request.
+ const query=cityInput.value.trim().toLocaleLowerCase('uk');
+ const local=Object.entries(presets).filter(([city])=>city.toLocaleLowerCase('uk').includes(query)).map(([name,loc])=>({name,loc,label:name}));
+ if(query)showCityOptions(local);else closeCityOptions();
+ cityTimer=setTimeout(suggestCities,250);
+});
 cityInput.addEventListener('focus',suggestCities);
 cityInput.addEventListener('keydown',event=>{if(event.key==='Escape')closeCityOptions();if(event.key==='Enter'&&!cityOptions.hidden){const first=cityOptions.querySelector('button');if(first){event.preventDefault();first.click();}}});
-cityInput.addEventListener('blur',()=>setTimeout(closeCityOptions,180));
+cityInput.addEventListener('blur',()=>setTimeout(closeCityOptions,350));
 document.addEventListener('pointerdown',event=>{if(!event.target.closest('.city-picker'))closeCityOptions();});
 const name=b=>planets.find(p=>p[0]===b);
 const wrap=x=>(x%360+360)%360;
