@@ -8,6 +8,11 @@ const built = path.join(project, 'dist/catalogues/browser');
 await mkdir(outputRoot, { recursive: true });
 await rm(path.join(outputRoot, 'catalogues'), { recursive: true, force: true });
 await cp(built, path.join(outputRoot, 'catalogues'), { recursive: true });
+// Keep Swiss Ephemeris WASM next to the bundled JavaScript chunks on GitHub Pages.
+await cp(
+  path.join(project, 'node_modules/@swisseph/browser/dist/swisseph.wasm'),
+  path.join(outputRoot, 'catalogues/swisseph.wasm'),
+);
 const licenses = await readFile(path.join(project, 'dist/catalogues/3rdpartylicenses.txt'), 'utf8');
 await writeFile(
   path.join(outputRoot, 'catalogues/3rdpartylicenses.txt'),
