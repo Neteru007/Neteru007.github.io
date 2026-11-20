@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="uk" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="color-scheme" content="only light"/>
+    <meta name="theme-color" content="#fff1f6"/>
+    <title>Таро онлайн, демонологія, магія та руни | Neteru Theurgy</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="description" content="Таро онлайн українською: розклади на кохання, стосунки, роботу й майбутнє. Демонологія, Гоетія, руни, ритуальна магія та езотеричні традиції України."/>
+    <meta name="robots" content="index,follow"/>
+    <link rel="canonical" href="https://neteru007.github.io/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="uk_UA"/>
+    <meta property="og:site_name" content="Neteru Theurgy"/>
+    <meta property="og:title" content="Таро онлайн, демонологія, магія та руни | Neteru Theurgy"/>
+    <meta property="og:description" content="Таро онлайн: кохання, стосунки, робота, майбутнє. Демонологія, Гоетія, магія, руни та теургія українською."/>
+    <meta property="og:url" content="https://neteru007.github.io/"/>
+    <meta name="twitter:card" content="summary"/>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://neteru007.github.io/#website",
+        "url": "https://neteru007.github.io/",
+        "name": "Neteru Theurgy",
+        "inLanguage": "uk",
+        "description": "Таро онлайн, демонологія, Гоетія, руни та магічні традиції українською",
+        "keywords": "таро онлайн, розклад таро, ворожіння таро, таро на кохання, таро на стосунки, таро на майбутнє, таро на роботу, таро на гроші, таро так чи ні, карта дня, таролог Київ, відьма Київ, маг Київ, магія Київ, демонологія, Гоетія, руни"
+      }
+    </script>
+    <base href="/"/>
+  <link rel="stylesheet" href="/catalogues/styles-GTS5WJWX.css"></head>
+  <body>
+    <mg-root>
+      <h1>Демонологія та Гоетія в Україні — Neteru Theurgy</h1>
+      <p>
+        Neteru Theurgy — українська бібліотека демонології, Гоетії, 72 демонів, теургії та
+        ритуальної магії, а також онлайн-інструменти для самопізнання.
+      </p>
+      <nav aria-label="Онлайн-сервіси">
+        <a href="/poslugy/">Послуги та запис</a> ·
+        <a href="/vidma-kyiv/">Відьма Київ: Таро, руни та практики</a> ·
+        <a href="/demonolohiia/">Демонологія та Гоетія</a> ·
+        <a href="/mahiia-ta-praktyky/">Магічні практики</a> ·
+        <a href="/magichni-poslugy/">Магічні онлайн-сервіси</a> ·
+        <a href="/tarot-online/">Таро онлайн</a> · <a href="/runy-online/">Руна дня</a> ·
+        <a href="/occult-astrology/">Астрологія окультна</a> ·
+          <a href="https://www.instagram.com/p/C6WlzbIMAxP/">Відкрити Instagram</a>
+        </p>
+      </section>
+      <p class="initial-loading" role="status">Завантаження інтерактивної галереї…</p>
+    </mg-root>
+    <noscript>Для інтерактивних розкладів увімкніть JavaScript. Сторінки з поясненнями доступні за
+      посиланнями вище.</noscript>
+  <script>
+    // Replace the three navigation entries with a single section link.
+    (() => {
+      function updateNavigation() {
+        for (const nav of document.querySelectorAll('mg-root nav')) {
+          const anchors = Array.from(nav.querySelectorAll('a'));
+          const design = anchors.find(a => a.textContent.trim() === 'Дизайн людини');
+          const existing = nav.querySelector('[data-occult-astrology]');
+          const group = existing || design;
+          if (!group) continue;
+          if (!existing) {
+            const link = document.createElement('a');
+            link.href = '/occult-astrology/';
+            link.textContent = 'Астрологія окультна';
+            link.setAttribute('data-occult-astrology', 'true');
+            group.replaceWith(link);
+          } else if (existing.tagName !== 'A') {
+            const link = document.createElement('a');
+            link.href = '/occult-astrology/';
+            link.textContent = 'Астрологія окультна';
+            link.setAttribute('data-occult-astrology', 'true');
+            existing.replaceWith(link);
+          }
+          for (const anchor of anchors) {
+            if (anchor !== design && (anchor.textContent.trim() === 'Планетарний календар' || anchor.textContent.trim() === 'Натальна карта')) anchor.remove();
+          }
+        }
+      }
+      new MutationObserver(updateNavigation).observe(document.documentElement, {childList:true,subtree:true});
+      document.addEventListener('DOMContentLoaded', updateNavigation);
+    })();
+  </script>
+  <link rel="modulepreload" href="/catalogues/chunk-CC-0UoeF.js"><link rel="modulepreload" href="/catalogues/chunk-DmnXf2rX.js"><link rel="modulepreload" href="/catalogues/chunk-DAQKme_9.js"><script src="/catalogues/main-CB2SOWO4.js" type="module"></script></body>
+</html>
