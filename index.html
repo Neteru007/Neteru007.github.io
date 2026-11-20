@@ -44,7 +44,7 @@
         <a href="/mahiia-ta-praktyky/">Магічні практики</a> ·
         <a href="/magichni-poslugy/">Магічні онлайн-сервіси</a> ·
         <a href="/tarot-online/">Таро онлайн</a> · <a href="/runy-online/">Руна дня</a> ·
-        <a href="/dyzain-liudyny/">Дизайн людини</a> · <a href="/planetary-calendar/">Планетарний календар</a>
+        <a href="/dyzain-liudyny/">Дизайн людини</a> · <a href="/planetary-calendar/">Планетарний календар</a> · <a href="/natal-chart/">Натальна карта</a>
       </nav>
       <section aria-labelledby="about-title">
         <h2 id="about-title">Про мене: магія та теургія</h2>
@@ -77,12 +77,19 @@
         for (const nav of navs) {
           const design = Array.from(nav.querySelectorAll('a')).find(a => a.textContent.trim() === 'Дизайн людини');
           if (!design) continue;
-          if (nav.querySelector('a[data-planetary-calendar]')) continue;
+          if (nav.querySelector('a[data-planetary-calendar]')) { const calendar=nav.querySelector('a[data-planetary-calendar]'); if(!nav.querySelector('a[data-natal-chart]')){const natal=document.createElement('a');natal.href='/natal-chart/';natal.textContent='Натальна карта';natal.setAttribute('data-natal-chart','true');calendar.insertAdjacentElement('afterend',natal);} continue; }
           const link = document.createElement('a');
           link.href = '/planetary-calendar/';
           link.textContent = 'Планетарний календар';
           link.setAttribute('data-planetary-calendar', 'true');
           design.insertAdjacentElement('afterend', link);
+          if (!nav.querySelector('a[data-natal-chart]')) {
+            const natal = document.createElement('a');
+            natal.href = '/natal-chart/';
+            natal.textContent = 'Натальна карта';
+            natal.setAttribute('data-natal-chart', 'true');
+            link.insertAdjacentElement('afterend', natal);
+          }
         }
       };
       new MutationObserver(addCalendarLink).observe(document.documentElement, {childList:true,subtree:true});
