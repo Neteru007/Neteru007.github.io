@@ -114,35 +114,44 @@ function birthAnniversary(year,context){const birth=localParts(context.date,cont
 function closestAngle(a,b){return Math.abs(mod(a-b+180,360)-180);}
 function signedAngle(a,b,target){return mod(a-b-target+180,360)-180;}
 function crossingDates(start,end,body,natalDeg,angle){const hits=[],step=86400000;let previous=start,prev=signedAngle(longitude(body,previous),natalDeg,angle);for(let ms=start.getTime()+step;ms<=end.getTime()+step;ms+=step){const current=new Date(Math.min(ms,end.getTime())),next=signedAngle(longitude(body,current),natalDeg,angle);if(Math.abs(next-prev)<100&&((prev<=0&&next>=0)||(prev>=0&&next<=0))){let low=previous.getTime(),high=current.getTime(),vLow=prev;for(let k=0;k<24;k++){const mid=(low+high)/2,vMid=signedAngle(longitude(body,new Date(mid)),natalDeg,angle);if((vLow<=0&&vMid>=0)||(vLow>=0&&vMid<=0))high=mid;else{low=mid;vLow=vMid;}}const date=new Date((low+high)/2);if(!hits.some(d=>Math.abs(d.getTime()-date.getTime())<86400000))hits.push(date);}if(current.getTime()>=end.getTime())break;previous=current;prev=next;}return hits;}
-const planetMeanings={
-Sun:['самооцінка, життєвий напрям і видимість','прояснювати власні цілі','не пов’язувати всю самоцінність з результатами'],
-Moon:['емоційна безпека, дім і звички','піклуватися про відновлення та близьких','не ухвалювати рішень лише під впливом настрою'],
-Mercury:['мислення, навчання, документи й комунікація','переглядати домовленості та вчитися','перевіряти деталі й уникати поспіху'],
-Venus:['стосунки, цінності, задоволення та гроші','плекати партнерства й переглядати пріоритети','не ідеалізувати людей або покупки'],
-Mars:['ініціатива, конфлікти, енергія та межі','спрямовувати сили на конкретні дії','не діяти імпульсивно'],
-Jupiter:['зростання, навчання, можливості та переконання','розширювати перспективи поступово','не обіцяти більше, ніж реально виконати'],
-Saturn:['відповідальність, структура, дисципліна та межі','створювати стійкі плани','не бути надмірно суворими до себе'],
-Uranus:['зміни, свобода, несподівані повороти','пробувати нові підходи','не руйнувати стабільне без потреби'],
-Neptune:['уява, інтуїція, ідеали та невизначеність','поєднувати творчість із перевіркою фактів','остерігатися самообману'],
-Pluto:['глибокі зміни, контроль та трансформація','усвідомлювати приховані мотиви','уникати боротьби за владу']
+// Dark, direct narrative voice; no concatenated grammatical fragments.
+const belialPlanets={
+Sun:{voice:'Твоє Сонце вимагає відповіді: ким ти хочеш бути, коли ніхто не дає дозволу?',power:'Визнач власну мету й перестань вимірювати свою цінність чужими оцінками.',shadow:'Гордість не замінить справжньої сили.'},
+Moon:{voice:'Те, що ти ховаєш під спокоєм, усе одно керує твоїми рішеннями.',power:'Подбай про свій внутрішній спокій і назви почуття своїми іменами.',shadow:'Не дозволяй страху втрати диктувати тобі умови.'},
+Mercury:{voice:'Слова — це угоди. Думки — це зброя. Використовуй і те, й інше свідомо.',power:'Говори чітко, перевіряй факти й не бійся складних розмов.',shadow:'Не плутай хитрість із мудрістю.'},
+Venus:{voice:'Бажання показують твої цінності краще за будь-які клятви.',power:'Обирай стосунки й задоволення, які справді відповідають твоїм бажанням.',shadow:'Не продавай власні межі за увагу.'},
+Mars:{voice:'Твоя воля потребує дії. Але сила без напрямку руйнує того, хто нею володіє.',power:'Дій рішуче, захищай свої межі й обирай битви, які варті зусиль.',shadow:'Не перетворюй кожну незгоду на війну.'},
+Jupiter:{voice:'Перед тобою можуть відкритися нові горизонти. Питання лише в тому, чи готовий ти ними скористатися.',power:'Розширюй знання й можливості, але залишайся господарем своїх обіцянок.',shadow:'Надмірна самовпевненість легко стає пасткою.'},
+Saturn:{voice:'Сатурн не дарує корону. Він запитує, чи здатен ти витримати її вагу.',power:'Вибудуй дисципліну, зміцни опору й доведи почате до кінця.',shadow:'Не роби із самопокарання доказ власної сили.'},
+Uranus:{voice:'Застарілі правила тріщать. Ти можеш змінити їх або й далі служити їм.',power:'Знайди сміливість випробувати інший шлях.',shadow:'Бунт заради бунту — теж форма залежності.'},
+Neptune:{voice:'Не кожен голос із темряви говорить правду. Навіть якщо його слова прекрасні.',power:'Довіряй уяві, але перевіряй реальність.',shadow:'Не дозволяй мріям приховувати очевидне.'},
+Pluto:{voice:'Те, що втратило силу, просить бути відпущеним. Не тримайся за руїни.',power:'Подивися в обличчя своїм страхам і поверни собі право вибору.',shadow:'Прагнення контролювати все може поневолити тебе самого.'}
 };
-const aspectMeanings={'З’єднання':['посилення та концентрація двох тем','потужний акцент'],'Секстиль':['можливість співпраці та поступового розвитку','сприятлива нагода'],'Квадрат':['напруга, що спонукає змінити підхід','виклик'],'Трин':['легкість, підтримка та природний розвиток','ресурс'],'Опозиція':['пошук балансу між протилежними потребами','необхідність узгодження']};
+const belialAspects={
+'З’єднання':{voice:'Дві сили сходяться в одній точці. Ігнорувати їх уже важко.',action:'Сконцентруй увагу на головному: розпорошення зараз лише послаблює волю.'},
+'Секстиль':{voice:'Двері прочинені, але ніхто не зробить крок за тебе.',action:'Використай нагоду для конкретного рішення, а не для нескінченних планів.'},
+'Квадрат':{voice:'Напруга оголює слабкі місця. Це не вирок, а випробування твоєї стратегії.',action:'Зміни те, що не працює. Не плутай упертість із незламністю.'},
+'Трин':{voice:'Обставини можуть скластися на твою користь. Але навіть дарована перевага потребує дії.',action:'Зміцни те, що вже дає результат, і не витрачай ресурс на марнославство.'},
+'Опозиція':{voice:'Дві сили тягнуть у різні боки. Тобі доведеться визначити власні правила рівноваги.',action:'Не поступайся собою заради миру, але й не руйнуй союзи з гордості.'}
+};
+const belialHouses=[
+'Твоє ім’я, образ і право визначати власний шлях.','Гроші, власність і те, що ти вважаєш справжньою цінністю.','Слова, навчання, домовленості й найближче оточення.','Дім, родина, коріння та особисті кордони.','Кохання, творчість, радість і сміливість показати себе.','Праця, звички, щоденні обов’язки та турбота про тіло.','Партнерство, союзи й уміння домовлятися на рівних.','Спільні ресурси, борги, довіра й глибокі зміни.','Світогляд, освіта, подорожі та пошук власної істини.','Кар’єра, репутація, влада й відповідальність за вибір.','Друзі, спільноти, союзники та плани на майбутнє.','Усамітнення, приховані страхи й внутрішня робота.'
+];
 function interpretTransit(item,context){
- const moving=planetMeanings[item.body],natal=planetMeanings[item.target.id],aspect=aspectMeanings[item.name]||['взаємодія двох тем','акцент'];
- const house=item.target.house;
+ const moving=belialPlanets[item.body],natal=belialPlanets[item.target.id],aspect=belialAspects[item.name],house=item.target.house;
  return {
- summary:'У традиційній астрології '+item.name.toLowerCase()+' пов’язують із '+aspect[0]+'. Транзитний '+Object.fromEntries(bodies.map(([id,label])=>[id,label]))[item.body]+' символізує '+moving[0]+', а натальна планета — '+natal[0]+'.',
- sphere:'Натальна планета перебуває у '+house+'-му домі (Whole Sign). Тема дому: '+houseThemes[house-1]+'.',
- opportunity:'Можливість: '+moving[1]+'; '+natal[1]+'.',
- caution:'На що звернути увагу: '+moving[2]+'; '+natal[2]+'.',
- advice:'Практичний орієнтир: зверніть увагу на цю сферу життя, але спирайтеся на факти й реальні обставини, а не на сам аспект.'
+ summary:aspect.voice+' '+moving.voice+' '+natal.voice,
+ sphere:'Поле випробування — '+house+'-й дім. '+belialHouses[house-1],
+ opportunity:'Твоя сила: '+moving.power+' '+natal.power,
+ caution:'Твоя тінь: '+moving.shadow+' '+natal.shadow,
+ advice:'Наказ самому собі: '+aspect.action
  };
 }
 function addTransitInterpretation(container,item,context,names){
  const card=document.createElement('article');card.className='transit-reading';
  const title=document.createElement('h3');title.textContent=dateLabel(item.date)+' · '+names[item.body]+' '+item.symbol+' '+item.target.label;
  card.append(title);
- const subtitle=document.createElement('p');subtitle.className='transit-subtitle';subtitle.textContent=item.name+' · натальний '+item.target.house+'-й дім';card.append(subtitle);
+ const subtitle=document.createElement('p');subtitle.className='transit-subtitle';subtitle.textContent=item.name+' · '+item.target.house+'-й натальний дім · голос Беліала';card.append(subtitle);
  const reading=interpretTransit(item,context);
  for(const value of [reading.summary,reading.sphere,reading.opportunity,reading.caution,reading.advice]){const p=document.createElement('p');p.textContent=value;card.append(p);}
  container.append(card);
