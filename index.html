@@ -69,5 +69,25 @@
     </mg-root>
     <noscript>Для інтерактивних розкладів увімкніть JavaScript. Сторінки з поясненнями доступні за
       посиланнями вище.</noscript>
+  <script>
+    // Keep the planetary calendar directly after Human Design in the Angular navigation.
+    (() => {
+      const addCalendarLink = () => {
+        const navs = document.querySelectorAll('mg-root nav');
+        for (const nav of navs) {
+          const design = Array.from(nav.querySelectorAll('a')).find(a => a.textContent.trim() === 'Дизайн людини');
+          if (!design) continue;
+          if (nav.querySelector('a[data-planetary-calendar]')) continue;
+          const link = document.createElement('a');
+          link.href = '/planetary-calendar/';
+          link.textContent = 'Планетарний календар';
+          link.setAttribute('data-planetary-calendar', 'true');
+          design.insertAdjacentElement('afterend', link);
+        }
+      };
+      new MutationObserver(addCalendarLink).observe(document.documentElement, {childList:true,subtree:true});
+      document.addEventListener('DOMContentLoaded', addCalendarLink);
+    })();
+  </script>
   <link rel="modulepreload" href="/catalogues/chunk-CC-0UoeF.js"><link rel="modulepreload" href="/catalogues/chunk-DmnXf2rX.js"><link rel="modulepreload" href="/catalogues/chunk-DAQKme_9.js"><script src="/catalogues/main-CB2SOWO4.js" type="module"></script></body>
 </html>
